@@ -1,0 +1,778 @@
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height:7px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background-color:#FFFFFF;
+    height:7px!important;
+}
+
+/* ------------ General Layout ------------ */
+body {
+    font-family:'Source Sans Pro', Calibri, "MS PGothic", Meiryo, sans-serif;
+    color: #666;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 14.5px;
+    background-color: #F8F8FA;
+}
+	.momoclo body{
+		background-color: #FFEAF3;
+	}
+p{
+    margin: 4px 14px;
+    max-height: 999999px;
+}
+b, strong { color:#3e3e3e; }
+small {
+	font-size: 0.8em;
+}
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+	margin: 0px 5px;
+	color: #000;
+}
+h2{
+	font-size: 1.7em;
+	font-weight: 600;
+	margin: 1px 5px;
+	color: #111;
+}
+h3{
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0 5px;
+	color: #444;
+}
+h4{
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 4px 5px 0px 5px;
+	color: #000;
+}
+ 
+img{
+	display: block;
+}
+ 
+a, a:link{
+    color:#3893d0;
+}
+ 
+a:visited {
+    color:#86649b;
+}
+
+ul{
+	margin: 1px 0px;
+	padding: 0px 0px 2px 30px;
+}
+li{
+	padding: 1px 0px;
+	padding-left: 4px;
+}
+ol{
+	margin: 2px 0px;
+}
+
+/* ---------------- Header ---------------- */
+header.top{
+	background-color: #FF84AD;
+	height: 45px;
+	width: auto;
+	box-shadow: 0px 1px 1px rgba(200,10,10,0.2);
+}
+	.momoclo header.top{
+		background-color:#FF9BD3;
+	}
+header #top{
+	margin: 0px auto;
+	max-width: 1000px;
+	position: relative;
+}
+header a{
+	display: inline-block;
+	padding: 2.5px 0px;
+}
+#top #momoclologo{
+	padding-left: 4px;
+}
+#top #searchform{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin: 12px 8px 0px 0px;
+	display: none;
+}
+#top #searchbox{
+	height: 22px;
+	width: 160px;
+	padding: 0px 10px;
+	border-radius: 10px;
+	border: 1px solid #F27DA4;
+	outline: none;
+}
+#top #searchbox::-webkit-input-placeholder {
+    color: #999;
+}
+#top #searchbox:focus::-webkit-input-placeholder{
+	color: #CCC;
+}
+#top #homebuttonlink{
+	float: left;
+}
+#top #homebutton{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin: 4px 60px 4px 5px;
+}
+#top #settingslink{
+	float: right;
+}
+#top #settingsbutton{
+	width: 28px;
+	height: 28px;
+	position: relative;
+	float: right;
+	margin: 6px 2px;
+	cursor: pointer;
+}
+#top #settingsmenu{
+	display: none;
+	position: absolute;
+	width: 210px;
+	top: 38px;
+	right: 0;
+	padding-top: 12px;
+	padding-left: 0;
+	font-size: 16px;
+	z-index: 1;
+}
+#top .active#settingsmenu{
+	display: inline-block;
+}
+#top #settingsmenu #settings{
+	padding-left: 0;
+	margin: 0;
+	background-color: #FF84AD;
+	list-style-type: none;	
+	color: #FFF;
+    box-shadow: 1px 1px 1px rgba(100,10,10,0.15), -1px -1px 1px rgba(100,10,10,0.15);
+}
+.momoclo #top #settingsmenu #settings{
+	background-color: #FF9BD3;
+}
+#top #settingsmenu #settings li{
+	padding: 7px 14px;
+	cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#top #settingsmenu #settings li:hover{
+	background-color: #FFB7CF;
+}
+.momoclo #top #settingsmenu #settings li:hover{
+	background-color: #FFBFE3;
+}
+#pagetitle, #pagetitle a{
+	margin: 2px 3px;
+	padding: 0px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.45em;
+	font-weight: 600;
+	text-decoration: none;
+	text-shadow:
+   -1px -1px 0 #F27DA4,  
+    1px -1px 0 #F27DA4,  
+    -1px 1px 0 #F27DA4,  
+     1px 1px 0 #F27DA4,  
+}
+#about{
+	margin: 2px 30px;
+	overflow: hidden;
+}
+
+/* ---------------- Footer ---------------- */
+#socialmedia{
+	height: 30px;
+	max-width: 800px;
+	margin: 5px auto;
+}
+#socialmedia img{
+	height: 30px;
+	width: 30px;
+	margin: 0px 2px;
+	float: right;
+}
+
+.content,.content2{
+	background-color:#FFF;
+	padding: 10px 14px;
+	margin: 7px auto 10px auto;
+	border: 1px solid #EDEDED;
+	max-width: 770px;
+	overflow: hidden;
+}
+.content2{
+	max-width: 980px;
+}
+
+/* ------------- Lyrics Pages ------------- */
+table{
+	border-collapse: collapse;
+	vertical-align: top;
+}
+
+#infobox{
+	max-width: 100%;
+	margin: 10px 15px;
+	min-height: 100px;
+	text-align: center;
+}
+.infotable{
+	padding: 0px 0px;
+	margin: 0px 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+.infotable tbody{
+	width: 100%;
+}
+.infotable th{
+	text-align: left;
+	padding: 0px 4px 0px 10px;
+	font-weight: 600;
+	width: 95px;
+}
+.infotable td{
+	padding: 1px 12px 0px 4px;
+	font-size: 14px;
+	width: 270px;
+	text-align: left;
+}
+.infotable tr{
+	width: 100%;
+	border-top: 1px solid;
+	border-color: #C5C5C5;
+	border-spacing: 0px;
+	line-height: 20px;
+}
+.infotable tr:first-child{
+	border-top: 0px;
+}
+.infotable tr:last-child{
+	border-bottom: 0px;
+}
+#vocaloid #infobox{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#vocaloid #infobox .infotable:first-child td{
+	width: 260px;
+}
+#vocaloid #infobox .infotable:last-child td{
+	width: 240px;
+}
+#versionbutton{
+	float: right;
+	position: relative;
+	right: 30px;
+	top: 8px;
+}
+
+/* ----------- Momoclo Albumart ----------- */
+#albumartcontainer{
+	display: block;
+	padding: 0px 0px;
+	max-width: 146px;
+	height: 146px;
+	border: 2px solid;
+	border-color: #EEE;
+	float: left;
+	line-height: 138px;
+	text-align: center;
+}
+.albumart{
+	max-width: 146px;
+	max-height: 146px;
+	margin: auto auto;
+	display: none;
+	vertical-align: middle;
+}
+.active{
+	display: inline-block;
+}
+#nextbutton{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	left: 121px;
+	top: 121px;
+	background-image: url("/momoclo/nextbutton.png");
+	display: none;
+}
+#backbutton{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	top: 121px;
+	background-image: url("/momoclo/backbutton.png");
+	display: none;
+}
+
+/* ---------------- Lyrics ---------------- */
+#lyriccontainer{
+	margin: 5px 5px;
+	width: 98%;
+	display: inline-block;
+	text-align: center;
+}
+.lyrictable{
+	display: inline-block;
+	max-width: 475px;
+	text-align: left;
+}
+.columnhead{
+	font-size: 1.25em;
+	font-weight: 600;
+	border-bottom: 1px solid;
+}
+.lyrictable td{
+	padding: 5px 15px;
+}
+#romajitable td,#japanesetable td{
+	border-right: 1px solid #333;
+}
+#japanesetable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.videolink{
+	margin: 3px 2px 0px 2px;
+}
+
+.hiddenjapanese,.placeholderromaji{
+	display: none;
+}
+.japanesepreference{
+	display: none;
+}
+
+/* ---------------- Footer ---------------- */
+.kanako{
+    color:#FF0000;
+}
+.akari{
+    color:blue;
+}
+.momoka{
+    color:green;
+}
+.shiori{
+    color:#EBB400;
+}
+.aarin{
+    color:#FF1493;
+}
+.reni{
+    color:purple;
+}
+.zversion{
+	display:none;
+}
+
+/* ------------- Video Links -------------- */
+#videoembedbox{
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.tablist{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tablist li{
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	padding: 2px 6px 1px 6px;
+	white-space: nowrap;
+}
+.tablist li.active{
+	font-weight: 600;
+	background-color: #F8F8FA;
+	border: 1px solid #EDEDED;
+	border-bottom: 1px solid #F8F8FA;
+}
+.tablist li.alone{
+	border-bottom: 1px solid #EDEDED;
+}
+.tablist li{
+	background-color: none;
+}
+.tablist li.active a{
+	color: inherit;
+}
+.tablist li a{
+	color: #07619B;
+	text-decoration: none;
+}
+#togglevideo{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: -10px;
+	background-image: url(".//minus.png");
+	background-size: 14px 14px;
+}
+.videotogglealt#togglevideo{
+	background-image: url(".//plus.png");
+}
+.tabs{
+	max-width: 778px;
+	margin: 0 auto;
+	vertical-align: middle;
+	background-color: #F8F8FA;
+	border: 1px solid #EDEDED;
+	text-align: center;
+}
+.videotab {
+    display: none;
+	max-width: 768px;
+	height: 432px;
+	padding: 5px 5px;
+}
+.videotab.active {
+    display: block;
+}
+.videotab iframe, .videotab embed {
+    width: 100%;
+    height: 100%;
+}
+
+button{
+	border-radius: 5px;
+	padding: 4px 12px;
+	border: none;
+	background: linear-gradient(rgba(255,220,220,0.4), rgba(255,220,220,1) 70%, rgba(255,220,220,0.8));
+	outline: 0;
+	font-size: 14px;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+button:active{
+    background-color: #FFDCDC;
+	box-shadow: none;
+}
+
+iframe{
+	display:block; 
+	margin:0 auto;
+}
+
+/* ------------- Album Pages -------------- */
+.albumcontainer{
+	width: 310px;
+	padding: 8px 22px;
+	margin: 8px 12px 8px 14px;
+	display: inline-block;
+	border: 1px solid #FFCAE1;
+	vertical-align: top;
+	border-radius: 2px;
+}
+.releasedate{
+	float: right;
+	margin: 3px 8px;
+	color: #000;
+	font-weight: 600;
+	font-size: 16px;
+}
+.albumartcontainer2{
+	max-width: 240px;
+	max-height: 240px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+.albumart2{
+	max-width: 230px;
+	max-height: 230px;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+.albumcontainer h2{
+	text-align: center;
+	margin-top: 2px;
+}
+.albumcontainer .tracklist td:first-child{
+	width: 18px;
+	padding-right: 7px;
+	text-align: right;
+	vertical-align: text-top;
+}
+.albumcontainer .bonusdescription{
+	padding-left: 8px; 
+	margin-bottom: 0px; 
+	margin-top: 0px;
+}
+.albumcontainer .purchaselinks{
+	display: inline-block;
+	width: 100%;
+	margin: 2px auto;
+	text-align: center;
+}
+.albumcontainer .purchaselinks img{
+	display: inline-block;
+	margin: 2px;
+	height: 20px;
+}
+
+
+.popup{
+	position:fixed;
+	display:none;
+	background-color:rgba(0, 0, 0, 0.7);
+	width:100%; 
+    height:100%; 
+	top:0;
+	left:0;
+	text-align: center;
+	vertical-align: middle;
+}
+.popped{
+	width: 90vw;
+    height: 50.625vw;
+	max-height: 90vh;
+    max-width: 160vh;
+    margin: auto;
+    position: absolute;
+    top: 0;
+	bottom: 0;
+    left: 0;
+	right: 0;
+}
+
+/* ------------ Manga Listings ------------ */
+header.series{
+	height: auto;
+	display: block;
+	color: #222;
+	font-size: 26px;
+	font-weight: 600;
+	padding: 2px 14px;
+	margin: 4px 0px;
+	background: #F1F1F1;
+	border-radius: 6px;
+	box-shadow: none;
+}
+
+.wrap{
+	text-align: center;
+}
+.item{
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	padding: 8px;
+	margin: 12px;
+	background: none;
+	border-radius: 3px;
+	vertical-align: top;
+	line-height: 140%;
+}
+.item a{
+	text-decoration: none;
+}
+.item .preview img{
+	max-width: 250px;
+	max-height: 300px;
+	margin: 5px auto;
+}
+.item .preview img:hover{
+	box-shadow: 0px 1px 9px 1px rgba(128, 128, 128, 0.65);
+}
+.item .itemtitle{
+	font-size: 18px;
+}
+.item .author{
+	font-size: 14px;
+}
+.item .source{
+	font-size: 12px;
+}
+
+/* ------------ Mobile Display ------------ */
+
+@media all and (max-device-width: 790px){
+	.content, .content2{
+		margin-top: 0px;
+		border: none;
+	}
+	.tablist li{
+		top: -3px;
+		padding-bottom: 0px;
+		padding-top: 1px;
+	}
+	.tablist li.active{
+		border-bottom: 1px solid #EDEDED;
+	}
+}
+
+@media all and (max-device-width: 600px){
+	/* tables */
+	#nicodoutable th:nth-child(2), #nicodoutable td:nth-child(2){
+		display: none;
+	}
+}
+
+@media all and (max-device-width: 540px){
+	#vocaasstable tr th:nth-child(2), #momoasstable tr th:nth-child(2), #miscasstable tr th:nth-child(2){
+		display: none;
+	}
+	#vocaasstable tr td:nth-child(2), #momoasstable tr td:nth-child(2), #miscasstable tr td:nth-child(2){
+		display: none;
+	}
+	#miscasstable tr th:nth-child(3), #miscasstable tr td:nth-child(3){
+		display: none;
+	}
+}
+
+@media all and (max-device-width: 540px) {
+	/* header */
+	header.top{
+		height: 36px;
+	}
+	#pagetitle{
+		margin-top: 3px;
+		line-height: 26px;
+		vertical-align: middle;
+	}
+	#pagetitle a{
+		padding-left: 8px;
+		padding-right: 1px;
+		font-size: 1em;
+	}
+	#momoclologo{
+		height: 26px;
+		padding-top: 1px;
+		padding-left: 4px;
+	}
+	#searchform{
+		display: none;
+	}
+	#top #homebutton,#top #settingsbutton{
+		height: 24px;
+		width: 24px;
+		margin-top: 2px;
+		margin-bottom: 0;
+		margin-right: 2px;
+	}
+		#homebutton{
+			margin-left: 10px;
+		}
+	#top #settingsmenu{
+		top: 25px;
+	}
+	
+	/* content */
+	h1{
+		font-size: 1.7em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	
+	/* lyricpage top */
+	#versionbutton{
+		display: block;
+		float: none;
+		position: static;
+	}
+	#albumartcontainer{
+		width: 200px;
+		height: 200px;
+		border-width: 4px;
+	}
+	.albumart{
+		max-width: 200px;
+		max-height: 200px;
+	}
+	#nextbutton,#backbutton{
+		height: 30px;
+		width: 30px;
+		background-size: contain;
+	}
+	#nextbutton{
+		left: 170px;
+		top: 170px;
+	}
+	#backbutton{
+		top: 170px;
+	}
+	
+	#vidoeembedbox{
+		margin-top: 8px;
+	}
+	
+	.infotable{
+		display: block;
+		max-width: 100%;
+	}
+	.infotable tr{
+		font-size: 1.1em;
+	}
+		.infotable:nth-child(n+2) th, .infotable:nth-child(n+2) td{
+			border-top: 1px solid;
+			border-color: #C5C5C5;
+		}
+	.infotable th{
+		padding-left: 8px;
+		width: 110px;
+	}
+	.infotable td{
+		font-size: 1em;
+	}
+	
+	/* lyricpage content */
+	#lyriccontainer{
+		margin-left: 4px;
+	}
+	.lyrictable{
+		display: block;
+		max-width: 100%;
+	}
+	.lyrictable tr{
+		font-size: 1.1em;
+	}
+	.lyrictable td{
+		padding: 10px 15px;
+	}
+	.lyrictable .columnhead{
+		font-size: 1.5em;
+		padding-bottom: 2px;
+	}
+	#romajitable td, #japanesetable td{
+		border-right: none;
+	}
+}
+

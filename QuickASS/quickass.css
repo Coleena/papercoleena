@@ -1,0 +1,99 @@
+label{
+	padding: 3px 2px;
+}
+textarea{
+	display: block;
+	resize: none;
+}
+code{
+	display: block;
+	border: 1px solid #AAA;
+}
+input{
+	margin: 2px 0;
+}
+body .content{
+	width: 750px;
+	padding: 10px 24px;
+}
+.content p{
+	margin: 10px 0;
+}
+span{
+	display: inline-block;
+}
+
+#beginningtags,#endingtags{
+	width: 420px;
+}
+
+#everynchars{
+	width: 18px;
+}
+
+#alttagplus,#alttagminus{
+	display: inline-block;
+	float: right;
+	margin: 3px 1px;
+	height: 26px;
+	width: 26px;
+	background-size: 26px 26px;
+}
+#alttagplus{
+	background-image: url("alttagplus.png");
+}
+#alttagminus{
+	background-image: url("alttagminus.png");
+}
+.alttag{
+	width: 120px;
+	margin-right: 10px;
+	margin-left: 4px;
+}
+#alttags label{
+	font-family: "Oxygen Mono","Courier New",Courier,monospace;
+}
+
+#inputtextform label, #outputtextform label{
+	display: block;
+}
+#inputtextform,#outputtextform{
+	margin: 8px 0;
+}
+#inputtext,#outputtext,#copyfield{
+	font-family: Tahoma, "Courier New", monospace;
+	font-size: 14px;
+	width: 740px;
+	padding: 0;
+}
+#inputtext{
+	height: 60px;
+}
+#outputtext{
+	height: 300px;
+	color: #000;
+	overflow-y: scroll;
+}
+#copyfield{
+	height: 300px;
+	overflow-y: scroll;
+}
+
+
+#outputtextform div{
+	float: right;
+	margin-right: 8px;
+}
+.bracket{
+	color: #1432FF;
+}
+.tag{
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.slash,.parentheses,.comma{
+	color: #FF00C8;
+}
+.parameter{
+	color: #285A28;
+}

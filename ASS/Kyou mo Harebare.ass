@@ -1,0 +1,101 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 854
+PlayResY: 480
+Audio URI: Kyou mo Harebare.mp4
+Scroll Position: 3
+Active Line: 8
+Video Zoom Percent: 0.75
+Video File: Kyou mo Harebare.mp4
+Video Aspect Ratio: c1.77917
+Video Position: 315
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,小塚明朝 Pr6N B,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,5,10,10,10,1
+Style: Black WhiteBord,あんずもじ,20,&H00505353,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,10,10,55,1
+Style: White BlackBord,あんずもじ,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,10,10,55,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.85,0:00:03.08,Default,,0,0,0,,{\fsp2\fade(2000,100)\c&H646464&\pos(370,255)}FuwariP
+Dialogue: 0,0:00:03.35,0:00:04.18,Default,,0,0,0,,{\fade(500,500)\fn小塚ゴシック Pro H\bord5\fs40\pos(427,375)}Another Cheerful Day
+Dialogue: 0,0:00:03.11,0:00:04.21,Black WhiteBord,,0,0,0,,{\fs10\bord1\t(0,150,\fs30\bord4)\fade(0,300)\t(200,275,\fs20\bord3)}(Enthusiastically) Adoon!
+Dialogue: 0,0:00:04.65,0:00:07.98,Default,,0,0,0,,{\fade(0,150)\1a&HFF\shad5\fn小塚ゴシック Pro H\bord7\fs50\fscx20\t(0,250,\fscx100)\c&H0143FE&\pos(650,70)\3c&H1844B1&}Lyrics・Song\NFuwariP
+Dialogue: 0,0:00:04.65,0:00:07.98,Default,,0,0,0,,{\fade(0,150)\fn小塚ゴシック Pro H\bord5\fs50\fscx20\t(0,250,\fscx100)\c&H0143FE&\pos(650,70)}Lyrics・Song\NFuwariP
+Dialogue: 0,0:00:06.85,0:00:07.95,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,175,\fs30\bord4)\fade(0,300)\t(225,275,\fs20\bord3)}(Enthusiastically) Yeah, yeah! 
+Dialogue: 0,0:00:08.38,0:00:11.41,Default,,0,0,0,,{\fade(0,150)\shad5\fn小塚ゴシック Pro H\bord7\fs50\fscx20\t(0,250,\fscx100)\1a&HFF\c&H0143FE&\3c&H43703B&\pos(250,390)}Illust.\NYunkel
+Dialogue: 0,0:00:08.38,0:00:11.41,Default,,0,0,0,,{\fade(0,150)\fn小塚ゴシック Pro H\bord5\fs50\fscx20\t(0,250,\fscx100)\c&H7CD801&\3c&HFFFFFF&\pos(250,390)}Illust.\NYunkel
+Dialogue: 0,0:00:10.16,0:00:11.25,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,175,\fs30\bord4)\fade(0,300)\t(225,345,\fs20\bord3)}(Enthusiastically) Afuafua
+Dialogue: 0,0:00:12.01,0:00:14.55,Default,,0,0,0,,{\fade(0,150)\1a&HFF\shad5\fn小塚ゴシック Pro H\bord7\fs50\fscx20\t(0,250,\fscx100)\c&H0143FE&\3c&H373AA4&\pos(569,85)}Video
+Dialogue: 0,0:00:12.01,0:00:14.55,Default,,0,0,0,,{\fade(0,150)\fn小塚ゴシック Pro H\bord5\fs50\fscx20\t(0,250,\fscx100)\c&H6B4FFF&\3c&HFCFDFF&\pos(569,85)}Video
+Dialogue: 0,0:00:13.78,0:00:14.88,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,200,\fs30\bord4)\fade(0,300)\t(240,275,\fs20\bord3)}(Enthusiastically) Yeah, yeah! 
+Dialogue: 0,0:00:15.58,0:00:17.65,Default,,0,0,0,,{\fade(0,100)\shad4\1a&HFF\fn小塚ゴシック Pro H\bord7\fs60\fscx20\t(0,250,\fscx100)\c&H80D700&\3c&H317126&\pos(635,358)}Vocals
+Dialogue: 0,0:00:15.58,0:00:17.65,Default,,0,0,0,,{\fade(0,100)\fn小塚ゴシック Pro H\bord5\fs60\fscx20\t(0,250,\fscx100)\c&H80D700&\3c&HFCFDFF&\pos(635,358)}Vocals
+Dialogue: 0,0:00:17.31,0:00:18.41,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,125,\fs30\bord4)\fade(0,300)\t(175,250,\fs20\bord3)}(Enthusiastically) Afuu
+Dialogue: 0,0:00:18.35,0:00:21.32,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&H079B18&}(Native) The clock's bell resounds in the sky
+Dialogue: 0,0:00:21.35,0:00:23.46,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&HD084BE&}(Sweet) Today as well, tenteke tententen
+Dialogue: 0,0:00:23.48,0:00:25.39,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&H00C6C2&}(Power) The～re! Pinpiki pinpinpin
+Dialogue: 0,0:00:25.48,0:00:28.52,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HE8DA00&}(Whisper) Morning opens the curtains
+Dialogue: 0,0:00:28.54,0:00:32.26,White BlackBord,,0,0,0,,{\fade(200,180)\bord4\fs30\t(0,260,\fs25\bord3)\3c&HF35218&}(Adult) and rustles them, tenteke tenten, a tententen tenten
+Dialogue: 0,0:00:32.41,0:00:36.14,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HD389C2&}(Sweet) I yawn underneath the sun
+Dialogue: 0,0:00:36.21,0:00:39.81,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HE8DA00&}(Whisper) and stretch diagonally
+Dialogue: 0,0:00:39.85,0:00:43.06,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&HF35218&}(Adult) When I gaze up at the small birds,
+Dialogue: 0,0:00:43.08,0:00:48.15,White BlackBord,,0,0,0,,{\fade(150,180)\bord5\fs45\t(0,160,\fs20\bord3)\3c&H079B18&}(Native) I put a piece of bread in the toaster
+Dialogue: 0,0:00:48.18,0:00:49.95,White BlackBord,,0,0,0,,{\fade(150,900)\bord5\fs45\t(0,160,\fs20\bord3)\3c&H00C6C2&}(Power) and today starts
+Dialogue: 0,0:00:49.98,0:00:53.88,White BlackBord,,0,0,0,,{\3c&HFFFFFF\fade(0,150)\t(0,275,\3c&H1087FC&)}(All Together) The city is shining brilliantly 
+Dialogue: 0,0:00:53.91,0:00:57.81,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) and everyone is laughing brightly
+Dialogue: 0,0:00:57.85,0:01:00.98,White BlackBord,,0,0,0,,{\fade(280,150)\3c&H1087FC&)}(All Together) The street continuing towards the plaza
+Dialogue: 0,0:01:01.01,0:01:05.15,White BlackBord,,0,0,0,,{\fade(280,0)\3c&H1087FC&)}(All Together) swayed with green hair
+Dialogue: 0,0:01:05.18,0:01:06.75,Black WhiteBord,,0,0,0,,{\fs10\bord1\t(0,155,\fs30\bord4)\fade(0,300)\t(200,275,\fs20\bord3)}(Enthusiastically) Adoon!
+Dialogue: 0,0:01:07.75,0:01:08.85,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,200,\fs30\bord4)\fade(0,300)\t(240,275,\fs20\bord3)}(Enthusiastically) Yeah, yeah! 
+Dialogue: 0,0:01:11.11,0:01:12.11,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,125,\fs30\bord4)\fade(0,100)\t(175,240,\fs20\bord3)}(Enthusiastically) Afuu
+Dialogue: 0,0:01:12.15,0:01:15.18,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&H10C5C1&}(Power) It seems like I've accidentally dozed off
+Dialogue: 0,0:01:15.15,0:01:17.15,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HDAD91B&}(Whisper) A noon tenteke tententen
+Dialogue: 0,0:01:17.18,0:01:19.12,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HF35218&}(Adult) The～re! Pinpiki pinpinpin
+Dialogue: 0,0:01:19.15,0:01:22.28,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HD084BE&}(Sweet) The sun climbs the roof
+Dialogue: 0,0:01:22.28,0:01:25.85,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&H079B18&}(Native) Playing, tenteke, a tenten tententen
+Dialogue: 0,0:01:26.18,0:01:29.85,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&HF35218&}(Adult) I run downhill
+Dialogue: 0,0:01:29.88,0:01:33.51,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&HD084BE&}(Sweet) and stop at the traffic light
+Dialogue: 0,0:01:33.65,0:01:36.78,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&H079B18&}(Native) Looking left, looking right,
+Dialogue: 0,0:01:36.81,0:01:42.02,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,255,\fs20\bord3)\3c&HDAD91B&}(Whisper) Let's look right once more and then cross
+Dialogue: 0,0:01:42.05,0:01:44.41,White BlackBord,,0,0,0,,{\fade(200,900)\bord5\fs45\t(0,255,\fs20\bord3)\3c&H10C5C1&}(Whisper) Today's another cheerful day
+Dialogue: 0,0:01:44.41,0:01:47.42,White BlackBord,,0,0,0,,{\3c&HFFFFFF\fade(0,150)\t(0,275,\3c&H1087FC&)}(All Together) The city is shining brilliantly 
+Dialogue: 0,0:01:47.45,0:01:51.02,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) and everyone is laughing brightly
+Dialogue: 0,0:01:51.05,0:01:54.68,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) The clouds reflected on the car's hood
+Dialogue: 0,0:01:54.71,0:01:58.95,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) calmly flowed through the sky
+Dialogue: 0,0:02:05.75,0:02:09.55,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) When I go on a trip,
+Dialogue: 0,0:02:09.56,0:02:13.32,White BlackBord,,0,0,0,,{\fade(270,150)\3c&H1087FC&)}(All Together) it feels great going wherever I feel like
+Dialogue: 0,0:02:27.21,0:02:30.78,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&H079B18&}(Native) Shadows stretch during the evening
+Dialogue: 0,0:02:30.81,0:02:34.55,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HD084BE&}(Sweet) Lining up, light shines through
+Dialogue: 0,0:02:34.58,0:02:37.85,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HF35218&}(Adult) The sound of a bouncing ball somewhere
+Dialogue: 0,0:02:37.88,0:02:44.15,White BlackBord,,0,0,0,,{\fade(200,275)\bord5\fs45\t(0,260,\fs20\bord3)\3c&H10C5C1&}(Power) spread throughout the sky
+Dialogue: 0,0:02:44.68,0:02:48.51,White BlackBord,,0,0,0,,{\fade(1500,175)\3c&HD1D407&}(Whisper) Stillness flickers and dances
+Dialogue: 0,0:02:48.55,0:02:51.82,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,260,\fs20\bord3)\3c&HF35218&}(Adult) The clock's bell resounded
+Dialogue: 0,0:02:51.85,0:02:54.18,White BlackBord,,0,0,0,,{\fade(200,180)\bord5\fs45\t(0,160,\fs20\bord3)\3c&HDAD91B&}(Whisper) The small birds flapped their wings
+Dialogue: 0,0:02:54.21,0:02:57.21,White BlackBord,,0,0,0,,{\fade(200,250)\bord5\fs45\t(0,160,\fs20\bord3)\3c&H079B18&}(Native) and crossed over to today
+Dialogue: 0,0:02:57.31,0:02:59.05,White BlackBord,,0,0,0,,{\fade(90,180)\bord5\fs45\t(0,100,\fs55\bord6)\t(100,250,\fs25\bord3)\3c&HD084BE&}(Sweet) The world continues
+Dialogue: 0,0:02:59.15,0:03:01.41,White BlackBord,,0,0,0,,{\fade(80,480)\bord5\fs45\t(0,100,\fs55\bord6)\t(100,250,\fs25\bord3)\3c&H10C5C1&}(Power) and then continues on
+Dialogue: 0,0:03:01.48,0:03:04.48,White BlackBord,,0,0,0,,{\fade(270,150)\fs25\3c&H1087FC&)}(All Together) The city is shining brilliantly
+Dialogue: 0,0:03:04.51,0:03:08.08,White BlackBord,,0,0,0,,{\fade(270,150)\fs25\3c&H1087FC&)}(All Together) connecting towards the next tomorrow brightly
+Dialogue: 0,0:03:08.11,0:03:11.45,White BlackBord,,0,0,0,,{\fade(270,150)\fs25\3c&H1087FC&)}(All Together) The setting sun's light
+Dialogue: 0,0:03:11.48,0:03:15.59,White BlackBord,,0,0,0,,{\fade(270,150)\fs25\3c&H1087FC&)}(All Together) reflects the sky from another day
+Dialogue: 0,0:03:15.61,0:03:18.82,White BlackBord,,0,0,0,,{\fade(270,150)\fs25\3c&H1087FC&)}(All Together) The rain falls and I'm soaked
+Dialogue: 0,0:03:18.82,0:03:22.58,White BlackBord,,0,0,0,,{\fade(300,150)\fs25\3c&H1087FC&)}(All Together) as I walk through puddles today as well
+Dialogue: 0,0:03:22.61,0:03:25.95,White BlackBord,,0,0,0,,{\fade(280,150)\fs25\3c&H1087FC&)}(All Together) The weather finally clears once again, and then tomorrow comes
+Dialogue: 0,0:03:25.98,0:03:30.08,White BlackBord,,0,0,0,,{\fade(280,150)\fs25\3c&H1087FC&)}(All Together) The city is laughing brightly today as well
+Dialogue: 0,0:03:30.75,0:03:34.08,Default,,0,0,0,,{\fn小塚ゴシック Pro H\alpha&H88\bord3\fade(500,500)\blur3\fs40\c&HFFFFFF&\3c&H000000&\pos(427,325)}Lyrics・Song\NFuwariP
+Dialogue: 0,0:03:34.45,0:03:37.75,Default,,0,0,0,,{\fn小塚ゴシック Pro H\alpha&H88\bord3\fade(500,500)\blur3\fs40\c&HFFFFFF&\3c&H000000&\pos(427,325)}Illust.\NYunkel
+Dialogue: 0,0:03:38.11,0:03:41.45,Default,,0,0,0,,{\fn小塚ゴシック Pro H\alpha&H88\bord3\fade(500,500)\blur3\fs40\c&HFFFFFF&\3c&H000000&\pos(427,325)}Video\NNot-116
+Dialogue: 0,0:03:41.68,0:03:44.98,Default,,0,0,0,,{\fn小塚ゴシック Pro H\alpha&H88\bord3\fade(500,500)\blur3\fs40\c&HFFFFFF&\3c&H000000&\pos(427,325)}Vocals\NGUMIs
+Dialogue: 0,0:03:30.08,0:03:31.61,Black WhiteBord,,0,0,0,,{\fs10\bord1\t(0,121,\fs30\bord4)\fade(0,300)\t(155,250,\fs20\bord3)}(Enthusiastically) Adoon!
+Dialogue: 0,0:03:32.61,0:03:33.71,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,200,\fs30\bord4)\fade(0,300)\t(240,360,\fs20\bord3)}(Enthusiastically) Yeah, yeah! 
+Dialogue: 0,0:03:36.01,0:03:37.11,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,200,\fs30\bord4)\fade(0,300)\t(240,360,\fs20\bord3)}(Enthusiastically) Afuafua
+Dialogue: 0,0:03:39.75,0:03:40.85,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,200,\fs30\bord4)\fade(0,300)\t(240,360,\fs20\bord3)}(Enthusiastically) Yeah, yeah!
+Dialogue: 0,0:03:43.35,0:03:45.78,Black WhiteBord,,0,0,0,,{\fs5\bord1\t(0,120,\fs30\bord4)\fade(0,800)\t(150,240,\fs20\bord3)}(Enthusiastically) Afuu

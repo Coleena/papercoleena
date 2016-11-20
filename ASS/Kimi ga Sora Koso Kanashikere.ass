@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Scroll Position: 33
+Active Line: 42
+Video Zoom Percent: 0.5
+Video File: Kimi ga Sora Koso Kanashikere.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 5582
+Last Style Storage: Default
+Audio URI: Kimi ga Sora Koso Kanashikere.mp4
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,小塚明朝 Pro H,80,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,15,1
+Style: Default,ゆず ペン字N [P],40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,1,0,1,2,0,2,10,10,15,1
+Style: Default2,From Where You Are,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,1,0,1,2,0,2,10,10,15,1
+Style: Default3,小塚明朝 Pr6N H,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,1,0,1,2,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.92,0:00:05.06,Default,,0,0,0,,Dear onii-chan,
+Dialogue: 0,0:00:05.77,0:00:10.35,Default,,0,0,0,,Sorry for being late. I was finally able to send this.
+Dialogue: 0,0:00:11.42,0:00:17.31,Default,,0,0,0,,The sunflowers are growing even taller than us, so they'd surely be easy to find from the sky.
+Dialogue: 0,0:00:20.20,0:00:23.25,Default,,0,0,0,,Where are you flying right now?
+Dialogue: 0,0:00:25.52,0:00:31.27,Default,,0,0,0,,That person is, even now, with the sunflower landmark...
+Dialogue: 0,0:00:40.72,0:00:52.02,Title,,0,0,0,,{\fade(2500,2500)\pos(640,560)\fsp3\fs120\bord3\blur5\clip(0,0,150,720)\t(0,2600,\clip(0,0,1280,720))\3c&HFFFFFF&}Your Sky is Sorrowful
+Dialogue: 0,0:00:53.35,0:00:57.10,Default,,0,0,0,,Dear person in the future,
+Dialogue: 0,0:00:57.10,0:01:00.60,Default,,0,0,0,,I'll entrust this letter to you, okay?
+Dialogue: 0,0:01:00.60,0:01:04.27,Default,,0,0,0,,It doesn't matter how many years have passed
+Dialogue: 0,0:01:04.27,0:01:08.18,Default,,0,0,0,,This is proof that I'd lived, to her
+Dialogue: 0,0:01:08.18,0:01:11.68,Default,,0,0,0,,The ticket I showed you was one-way
+Dialogue: 0,0:01:13.18,0:01:17.27,Default,,0,0,0,,and you congratulated me with skinny cheeks
+Dialogue: 0,0:01:17.27,0:01:21.27,Default,,0,0,0,,Ah, I hate honor, it's of secondary importance
+Dialogue: 0,0:01:22.72,0:01:26.93,Default,,0,0,0,,So long
+Dialogue: 0,0:01:27.22,0:01:30.93,Default2,,0,0,0,,In the blue sky, I think of you,
+Dialogue: 0,0:01:30.93,0:01:34.56,Default2,,0,0,0,,as I'm mistaken for a silver arrow
+Dialogue: 0,0:01:34.56,0:01:38.18,Default2,,0,0,0,,Your sky is sorrowful
+Dialogue: 0,0:01:38.18,0:01:41.81,Default2,,0,0,0,,The clouds swim, my first love
+Dialogue: 0,0:01:43.60,0:01:47.35,Default,,0,0,0,,To a dear person,
+Dialogue: 0,0:01:47.35,0:01:50.89,Default,,0,0,0,,forgive me for this letter, okay?
+Dialogue: 0,0:01:50.89,0:01:54.14,Default,,0,0,0,,I can't go home no matter how many years pass
+Dialogue: 0,0:01:54.56,0:01:58.35,Default,,0,0,0,,You're not crying, are you? I'm worried
+Dialogue: 0,0:01:58.56,0:02:01.97,Default,,0,0,0,,As we watched the sunflowers in tedium,
+Dialogue: 0,0:02:03.35,0:02:07.64,Default,,0,0,0,,they bloomed in a line with a smile
+Dialogue: 0,0:02:07.64,0:02:11.47,Default,,0,0,0,,Ah, home and social status are things of secondary importance
+Dialogue: 0,0:02:13.18,0:02:16.31,Default,,0,0,0,,I fell into love for the first time
+Dialogue: 0,0:02:17.60,0:02:20.77,Default2,,0,0,0,,In the sunset, I think of you,
+Dialogue: 0,0:02:21.22,0:02:24.47,Default2,,0,0,0,,singing praises of silver arrows
+Dialogue: 0,0:02:24.89,0:02:28.60,Default2,,0,0,0,,Your sea is sorrowful,
+Dialogue: 0,0:02:28.60,0:02:31.89,Default2,,0,0,0,,the water's surface being dyed in the crimson of love
+Dialogue: 0,0:02:32.18,0:02:35.77,Default,,0,0,0,,An important-seeming letter
+Dialogue: 0,0:02:35.77,0:02:39.39,Default,,0,0,0,,from a slightly dirty box,
+Dialogue: 0,0:02:39.39,0:02:43.06,Default,,0,0,0,,after many decades pass,
+Dialogue: 0,0:02:43.06,0:02:46.64,Default,,0,0,0,,finally reaches you 
+Dialogue: 0,0:03:01.22,0:03:04.89,Default3,,0,0,0,,I think of you today, too
+Dialogue: 0,0:03:04.89,0:03:08.52,Default3,,0,0,0,,Among sunflowers, a flower garden
+Dialogue: 0,0:03:08.52,0:03:11.81,Default3,,0,0,0,,While viewing this scenery,
+Dialogue: 0,0:03:11.81,0:03:15.72,Default3,,0,0,0,,could you please smile?
+Dialogue: 0,0:03:15.72,0:03:19.39,Default2,,0,0,0,,In the blue sky, I think of you,
+Dialogue: 0,0:03:19.39,0:03:23.02,Default2,,0,0,0,,as I'm mistaken for a silver arrow
+Dialogue: 0,0:03:23.02,0:03:26.64,Default2,,0,0,0,,Your sky is sorrowful
+Dialogue: 0,0:03:26.64,0:03:29.97,Default2,,0,0,0,,Together with that, I think of my last love
+Dialogue: 0,0:03:52.56,0:04:04.64,Title,,0,0,0,,{\fs40\fade(1500,1750)\t(10250,11000,\blur5)\t(11000,12080,\blur7)\pos(640,85)}Your Sky is Sorrowful

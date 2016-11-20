@@ -1,0 +1,80 @@
+/* tables */
+table{
+	border-collapse:collapse;
+}
+table.tablesorter {
+	background-color: #CDCDCD;
+	margin: 4px auto;
+	width: 90%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #c0ffe1;
+	padding: 4px 2px 4px 6px;
+}
+table.tablesorter td:last-child{
+	text-align: center;
+	min-width: 48px;
+}
+table.tablesorter th:last-child{
+	text-align: center;
+	padding-left: 2px;
+}
+#miscasstable td:last-child{
+	min-width: 29px;
+}
+table.tablesorter td:nth-last-child(2){
+	text-align: center;
+	min-width: 75px;
+}
+table.tablesorter a{
+	text-decoration: none;
+}
+table.tablesorter img{
+	display: inline-block;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 0px 8px;
+	background-color: #FFF;
+	vertical-align: middle;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #84FFC4;
+}
+table.tablesorter tr:nth-child(even) td{
+	background-color: #FAFAFA;
+}
+table.tablesorter tr:nth-child(even){
+	border-top: 1px solid #EEE; 
+	border-bottom: 1px solid #EEE;
+}
+
+#momoasstable thead tr th, #momotable  tfoot tr th{
+	background-color: #FFCFE3;
+}
+#momoasstable thead tr .headerSortDown, #momotable thead tr .headerSortUp{
+	background-color: #FF97C3;
+}
+
+#miscasstable thead tr th, #misctable  tfoot tr th{
+	background-color: #DEDEDE;
+}
+#miscasstable thead tr .headerSortDown, #misctable thead tr .headerSortUp{
+	background-color: #C0C0C0;
+}

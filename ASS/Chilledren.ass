@@ -1,0 +1,95 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 854
+PlayResY: 480
+Scroll Position: 58
+Active Line: 64
+Video Zoom Percent: 0.875
+Video File: Chilledren.mp4
+Video Aspect Ratio: c1.77917
+Video Position: 5737
+Last Style Storage: Default
+Audio URI: Chilledren.mp4
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sans-Serif,小塚ゴシック Pro H,25,&H002B2B46,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Serif,小塚明朝 Pro H,25,&H002B2B46,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Sans-Serif2,小塚ゴシック Pro H,25,&H00292A2E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Serif2,小塚明朝 Pro H,25,&H00262626,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Serif2 WhiteBord,小塚明朝 Pro H,25,&H00262626,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: Sans-Serif White,小塚ゴシック Pro H,25,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,5,10,10,10,1
+Style: Serif White,小塚明朝 Pro H,25,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.05,0:00:11.18,Sans-Serif,,0,0,0,,{\pos(430,295)\fade(0,750)\t(\fsp10)}Kurosawa {\rSerif\t(\fsp10)}Madoka
+Dialogue: 0,0:00:11.18,0:00:14.91,Serif,,0,0,0,,{\pos(435,295)\fade(500,0)\t(3220,3630,\1c&H000000)\fsp20\t(\fsp5)}Emilio
+Dialogue: 0,0:00:14.91,0:00:18.45,Sans-Serif2,,0,0,0,,{\pos(225,175)\fade(250,0)}Boy {\fs40\c&H0000FF&}L {\rSerif2}opened the door
+Dialogue: 0,0:00:18.51,0:00:21.78,Serif2,,0,0,0,,{\fade(250,0)\pos(615,305)}and found cold, rotting scrap garbage
+Dialogue: 0,0:00:21.78,0:00:25.61,Serif2 WhiteBord,,0,0,0,,{\fade(250,0)\pos(575,335)}Even I'm the same,
+Dialogue: 0,0:00:23.48,0:00:25.61,Serif2,,0,0,0,,{\fade(250,0)\pos(675,385)}he mutters,
+Dialogue: 0,0:00:25.68,0:00:29.31,Serif White,,0,0,0,,{\fade(250,0)\bord0.2\pos(427,290)\blur3}and again closes the door
+Dialogue: 0,0:00:29.38,0:00:32.65,Serif2,,0,0,0,,{\pos(225,245)\fade(250,0)}The bread that girl was holding
+Dialogue: 0,0:00:29.38,0:00:32.65,Serif2,,0,0,0,,{\pos(225,297)\fade(250,0)}seemed delicious
+Dialogue: 0,0:00:32.71,0:00:36.38,Serif2,,0,0,0,,{\pos(225,232)\fade(250,0)}so I threatened to hit her
+Dialogue: 0,0:00:32.71,0:00:36.38,Serif2,,0,0,0,,{\pos(225,292)\fade(250,0)}and made it my own
+Dialogue: 0,0:00:36.45,0:00:40.05,Serif2,,0,0,0,,{\pos(200,232)\fade(250,0)}This country is kind
+Dialogue: 0,0:00:36.45,0:00:40.05,Serif2,,0,0,0,,{\pos(200,297)\fade(250,0)}and protects futures,
+Dialogue: 0,0:00:40.11,0:00:41.78,Serif2,,0,0,0,,{\pos(220,272)\fade(250,0)}so they'll forgive killing
+Dialogue: 0,0:00:41.75,0:00:43.38,Serif2,,0,0,0,,{\pos(244,297)}because {\rSerif2 WhiteBord}I'm just a {\fs27}child{\fs25}, {\r}right?
+Dialogue: 0,0:00:44.21,0:00:47.55,Serif White,,0,0,0,,{\pos(575,422)}When loitering around town at night,
+Dialogue: 0,0:00:47.61,0:00:51.21,Serif White,,0,0,0,,{\pos(575,405)\fade(250,0)}I grasp onto a sweet butterfly
+Dialogue: 0,0:00:51.28,0:00:54.51,Serif White,,0,0,0,,{\fade(250,0)\pos(250,292)}After being touched harshly,
+Dialogue: 0,0:00:54.58,0:00:58.35,Serif2,,0,0,0,,{\fade(250,0)\c&H3C414D&\pos(265,265)\frz19\shad1\4c&HADA4F9&}it can bite back and run away 
+Dialogue: 0,0:00:58.51,0:01:02.25,Serif White,,0,0,0,,{\pos(610,185)\frz339\bord1\3a&HFF\blur5\xshad-20\yshad15\4a&HBB}The words coming out of these dry mouths
+Dialogue: 0,0:01:02.30,0:01:05.85,Serif White,,0,0,0,,{\pos(620,155)\fade(250,0)\bord1\3a&HFF\blur5\xshad-20\yshad25\4a&HBB\frz23.04}know nothing of the future
+Dialogue: 0,0:01:05.81,0:01:09.15,Serif2 WhiteBord,,0,0,0,,{\pos(435,287)\t(\fsp5)}Our hearts and bodies are both frozen,
+Dialogue: 0,0:01:09.18,0:01:12.88,Serif2,,0,0,0,,{\pos(427,255)\t(\fsp5)\bord1\3a&HFF\blur5\xshad-20\yshad25\4a&HBB}With vacant eyes,
+Dialogue: 0,0:01:09.18,0:01:12.88,Serif2,,0,0,0,,{\pos(427,310)\t(\fsp5)\bord1\3a&HFF\blur5\xshad-20\yshad25\4a&HBB}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:01:12.88,0:01:16.28,Serif2,,0,0,0,,{\pos(427,190)\fade(0,150)\bord1\3a&HFF\blur5\xshad20\yshad25\4a&HBB}Left alone and neglected in a refrigerator,
+Dialogue: 0,0:01:12.88,0:01:16.28,Serif2,,0,0,0,,{\pos(427,315)\fade(0,150)\bord1\3a&HFF\blur5\xshad20\yshad25\4a&HBB}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:01:20.31,0:01:20.65,Serif2,,0,0,0,,{\move(205,0,205,160)\c&H46404B&\clip(0,29,854,450)}We play, making shoplifting a game,
+Dialogue: 0,0:01:20.65,0:01:23.65,Serif2,,0,0,0,,{\pos(205,165)\c&H46404B&}We play, making shoplifting a game,
+Dialogue: 0,0:01:23.71,0:01:27.31,Serif2,,0,0,0,,{\pos(190,310)\fade(250,0)\c&H46404B&}The number of children cutting their wrists
+Dialogue: 0,0:01:23.71,0:01:27.31,Serif2,,0,0,0,,{\pos(190,370)\fade(250,0)\c&H46404B&}increase
+Dialogue: 0,0:01:27.38,0:01:30.98,Serif2,,0,0,0,,{\pos(675,300)\fade(250,0)}When blackmail and\Nviolence are immature,
+Dialogue: 0,0:01:31.05,0:01:35.38,Serif2,,0,0,0,,{\pos(675,320)\fade(250,750)}they can be settled by crying {\fs30}"bully"
+Dialogue: 0,0:01:35.00,0:01:38.35,Serif2,,0,0,0,,{\fade(250,0)\an4\pos(88,150)}That good-looking guy who seems
+Dialogue: 0,0:01:35.00,0:01:38.35,Serif2,,0,0,0,,{\fade(250,0)\an4\pos(90,210)}unrelated to depravity 
+Dialogue: 0,0:01:38.41,0:01:41.98,Serif2,,0,0,0,,{\pos(664,260)\fade(250,0)}is really
+Dialogue: 0,0:01:38.41,0:01:41.98,Serif2,,0,0,0,,{\pos(664,313)\fade(250,0)}full of bad additives
+Dialogue: 0,0:01:42.05,0:01:45.65,Serif2,,0,0,0,,{\pos(295,225)\fade(250,0)}If you're going to make a problem of lowering the age for crime,
+Dialogue: 0,0:01:45.65,0:01:49.25,Serif2,,0,0,0,,{\pos(270,225)\fade(250,0)}then isn't it natural for adults to commit crimes?
+Dialogue: 0,0:01:49.38,0:01:52.98,Serif2,,0,0,0,,{\pos(610,252)\fade(250,0)}Without even the words
+Dialogue: 0,0:01:49.38,0:01:52.98,Serif2,,0,0,0,,{\pos(610,315)\fade(250,0)}on the screen appearing,
+Dialogue: 0,0:01:53.05,0:01:56.65,Serif2,,0,0,0,,{\pos(630,280)\fade(250,0)}we simply hurt each other
+Dialogue: 0,0:01:53.15,0:01:55.31,Sans-Serif White,,0,0,0,,{\bord0.1\blur10\fs70\pos(280,317)\frz354\fry10\fn小塚ゴシック Pro M}Die
+Dialogue: 0,0:01:56.71,0:02:00.31,Serif2 WhiteBord,,0,0,0,,{\frz345\pos(250,270)\fade(250,0)}Is it really fine for us to live, depending on something?
+Dialogue: 0,0:02:00.38,0:02:03.98,Serif2 WhiteBord,,0,0,0,,{\pos(590,350)\fade(250,0)\frz20}I hide a knife in my chest,
+Dialogue: 0,0:02:04.05,0:02:07.68,Serif2,,0,0,0,,{\frz339\fade(250,0)\bord1\3a&HFF\blur5\xshad20\yshad25\4a&HCC\pos(630,220)}The coldly laughing boys' and girls'
+Dialogue: 0,0:02:07.75,0:02:11.38,Serif2,,0,0,0,,{\fade(250,0)\bord1\3a&HAA\blur5\xshad20\yshad20\4a&HBB\pos(600,230)\frz22\3c&H000000&\c&H464754&}bitter shouts are heard by no one
+Dialogue: 0,0:02:11.38,0:02:15.30,Serif2,,0,0,0,,{\pos(425,100)\fade(250,380)\yshad20\4a&HDD\blur3\bord1\3a&HFF\t(3490,3491,\1a&HAA\4a&HEE)}We can't\Nfind any\Nplace to\Nbelong
+Dialogue: 0,0:02:14.95,0:02:18.58,Serif2,,0,0,0,,{\pos(615,230)\fade(250,0)\frz340.6\xshad-30\yshad10\blur3\bord1\3a&HFF\4a&HCC}Within a refrigerator,
+Dialogue: 0,0:02:14.95,0:02:18.58,Serif2,,0,0,0,,{\fade(250,0)\frz342\xshad-30\yshad10\blur3\bord1\3a&HFF\4a&HCC\pos(600,282)}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:02:18.58,0:02:21.68,Serif White,,0,0,0,,{\pos(427,255)\t(\fsp3)\bord1\3a&HFF\blur5\xshad20\yshad25\4a&HBB}When the door's closed and it grows cold, we'll finally go bad,
+Dialogue: 0,0:02:18.58,0:02:21.68,Serif White,,0,0,0,,{\pos(427,310)\t(\fsp3)\bord1\3a&HFF\blur5\xshad20\yshad25\4a&HBB}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:02:36.75,0:02:40.35,Serif White,,0,0,0,,{\fade(500,0)\yshad20\4c&H7B8954&\bord1\3a&HFF\blur8\t(0,3600,\fsp3)\bord1\pos(427,280)\3c&H7B8954&}If we become adults as we are right now, 
+Dialogue: 0,0:02:40.35,0:02:43.91,Serif White,,0,0,0,,{\fade(0,0)\yshad20\4c&H7B8954&\bord1\3a&HFF\blur8\t(0,3600,\fsp3)\bord1\pos(427,280)\3c&H7B8954&}we'll lack {\4c&H895112&}maturity{\4c&H7B8954&} as {\fn小塚ゴシック Pro H}Mr. Chilledren
+Dialogue: 0,0:02:43.91,0:02:47.58,Serif White,,0,0,0,,{\fade(0,0)\yshad20\4c&H7B8954&\bord1\3a&HFF\blur8\t(0,3600,\fsp3)\bord1\pos(427,280)\3c&H7B8954&}We can't find any {\4c&H895112&}place to belong
+Dialogue: 0,0:02:47.58,0:02:51.01,Serif White,,0,0,0,,{\fade(0,500)\yshad20\4c&H7B8954&\bord1\3a&HFF\blur8\t(0,3600,\fsp3)\bord1\pos(427,280)\3c&H7B8954&}in this frozen world like a {\4c&H895112&}refrigerator
+Dialogue: 0,0:02:51.48,0:02:54.85,Serif2,,0,0,0,,{\fade(0,0)\bord1\3a&HFF\blur5\xshad-20\yshad25\4a&HCC\frz27\pos(190,250)}The words coming out
+Dialogue: 0,0:02:51.48,0:02:54.85,Serif2,,0,0,0,,{\fade(0,0)\bord1\3a&HFF\blur5\xshad-20\yshad25\4a&HCC\frz27\pos(220,290)}of these dry mouths
+Dialogue: 0,0:02:54.88,0:02:58.48,Serif2,,0,0,0,,{\fade(250,0)\bord1\3a&HFF\blur5\xshad-20\yshad20\4a&HCC\pos(460,190)\frz351.7\t(3420,3600,\4a&HFF)}know nothing of the future
+Dialogue: 0,0:02:58.78,0:03:02.15,Serif2,,0,0,0,,{\pos(440,157)\xshad20\yshad20\blur5\bord1\3a&HFF\4a&HCC}Our hearts and bodies are both frozen,
+Dialogue: 0,0:03:02.45,0:03:05.78,Serif2,,0,0,0,,{\xshad-20\yshad20\blur5\bord1\3a&HFF\4a&HCC\pos(180,185)\frz20.92}Someone warm us up,
+Dialogue: 0,0:03:03.85,0:03:05.78,Serif2,,0,0,0,,{\xshad20\yshad20\blur5\bord1\3a&HFF\4a&HCC\pos(695,275)\frz344.5}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:03:05.85,0:03:09.48,Serif White,,0,0,0,,{\fade(250,0)\xshad-20\yshad20\blur5\bord1\3a&HFF\4a&HCC\frz344\pos(250,155)}Neglected by adults,
+Dialogue: 0,0:03:05.85,0:03:09.48,Serif White,,0,0,0,,{\fade(250,0)\xshad-20\yshad20\blur5\bord1\3a&HFF\4a&HCC\frz344\pos(220,205)}we're {\fn小塚ゴシック Pro H}Chilledren
+Dialogue: 0,0:03:09.55,0:03:11.21,Serif White,,0,0,0,,{\fade(250,0)\xshad-20\yshad20\blur5\bord1\3a&HFF\4a&HCC\pos(680,360)\frz25.89}Simply starved for love single-mindedly,
+Dialogue: 0,0:03:11.21,0:03:12.91,Sans-Serif White,,0,0,0,,{\pos(427,285)\bord1\blur3\fs30\fsp2\t(\fsp5)\3c&H3839E0&}we're Chilledren

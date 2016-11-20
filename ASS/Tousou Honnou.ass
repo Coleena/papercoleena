@@ -1,0 +1,200 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 854
+PlayResY: 480
+Scroll Position: 165
+Active Line: 171
+Video Zoom Percent: 0.875
+Video File: Tousou Honnou.mp4
+Video Aspect Ratio: c1.77917
+Video Position: 7125
+Last Style Storage: Default
+Audio URI: Tousou Honnou.mp4
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Black GreyBord,小塚ゴシック Pro H,45,&H00000000,&H000000FF,&H007B7E7B,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+Style: White,小塚ゴシック Pro H,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Black,小塚ゴシック Pro H,45,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Grey,小塚ゴシック Pro H,45,&H006B6B6B,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: White Serif,小塚明朝 Pr6N H,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:20.81,0:00:22.78,Black GreyBord,,0,0,0,,{\pos(340,400)}Even if you glorify the past by\Ncalling it "youth"
+Dialogue: 0,0:00:23.21,0:00:25.11,Black GreyBord,,0,0,0,,{\pos(310,380)}your inferiority complex won't disappear,\Nvomit's coming out
+Dialogue: 0,0:00:25.61,0:00:27.55,Black GreyBord,,0,0,0,,{\pos(325,385)}They say, "Wait behind the white line,"\Nbut the truth is,
+Dialogue: 0,0:00:27.95,0:00:28.85,White,,0,0,0,,{\pos(427,295)\fs70\t(0,175,\fs55)\blur7\t(0,170,\blur0)}I can't even
+Dialogue: 0,0:00:29.25,0:00:29.65,White,,0,0,0,,{\pos(440,295)\t(\fs47)\c&H5C00FD&}see one anymore
+Dialogue: 0,0:00:30.28,0:00:30.31,Black,,0,0,0,,{\pos(445,340)\bord3\3c&HFFFFFF&\c&HFFFFFF&}Using{\3c&H5C00FE&\1c&H5C00FE&} both {\3c&HFFE000&\1c&HFFE000&}hands,
+Dialogue: 0,0:00:30.31,0:00:30.64,Black,,0,0,0,,{\move(445,340,440,320,30,110)\bord3\3c&HFFFFFF&\t(30,110,\fs35\bord2.5)}Using{\3c&H5C00FE&} both {\3c&HFFE000&}hands,
+Dialogue: 0,0:00:30.64,0:00:31.15,Black,,0,0,0,,{\move(440,320,425,460,0,250)\3c&HFFFFFF&\fs35\bord2.5)}Using{\3c&H5C00FE&} both {\3c&HFFE000&}hands,
+Dialogue: 0,0:00:30.81,0:00:31.15,White,,0,0,0,,{\move(427,220,427,265,0,90)}I'd scooped out
+Dialogue: 0,0:00:31.15,0:00:31.27,White,,0,0,0,,{\move(427,265,435,340)\t(\fs100)}I'd scooped out
+Dialogue: 0,0:00:31.28,0:00:31.51,White,,0,0,0,,{\move(435,340,436,370)\fs100)}I'd scooped out
+Dialogue: 0,0:00:31.25,0:00:32.15,White,,0,0,0,,{\fs100\c&H0289B5&\blur5\t(0,100,\blur0)\t(250,700,\alpha&H44)\move(427,15,427,55,0,375)\t(0,375,\fs105)}a reality
+Dialogue: 0,0:00:32.15,0:00:32.21,White,,0,0,0,,{\fs105\c&H0289B5&\alpha&H44\move(427,55,427,70)}a reality
+Dialogue: 0,0:00:32.21,0:00:32.38,White,,0,0,0,,{\fs105\t(\fs120)\c&H0289B5&\alpha&H44\move(427,70,427,15)}a reality
+Dialogue: 0,0:00:31.58,0:00:32.15,White,,0,0,0,,{\fade(250,0)\fs50\c&H454545&\move(427,415,427,410)}completely dirtied
+Dialogue: 0,0:00:32.15,0:00:32.25,White,,0,0,0,,{\fs50\t(\fs52)\c&H454545&\move(427,410,427,440)}completely dirtied
+Dialogue: 0,0:00:32.25,0:00:32.38,White,,0,0,0,,{\fs52\t(\fs57)\c&H454545&\move(427,440,427,445)}completely dirtied
+Dialogue: 0,0:00:32.68,0:00:32.71,White,,0,0,0,,{\fs120\c&H0289B5&\alpha&H44\pos(427,15)}a reality
+Dialogue: 0,0:00:32.68,0:00:32.71,White,,0,0,0,,{\fs57\c&H454545&\pos(427,455)}completely dirtied
+Dialogue: 0,0:00:33.01,0:00:33.38,Grey,,0,0,0,,{\pos(427,345)\fs60}When I rub my eyes,
+Dialogue: 0,0:00:33.51,0:00:34.81,Grey,,0,0,0,,{\pos(427,325)\fade(250,0)\fs90\t(0,250,\fs60)}it's like I can't see anything anymore
+Dialogue: 0,0:00:35.55,0:00:37.25,Black GreyBord,,0,0,0,,{\pos(340,380)\3c&HA497A3&}No matter how much my cheeks are pinched,\NI won't wake up
+Dialogue: 0,0:00:37.61,0:00:39.68,Black GreyBord,,0,0,0,,{\3c&HA99EAB&\fs80\fay0.1\t(\fay-0.04)\move(585,235,570,268)}You're irritating,
+Dialogue: 0,0:00:38.55,0:00:39.68,Black GreyBord,,0,0,0,,{\3c&HA99EAB&\bord3.5\fs80\pos(285,55)}shut that mouth
+Dialogue: 0,0:00:40.15,0:00:41.85,Black GreyBord,,0,0,0,,{\3c&HA99EAB&\fs80\fay-0.08\t(\frz2.5)\move(570,275,555,275)}You're irritating,
+Dialogue: 0,0:00:40.15,0:00:41.85,Black GreyBord,,0,0,0,,{\3c&HA99EAB&\bord3.5\fs80\pos(285,55)}shut that mouth
+Dialogue: 0,0:00:42.41,0:00:42.71,Black GreyBord,,0,0,0,,{\bord1.5\3c&HFFFFFF&\c&H3D3B43&\pos(427,164.571)}Fl{\c&HA100FF&}i{\c&H3D3B43&}gh{\c&HA100FF&}t{\c&H3D3B43&} Inst{\c&HA100FF&}i{\c&H3D3B43&}nc{\c&HA100FF&}t{\c&H3D3B43&}
+Dialogue: 0,0:00:42.91,0:00:44.01,Black GreyBord,,0,0,0,,{\bord1.5\3c&HFFFFFF&\c&H3D3B43&\pos(427,164.571)}Fl{\c&HA100FF&}i{\c&H3D3B43&}gh{\c&HA100FF&}t{\c&H3D3B43&} Inst{\c&HA100FF&}i{\c&H3D3B43&}nc{\c&HA100FF&}t{\c&H3D3B43&}
+Dialogue: 0,0:00:44.41,0:00:46.55,Black GreyBord,,0,0,0,,{\bord1.5\3c&HFFFFFF&\c&H3D3B43&\pos(427,163)}Fl{\c&HA100FF&}i{\c&H3D3B43&}gh{\c&HA100FF&}t{\c&H3D3B43&} Inst{\c&HA100FF&}i{\c&H3D3B43&}nc{\c&HA100FF&}t{\c&H3D3B43&}
+Dialogue: 0,0:00:46.95,0:00:48.98,Black GreyBord,,0,0,0,,{\bord1.5\3c&HFFFFFF&\c&H3D3B43&\pos(427,161)}Fl{\c&HA100FF&}i{\c&H3D3B43&}gh{\c&HA100FF&}t{\c&H3D3B43&} Inst{\c&HA100FF&}i{\c&H3D3B43&}nc{\c&HA100FF&}t{\c&H3D3B43&}
+Dialogue: 0,0:00:49.48,0:00:49.78,Black GreyBord,,0,0,0,,{\bord1\blur0.5\3a&H88\3c&HFFFFFF&\c&H000000&\pos(427,159)}Flight Instinct
+Dialogue: 0,0:00:49.78,0:00:50.05,White,,0,0,0,,{\bord3\c&HACDB00&\3c&H010101&\pos(427,85)\fs120\clip(400,25,470,135)\t(0,125,\clip(0,25,855,135))}With a shallow
+Dialogue: 0,0:00:49.91,0:00:51.98,White,,0,0,0,,{\bord3\c&HCACBCB&\3c&H010101&\pos(427,85)\fs100\clip(300,25,550,135)\t(0,110,\clip(0,25,855,135))}With a shallow
+Dialogue: 0,0:00:50.71,0:00:51.98,White,,0,0,0,,{\bord3\c&HCACBCB&\3c&H010101&\pos(427,250)\fs120\clip(20,162,225,315)\t(23,123,\clip(20,162,830,315))}message just like
+Dialogue: 0,0:00:51.35,0:00:51.98,White,,0,0,0,,{\bord3\c&HCACBCB&\3c&H010101&\pos(427,400)\fs120\clip(629,330,833,460)\t(16,118,\clip(20,162,830,515))}ready-made items
+Dialogue: 0,0:00:52.11,0:00:54.51,White,,0,0,0,,{\fade(0,75)\c&HA4CD00&\move(305,40,280,60)\frz15\t(\frz17)}they said how important it is
+Dialogue: 0,0:00:52.11,0:00:54.51,White,,0,0,0,,{\fade(0,75)\c&HA4CD00&\frz15\t(\frz17)\move(625,425,645,405)}to face yourself
+Dialogue: 0,0:00:54.55,0:00:56.81,White Serif,,0,0,0,,{\pos(427,285)\clip(85,205,85,325)\t(0,2050,\clip(95,205,765,325)}To the masses, full of people like that hunchback guy,
+Dialogue: 0,0:00:57.15,0:00:58.68,White Serif,,0,0,0,,{\pos(427,290)\fs50}I've got no
+Dialogue: 0,0:00:59.05,0:00:59.28,White Serif,,0,0,0,,{\fs100\frz16.96\pos(463,312)}response
+Dialogue: 0,0:00:59.41,0:01:01.51,White Serif,,0,0,0,,{\move(305,270,295,155)\t(\fs40)\frz16.01}On the monitor which had
+Dialogue: 0,0:01:00.55,0:01:01.51,White Serif,,0,0,0,,{\fs70\fax0.1\move(310,420,310,390)\frz10\t(\frz12)}reflected one's self,
+Dialogue: 0,0:01:02.05,0:01:03.45,White,,0,0,0,,{\pos(496,450)\c&H646464&\alpha&H55\clip(330,310,650,470)\t(1290,1400,\clip(650,310,650,470)}was the "me" there,
+Dialogue: 0,0:01:02.31,0:01:03.48,White,,0,0,0,,{\fade(250,0)\fs35\pos(427,281.333)\c&H716E02&}by a sudden service termination
+Dialogue: 0,0:01:03.58,0:01:04.25,White,,0,0,0,,{\fs80\pos(427,385)\c&H2A2C93&}announcement,
+Dialogue: 0,0:01:04.48,0:01:06.28,White,,0,0,0,,{\fs80\move(350,110,410,110)\c&H6B6B6B&\t(1000,1400,\c&H191821&)}ended?
+Dialogue: 0,0:01:04.75,0:01:06.28,White,,0,0,0,,{\fs80\c&H312768&\t(800,1200,\c&H15141F&)\move(545,360,490,360,0,1300)}Execution
+Dialogue: 0,0:01:05.45,0:01:06.28,White,,0,0,0,,{\pos(427,310)\fs50\c&H1C0084&}I was killed
+Dialogue: 0,0:01:06.61,0:01:07.58,White,,0,0,0,,{\fade(0,50)\c&H433A40&\pos(427,436)\fs60\fsp-1}It's unfortunate, but no visitors are allowed
+Dialogue: 0,0:01:07.51,0:01:08.98,White,,0,0,0,,{\fade(50,0)\fs320\c&H1C144F&\pos(427,436)\t(0,75,\fs60)\fsp-1}It's unfortunate, but no visitors are allowed
+Dialogue: 0,0:01:09.15,0:01:11.25,White,,0,0,0,,{\move(210,180,210,160)\fs60\frz15\c&H676368&}Take what few\Nemotions you have
+Dialogue: 0,0:01:11.51,0:01:12.45,White,,0,0,0,,{\fs60\frz15\c&H6F6F6F&\move(235,230,235,225)}and throw them out
+Dialogue: 0,0:01:13.88,0:01:16.15,White,,0,0,0,,{\fade(100,50)\c&HB1AFB4&\pos(427,295)\fsp-1\t(0,180,\fsp2)\t(180,2180,\fsp4)\t(2180,2300,\fsp6)}Don't remain incomplete
+Dialogue: 0,0:01:16.11,0:01:16.95,White,,0,0,0,,{\fade(170,0)\c&HB1AFB4&\pos(427,295)\fsp-1\t(0,250,\fsp2)\t(180,2180,\fsp4)}it makes me feel nauseous
+Dialogue: 0,0:01:17.35,0:01:17.91,White,,0,0,0,,{\fade(0,0)\c&H27039F&\pos(427,295)\fsp2.5\t(\fsp3)}it makes me feel nauseous
+Dialogue: 0,0:01:18.81,0:01:19.75,Black,,0,0,0,,{\bord2\fs60\an2\3c&HFFFFFF&}It's the rebellion's starting signal
+Dialogue: 0,0:01:19.75,0:01:20.88,Black,,0,0,0,,{\bord2\fs60\an2\3c&HFFFFFF&}Now's the {\c&H670C48&}eve to awaken
+Dialogue: 0,0:01:21.78,0:01:22.28,Black,,0,0,0,,{\bord2\fs60\an2\3c&H8A858B&\c&H510800&}Resist,
+Dialogue: 0,0:01:22.28,0:01:22.91,Black,,0,0,0,,{\bord2\fs60\an2\3c&H7D6B75&\c&H4E0032&}resist
+Dialogue: 0,0:01:22.98,0:01:23.65,Black,,0,0,0,,{\an2\fs60\bord1.5\3c&H2C037F&}conflict instinct
+Dialogue: 0,0:01:23.81,0:01:24.91,Black,,0,0,0,,{\move(520,335,520,355)\bord2.5\frz355.5\3c&H30007C&}Swear,「I don't believe in things like god」
+Dialogue: 0,0:01:24.91,0:01:25.85,Black,,0,0,0,,{\move(520,355,520,390)\bord2.5\frz355.5\3c&H30007C&}Swear,「I don't believe in things like god」
+Dialogue: 0,0:01:25.85,0:01:27.31,Black,,0,0,0,,{\move(520,390,520,460)\bord2.5\frz355.5\3c&H30007C&}Swear,「I don't believe in things like god」
+Dialogue: 0,0:01:25.28,0:01:26.21,Black,,0,0,0,,{\bord4\fs50\1c&H30007C&\move(315,115,315,155)\frz5.072}to god,
+Dialogue: 0,0:01:26.21,0:01:27.31,Black,,0,0,0,,{\bord4\fs50\1c&H30007C&\move(315,155,315,210)\frz5.072}to god,
+Dialogue: 0,0:01:27.35,0:01:27.68,White Serif,,0,0,0,,{\fade(100,0)\bord2\fs120\c&H02747E&\pos(427,420)}and shout out,
+Dialogue: 0,0:01:28.55,0:01:29.68,Grey,,0,0,0,,{\fade(0,150)\fs120\fscx90\c&H5F5077&\pos(350,100)}The future has such
+Dialogue: 0,0:01:28.55,0:01:29.68,Grey,,0,0,0,,{\fade(0,150)\fs120\fscx90\c&H5F5077&\pos(350,200)}grim prospects
+Dialogue: 0,0:01:29.55,0:01:30.31,Grey,,0,0,0,,{\fade(150,150)\fs80\c&H241247&\t(\fsp5)\pos(427,320)}Why?
+Dialogue: 0,0:01:30.18,0:01:31.31,Grey,,0,0,0,,{\fs100\fscy80\fsp1\fade(150,110)\c&H572E7E&\pos(380,400)}It's hard
+Dialogue: 0,0:01:30.18,0:01:31.31,Grey,,0,0,0,,{\fs100\fscy80\fade(150,150)\fsp-2\c&H572E7E&\pos(380,455)}to breathe
+Dialogue: 0,0:01:31.21,0:01:31.91,White,,0,0,0,,{\fade(125,125)\fs120\c&HF0F0F0&\pos(575,410)}I'm sick,
+Dialogue: 0,0:01:31.81,0:01:32.61,White,,0,0,0,,{\an2\fade(100,100)\fs120\c&H71576D&\pos(410,470)}worr           ied,
+Dialogue: 0,0:01:32.51,0:01:33.15,White,,0,0,0,,{\fs60\fade(100,0)\c&HA2907A&\pos(427,310)\t(\fsp3)}and can't sleep
+Dialogue: 0,0:01:33.15,0:01:33.65,White,,0,0,0,,{\fs80\c&HBBBEBE&\pos(427,325)\t(\fsp5)}Hey,
+Dialogue: 0,0:01:33.68,0:01:34.29,White,,0,0,0,,{\fs160\fscy80\an4\pos(-30,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:01:34.29,0:01:34.45,White,,0,0,0,,{\fs160\fscy80\an4\move(-15,370,-1200,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:01:34.45,0:01:34.88,White,,0,0,0,,{\fs160\fscy80\an4\pos(-1075,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:01:34.88,0:01:35.04,White,,0,0,0,,{\fs160\fscy80\an4\move(-1075,370,-1800,370)}『the future I'd thrown away that day』the train towards
+Dialogue: 0,0:01:35.04,0:01:35.61,White,,0,0,0,,{\fs160\fscy80\an4\pos(-1800,370)}『the future I'd thrown away that day』the train towards
+Dialogue: 0,0:01:35.78,0:01:38.81,Black,,0,0,0,,{\bord1.5\3c&H8E8E8E&\t(\fs35\bord1)\move(427,355,427,335)}Hey, when will the train towards\N"the future I threw away that day" come?
+Dialogue: 0,0:01:39.25,0:01:41.11,Black,,0,0,0,,{\fade(0,75)\fs80\fsp10\bord1.5\t(0,1790,\fsp3)\t(1790,1860,\fsp-3)\fscx80\pos(427,333.714)\c&H330964&\3c&H958D93&}This is my lonely war
+Dialogue: 0,0:01:41.31,0:01:41.78,Black,,0,0,0,,{\fade(100,0)\fs80\bord1.5\t(\fsp1)\fscx80\pos(427,333.714)\c&H190673&\3c&H958D93&}but I can't just simply end it
+Dialogue: 0,0:01:42.01,0:01:42.91,Black,,0,0,0,,{\fade(0,0)\fs80\bord1.5\fsp1\t(\fsp3)\fscx80\pos(427,333.714)\c&H190673&\3c&H958D93&}but I can't just simply end it
+Dialogue: 0,0:01:43.08,0:01:43.81,Black,,0,0,0,,{\fade(0,0)\fs80\bord1.5\fsp3\t(\fsp3.5)\fscx80\pos(427,333.714)\c&H130E38&\3c&H343447&}but I can't just simply end it
+Dialogue: 0,0:01:44.08,0:01:45.18,Black,,0,0,0,,{\fade(0,0)\fs80\bord1.5\fsp3.5\t(\fsp4)\fscx80\pos(427,333.714)\c&H130E38&\3c&H343447&}but I can't just simply end it
+Dialogue: 0,0:01:52.98,0:01:53.11,Black,,0,0,0,,{\fs80\pos(427,355)\c&HFEFEFE&\bord0.5\blur5\3a&H88\3c&HFFFFFF&}Light,
+Dialogue: 0,0:01:53.28,0:01:53.81,Black,,0,0,0,,{\fs80\frz14\pos(450,335)\c&H4D373A&}I hate it,
+Dialogue: 0,0:01:53.81,0:01:53.88,Black,,0,0,0,,{\fs80\frz14\move(450,335,235,305)\t(\fs60)\c&H4D373A&}I hate it,
+Dialogue: 0,0:01:53.88,0:01:55.18,Black,,0,0,0,,{\frz14\pos(235,305)\fs60\c&H4D373A&}I hate it,
+Dialogue: 0,0:01:53.95,0:01:55.18,Black,,0,0,0,,{\move(615,290,612,290)\c&H747373&}and prefer strolls at night
+Dialogue: 0,0:01:55.28,0:01:58.11,Black,,0,0,0,,{\an2\c&H747272&\fade(0,500)}I gathered all the clovers without four leaves
+Dialogue: 0,0:01:57.58,0:02:01.11,Black,,0,0,0,,{\fs120\c&H00C6FE&\bord3\pos(620,60)\clip(365,0,393,500)\t(20,480,\clip(365,0,855,500))}I don't want
+Dialogue: 0,0:01:57.58,0:02:01.11,Black,,0,0,0,,{\fs120\c&H00C6FE&\pos(620,180)\bord3\clip(365,0,393,500)\t(20,480,\clip(365,0,855,500))}"happiness".
+Dialogue: 0,0:01:58.61,0:02:01.11,Black,,0,0,0,,{\fs120\c&H7E5778&\bord3\clip(795,0,855,500)\t(23,527,\clip(0,0,855,500))\pos(420,305)\fsp5}All I ever wanted
+Dialogue: 0,0:01:58.61,0:02:01.11,Black,,0,0,0,,{\fs120\c&H7E5778&\bord3\clip(795,0,855,500)\t(23,527,\clip(0,0,855,500))\pos(420,420)\fsp5}was "normality"
+Dialogue: 0,0:02:01.58,0:02:02.18,Black,,0,0,0,,{\fs80\c&H4B3C8A&\fade(250,0)\fsp10\pos(427,335)}just kidding
+Dialogue: 0,0:02:02.58,0:02:04.75,White Serif,,0,0,0,,{\fscx20\t(0,160,\fscx110)\fs80\c&HAEE86F&\pos(427,60)}Rehabilitation,
+Dialogue: 0,0:02:03.05,0:02:04.75,White Serif,,0,0,0,,{\fscx20\t(0,160,\fscx110)\fs80\c&HAEE86F&\pos(427,420)}the adults laughed easily
+Dialogue: 0,0:02:05.31,0:02:06.81,White Serif,,0,0,0,,{\fs70\pos(427,65)\c&HFD8ED1&}the parameters of daydreams
+Dialogue: 0,0:02:05.78,0:02:06.81,White Serif,,0,0,0,,{\fscx20\t(0,160,\fscx100)\fs70\pos(427,415)\c&HFD8ED1&}were completely {\c&H403EFF&}deep red
+Dialogue: 0,0:02:07.35,0:02:09.71,White Serif,,0,0,0,,{\fs70\fscx80\pos(427,45)\1c&HF9E58C&}If I would've been fine not knowing this {\c&H7042FB&}p{\c&HFCE384&}ain,
+Dialogue: 0,0:02:09.61,0:02:09.71,White Serif,,0,0,0,,{\fscx20\t(0,160,\fscx80)\fs70\pos(427,415)\1c&HF9E58C&}then I wish I could've remained ignorant
+Dialogue: 0,0:02:09.98,0:02:10.05,White Serif,,0,0,0,,{\fs70\fscx80\pos(427,45)\1c&HF9E58C&}If I would've been fine not knowing this {\c&H7042FB&}p{\c&HFCE384&}ain,
+Dialogue: 0,0:02:09.98,0:02:10.05,White Serif,,0,0,0,,{\fscx80\fs70\pos(427,415)\1c&HF9E58C&}then I wish I could've remained ignorant
+Dialogue: 0,0:02:10.48,0:02:11.75,White Serif,,0,0,0,,{\fs70\fscx80\move(427,45,427,65,650,1100)\1c&HF9E58C&}If I would've been fine not knowing this {\c&H7042FB&}p{\c&HFCE384&}ain,
+Dialogue: 0,0:02:10.48,0:02:11.75,White Serif,,0,0,0,,{\fscx80\fs70\move(427,415,427,435,,650,1100)\1c&HF9E58C&}then I wish I could've remained ignorant
+Dialogue: 0,0:02:12.41,0:02:14.28,Grey,,0,0,0,,{\fs80\c&H7C7F8C&\move(427,330,427,310)\t(\fs57)}It's a public execution, {\c&H8E92A9&}isn't {\c&H969BB4&}it?
+Dialogue: 0,0:02:14.61,0:02:15.61,Grey,,0,0,0,,{\fs80\c&H516674&\move(427,325,427,315)\t(\fs72)}Fuck off and die
+Dialogue: 0,0:02:16.98,0:02:19.01,Grey,,0,0,0,,{\fs80\c&H72546F&\alpha&H55\t(0,180,\alpha&H00)\t(\fs65)\move(427,325,427,310)}I spit on that
+Dialogue: 0,0:02:19.15,0:02:19.98,Grey,,0,0,0,,{\fs80\c&H878A63&\t(\fs67)\move(427,335,427,320)}weak justice
+Dialogue: 0,0:02:20.31,0:02:21.01,Grey,,0,0,0,,{\c&H070089&\fs67\t(\fs59)\move(427,320,427,310)}weak justice
+Dialogue: 0,0:02:21.84,0:02:23.35,Black,,0,0,0,,{\an2\bord1.5\fs60\3c&HFFFFFF\1c&HFFFFFF\t(0,150,\1c&H000000)}I've forgotten how to fight against reality
+Dialogue: 0,0:02:23.51,0:02:23.91,Black,,0,0,0,,{\an2\bord1.5\fs60\3c&HFFFFFF}since a long time ago
+Dialogue: 0,0:02:24.01,0:02:24.65,Black,,0,0,0,,{\an2\bord1.5\fs60\3c&HFFFFFF}since a long time ago
+Dialogue: 0,0:02:24.68,0:02:25.28,Black,,0,0,0,,{\an2\bord3\fs80\c&H4D0900&\3c&H9E8A95&}I'm tired
+Dialogue: 0,0:02:25.41,0:02:26.51,Black,,0,0,0,,{\an2\bord1.5\fs60\c&H4C0032&\3c&H6E5865&}My {\c&H34244D&\3c&H000000&}flight instinct {\c&H4C0032&\3c&H6E5865&}came forth
+Dialogue: 0,0:02:26.85,0:02:27.71,Black GreyBord,,0,0,0,,{\fs80\bord4\3c&H2E017D&\fay0.12\fax-0.7\c&H000000&\pos(307,346)}Read the atmosphere
+Dialogue: 0,0:02:27.78,0:02:28.55,Black GreyBord,,0,0,0,,{\an2\fade(0,100)\3c&H000000&\bord4\fs80\c&H2C007D&}with random guesswork
+Dialogue: 0,0:02:28.68,0:02:30.38,White Serif,,0,0,0,,{\c&H000000&\bord3\fs80\3c&HA394B9&\pos(427,326.857)}With a suitably loud voice,
+Dialogue: 0,0:02:30.35,0:02:30.75,White Serif,,0,0,0,,{\fade(100,0)\fs120\c&H6709FE&\pos(427,420)}shout out,
+Dialogue: 0,0:02:31.61,0:02:32.71,Grey,,0,0,0,,{\fs100\fscy80\fsp1\fade(0,140)\c&H3A284B&\pos(480,320)}I've been
+Dialogue: 0,0:02:31.61,0:02:32.71,Grey,,0,0,0,,{\fs100\fscy80\fsp1\fade(0,140)\c&H3A284B&\pos(480,380)}broken
+Dialogue: 0,0:02:31.61,0:02:32.71,Grey,,0,0,0,,{\fs100\fscy80\fsp1\fade(0,140)\c&H3A284B&\pos(480,440)}into pieces
+Dialogue: 0,0:02:32.58,0:02:33.35,Grey,,0,0,0,,{\fade(120,150)\t(\fsp5)\c&H57319A&\fs80\pos(427,316)}I'm already dead
+Dialogue: 0,0:02:33.21,0:02:34.35,Grey,,0,0,0,,{\bord2\an2\fade(120,110)\fs80\c&HAAA2B1&}With tacit {\c&H6A5453&}understanding,
+Dialogue: 0,0:02:34.25,0:02:34.95,White,,0,0,0,,{\fade(100,100)\fs120\c&HE3E4E1&\pos(570,90)}I lose interest,
+Dialogue: 0,0:02:34.85,0:02:35.65,White,,0,0,0,,{\fs120\fade(100,110)\pos(591.128,240)\c&H765D5C&}and get\Ndepressed
+Dialogue: 0,0:02:35.55,0:02:36.18,White,,0,0,0,,{\fade(100,0)\fs60\pos(427,314.667)\t(\fsp5)}Won't you laugh at me?
+Dialogue: 0,0:02:36.28,0:02:36.68,Black GreyBord,,0,0,0,,{\fs80\c&H111214&\bord2\pos(427,330)\3c&H848587&}Then, edit it well
+Dialogue: 0,0:02:36.70,0:02:38.08,Black GreyBord,,0,0,0,,{\fs80\c&HFFFFFF\3c&HFFFFFF\t(0,80,\c&H565459&\3c&HAFAEB1&)\bord2\pos(427,330)}Then, edit it well
+Dialogue: 0,0:02:38.28,0:02:38.68,Grey,,0,0,0,,{\fs82\t(\fs78)\pos(427,320)\c&H4D2F88&}pl{\c&H4F3289&}e{\c&H54368F&}a{\c&H573992&}s{\c&H583B91&}e {\c&H614695&}a{\c&H684AA1&}d{\c&H69529D&}d {\c&H735BA1&}u{\c&H7A64A7&}p {\c&H7F69AA&}eve{\c&H7D67A9&}n {\c&H775FA7&}t{\c&H6E579D&}he {\c&H634996&}l{\c&H5D4293&}a{\c&H5B3F92&}u{\c&H53368C&}g{\c&H53358C&}hter
+Dialogue: 0,0:02:38.68,0:02:41.71,Grey,,0,0,0,,{\fs78\t(\fs62)\move(427,320,427,305)\c&H4C2E87&}please add up even the laughter
+Dialogue: 0,0:02:42.05,0:02:44.18,Black GreyBord,,0,0,0,,{\bord1.5\fscx80\fs80\fsp20\t(0,100,\fsp8)\t(100,2010,\fsp2)\t(2010,2130,\fsp-2)\fade(100,100)\c&H62083B&\3c&H94858D&\pos(427,335)}I don't need a train anymore
+Dialogue: 0,0:02:44.45,0:02:45.61,Black GreyBord,,0,0,0,,{\bord1.5\fscx80\fs80\pos(427,335)\t(\fsp2)\c&H503121&\3c&H94898B&}Let's watch
+Dialogue: 0,0:02:45.78,0:02:46.85,Black GreyBord,,0,0,0,,{\bord1.5\fscx80\fs80\pos(427,335)\t(\fsp0.5)\c&H40168C&\3c&H94898B&}the last scene from the other side
+Dialogue: 0,0:02:47.11,0:02:48.21,Black GreyBord,,0,0,0,,{\bord1.5\fscx80\fs80\pos(427,335)\fsp0.5\t(\fsp1)\c&H210D43&\3c&H94898B&}the last scene from the other side
+Dialogue: 0,0:03:05.71,0:03:08.78,White,,0,0,0,,{\c&H6435F7&\move(427,290,427,285)\t(\fs40)}I install a new "me"
+Dialogue: 0,0:03:10.58,0:03:12.71,White,,0,0,0,,{\t(\fs40)\c&H260C73&\move(427,285,427,280)}Wearing clean textures,
+Dialogue: 0,0:03:13.21,0:03:15.15,White,,0,0,0,,{\move(427,305,427,300)\bord3\t(\fs40)\frz346.6\3c&H794833&}I'm reborn
+Dialogue: 0,0:03:15.35,0:03:17.38,White,,0,0,0,,{\pos(427,290)\fs50\t(\fs47)\c&H812F63&}Throw out what few emotions you have
+Dialogue: 0,0:03:17.55,0:03:19.98,White,,0,0,0,,{\pos(427,290)\fs47\t(\fs45)\c&H812F63&\t(900,1100,\1c&H1A0814&)\t(2050,2150,\c&H812F63&)}Throw out what few emotions you have
+Dialogue: 0,0:03:20.31,0:03:22.05,White,,0,0,0,,{\move(427,290,427,285)\t(\fs39)\c&H594C69&}Don't remain incomplete,
+Dialogue: 0,0:03:22.31,0:03:24.08,White,,0,0,0,,{\pos(427,290)\fsp-2\t(0,100,\fsp0)\t(100,1770,\fsp2)\fade(100,0)\c&H3C3753&}it makes me feel nauseous
+Dialogue: 0,0:03:24.88,0:03:26.05,White,,0,0,0,,{\pos(427,290)\fsp-2\t(0,120,\fsp2)\t(120,1000,\fsp4)\fade(100,0)\c&H342071&}I don't need it anymore
+Dialogue: 0,0:03:26.51,0:03:27.95,White Serif,,0,0,0,,{\fnConstantia\fs30\fsp1\pos(427,275)\t(0,1390,\fsp2)\t(1390,1440,\fsp4)\fade(250,0)}It's the rebellion's starting signal
+Dialogue: 0,0:03:27.98,0:03:29.78,White Serif,,0,0,0,,{\fnConstantia\fs30\fsp1\pos(427,275)\t(0,1720,\fsp4)\t(1720,1800,\fsp6)\fade(250,50)}Now's the eve to awaken
+Dialogue: 0,0:03:29.85,0:03:30.68,White Serif,,0,0,0,,{\fnConstantia\fs30\fsp1\pos(427,275)\t(0,785,\fsp3)\t(785,830,\fsp5)\fade(100,50)}Resist,
+Dialogue: 0,0:03:30.75,0:03:31.25,White Serif,,0,0,0,,{\fnConstantia\fs30\fsp1\pos(427,275)\t(\fsp3)\fade(100,0)}resist
+Dialogue: 0,0:03:31.31,0:03:31.81,White Serif,,0,0,0,,{\fnConstantia\fs30\fsp1\pos(427,275)\t(\fsp2)\fade(100,0)\c&H3406D1&}Flight instinct
+Dialogue: 0,0:03:32.15,0:03:35.71,White,,0,0,0,,{\bord2\3c&H95848E&\pos(332,237)\frz349.4}Swear,「I don't believe in things like god」
+Dialogue: 0,0:03:33.75,0:03:35.71,White,,0,0,0,,{\bord2\3c&H95848E&\pos(340,382)\frz351.3\c&H242424&}to god
+Dialogue: 0,0:03:35.81,0:03:36.21,White Serif,,0,0,0,,{\fs80\pos(427,325)\fsp-2\fade(100,0)\t(\fsp10)\c&HFF7DFF&\bord3}and shout out,
+Dialogue: 0,0:03:37.01,0:03:37.78,Black GreyBord,,0,0,0,,{\fs80\bord3\1c&HFFFFFF\3c&HFFFFFF\t(0,200,\c&H382E52&\3c&HDCD6DF&)\pos(350,435)}The future has such
+Dialogue: 0,0:03:37.98,0:03:38.51,Black GreyBord,,0,0,0,,{\fs80\bord3\c&H13130F&\3c&H918F8E&\pos(420,435)}grim prospects, why?
+Dialogue: 0,0:03:38.68,0:03:39.65,Black GreyBord,,0,0,0,,{\fs120\bord4\c&H61364B&\3c&HBDB3B7&\pos(420,435)}It's hard to breathe,
+Dialogue: 0,0:03:39.65,0:03:40.31,Black GreyBord,,0,0,0,,{\fs120\bord4\c&HB8B0B4&\3c&H5B2E46&\pos(420,435)}I'm sick,
+Dialogue: 0,0:03:40.31,0:03:40.81,Black GreyBord,,0,0,0,,{\fade(0,200)\fs120\bord4\c&H432C3B&\3c&HC7B7BE&\pos(490,435)}worried,
+Dialogue: 0,0:03:40.95,0:03:41.81,Black GreyBord,,0,0,0,,{\fade(0,0)\fs120\bord4\c&H6F4563&\3c&H979096&\pos(427,435)}and can't sleep
+Dialogue: 0,0:03:41.81,0:03:42.21,Grey,,0,0,0,,{\fs80\c&HBBBEBE&\pos(427,325)\t(\fsp5)}Hey,
+Dialogue: 0,0:03:42.21,0:03:42.85,Grey,,0,0,0,,{\fs160\fscy80\an4\pos(-30,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:03:42.85,0:03:43.01,Grey,,0,0,0,,{\fs160\fscy80\an4\move(-15,370,-1200,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:03:43.01,0:03:43.45,Grey,,0,0,0,,{\fs160\fscy80\an4\pos(-1075,370)}『the future I'd thrown away that day』
+Dialogue: 0,0:03:43.45,0:03:43.61,Grey,,0,0,0,,{\fs160\fscy80\an4\move(-1075,370,-1800,370)}『the future I'd thrown away that day』the train towards
+Dialogue: 0,0:03:43.61,0:03:44.18,Grey,,0,0,0,,{\fs160\fscy80\an4\pos(-1800,370)}『the future I'd thrown away that day』the train towards
+Dialogue: 0,0:03:44.35,0:03:46.75,White,,0,0,0,,{\t(\fs35)\move(427,345,427,325)\c&H2A0B6E&}Hey, will a train towards\N"the future I threw away that day" not come?
+Dialogue: 0,0:03:47.35,0:03:49.51,White,,0,0,0,,{\fs80\fscx90\fade(100,150)\c&H24233A&\pos(427,335)\fsp-2\t(0,100,\fsp0)\t(100,2010,\fsp2)\t(2010,2160,\fsp10)}If I miss it, it's over
+Dialogue: 0,0:03:49.58,0:03:52.08,White,,0,0,0,,{\fs50\fscx90\fade(100,250)\c&H2C1E3C&\pos(427,295)\fsp10\t(0,100,\fsp4)\t(\fsp0)}I'll never again be able to catch up
+Dialogue: 0,0:03:52.21,0:03:55.08,White,,0,0,0,,{\pos(427,340)\fs80\fscx80\c&H594157&\t(\fsp4)}This is my lonely war
+Dialogue: 0,0:03:55.25,0:03:56.31,White,,0,0,0,,{\fs80\fscx85\pos(427,335)\t(\fsp1)\c&H4328A1&}but I can't just simply end it
+Dialogue: 0,0:03:56.48,0:03:57.21,White,,0,0,0,,{\fs80\fscx85\pos(427,335)\fsp1\t(\fsp0.7)\c&H130E38&}but I can't just simply end it
+Dialogue: 0,0:03:57.48,0:03:58.58,White,,0,0,0,,{\fs80\fscx85\pos(427,335)\fsp0.7\t(\fsp0.3)\c&H130E38&}but I can't just simply end it

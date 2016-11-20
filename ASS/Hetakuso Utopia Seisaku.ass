@@ -1,0 +1,139 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 864
+PlayResY: 486
+Audio URI: Shoddy Utopia Policy rachie.mp3
+Scroll Position: 92
+Active Line: 97
+Video Zoom Percent: 0.625
+Video File: Hetakuso Utopia Seisaku.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 6211
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Blue Glow,きろ字,20,&H00D5AD99,&H000000FF,&H00D5AD99,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,5,10,10,10,1
+Style: Serif Blue Glow,Day Roman,20,&H00B5846E,&H000000FF,&H00B5846E,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,5,10,10,10,1
+Style: Blue Glow 2,ふい字,20,&H00D5AD99,&H000000FF,&H00D5AD99,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,5,10,10,10,1
+Style: Boxes,Arial,15,&H00FFFFFF,&H000000FF,&H00D5AD99,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: White,ふい字,22,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Serif Blue Glow 2,Day Roman,20,&H00B86C14,&H000000FF,&H00E9BC72,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,5,10,10,10,1
+Style: White Serif,Day Roman,20,&H00FFFFFF,&H000000FF,&H00E9BC72,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.91,0:00:13.38,Blue Glow,,0,0,0,,{\fade(275,0)\an4\blur2\move(235,265,235,320)\frz35\t(12400,12470,\1c&HFFFFFF\3c&HFFFFFF)}The endless dream {\alpha&HFF\t(2800,3100,\alpha&H00)}we both could see
+Dialogue: 0,0:00:06.45,0:00:13.38,Blue Glow,,0,0,0,,{\fade(275,0)\an4\blur2\frz35\t(6850,6950,\1c&HFFFFFF\3c&HFFFFFF)\move(415,222,415,255)}the you and me
+Dialogue: 0,0:00:09.18,0:00:13.41,Blue Glow,,0,0,0,,{\fade(275,0)\an4\blur2\frz35\t(4150,4250,\1c&HFFFFFF\3c&HFFFFFF)\move(487,240,487,260)}when would we reach…?
+Dialogue: 0,0:00:13.75,0:00:18.01,Serif Blue Glow,,0,0,0,,{\fsp10\blur2\3a&H33\t(0,155,\fsp5)\pos(432,198)\fade(0,225)}Shoddy Utopia Policy
+Dialogue: 0,0:00:18.21,0:00:21.88,Serif Blue Glow,,0,0,0,,{\blur2\3a&H33\fsp10\pos(432,198)\fade(200,50)\t(3600,3601,\alpha&HAA)}Music{\c&H974527&\fs15}◆{\c\fs}Suzumu Vocal{\bord0\c&H974527&\fs15\blur1}◇{\c\fs\bord\blur2}rachie Movie{\c&H974527&\fs15}◆{\c\fs}Saine
+Dialogue: 0,0:00:30.48,0:00:32.91,Boxes,,0,0,0,,{\fsp-2\fscy2900\fade(0,150)\pos(695,170)\clip(673,154,725,276)}■■■■■■■■■■■
+Dialogue: 0,0:00:30.51,0:00:32.92,Blue Glow 2,,0,0,0,,{\fade(300,125)\pos(697,210)\blur2\fsp-3}Another day,\N{\fsp-2.5}walking\Nhome\Nbeside you
+Dialogue: 0,0:00:33.08,0:00:35.51,Boxes,,0,0,0,,{\fsp-2\fscy2500\fade(0,0)\pos(209,145)\clip(180,133,237,237)}■■■■■■■■■■■
+Dialogue: 0,0:00:33.08,0:00:35.52,Blue Glow 2,,0,0,0,,{\fade(350,150)\blur2\fsp-2.5\pos(210,186)}Kicking\Nat pebbles,\Nwe laughed\Nand knew to
+Dialogue: 0,0:00:35.68,0:00:38.25,Boxes,,0,0,0,,{\fsp-2\fscy5000\fade(0,150)\pos(700,276)\clip(675,205,734,348)}■■■■■■■■■■■
+Dialogue: 0,0:00:35.71,0:00:38.25,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(703,270)}At all our\Nworry, at\Nall of\Nthe hurry
+Dialogue: 0,0:00:38.41,0:00:41.08,Boxes,,0,0,0,,{\fsp-2\fscy5000\fade(0,0)\pos(208,248)\clip(178,173,234,280)}■■■■■■■■■■■
+Dialogue: 0,0:00:38.41,0:00:41.08,Blue Glow 2,,0,0,0,,{\fade(350,140)\blur2\fsp-3\pos(201,225)}Standing and\Nbowing, the\Nperfect\Nstudent
+Dialogue: 0,0:00:41.28,0:00:43.95,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(256,107,311,245)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:41.28,0:00:43.95,Blue Glow 2,,0,0,0,,{\fade(320,150)\blur2\fsp-3\pos(284,174)}But on the\Nway I got\Ninjured and\Nbroken
+Dialogue: 0,0:00:44.11,0:00:46.69,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,0)\pos(432,140)\clip(658,166,719,335)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:44.15,0:00:46.69,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(688,245)}Put on a\Nsmile, a\Nmask to\Njoke with
+Dialogue: 0,0:00:46.85,0:00:48.09,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,0)\pos(432,140)\clip(623,149,658,283)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:46.88,0:00:48.09,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(640,213)}Pretending\Nlike I
+Dialogue: 0,0:00:48.35,0:00:49.49,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,0)\pos(432,140)\clip(154,128,181,255)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:48.35,0:00:49.49,Blue Glow 2,,0,0,0,,{\fade(250,150)\blur2\fsp-3\pos(166,190)}was gonna\Nbe fine
+Dialogue: 0,0:00:49.65,0:00:50.52,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(660,157,695,287)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:49.71,0:00:50.52,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(673,217)}I guess\Nthat\Nsomehow
+Dialogue: 0,0:00:50.68,0:00:52.95,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(423,96,456,274)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:00:50.68,0:00:51.95,Blue Glow 2,,0,0,0,,{\fade(300,0)\blur2\fsp-3\pos(440,185)}I finally\Nlearned to\Ngrow up
+Dialogue: 0,0:00:52.05,0:00:52.08,Blue Glow 2,,0,0,0,,{\fade(0,0)\bord0\blur2\fsp-3\pos(440,185)}I finally\Nlearned to\Ngrow up
+Dialogue: 0,0:00:52.08,0:00:52.96,Blue Glow 2,,0,0,0,,{\fade(0,150)\blur2\fsp-3\pos(440,185)}I finally\Nlearned to\Ngrow up
+Dialogue: 0,0:00:53.21,0:00:57.59,White,,0,0,0,,{\fade(350,150)\fsp-3\pos(592,194)\1a&HAA\blur3\bord3\3c&HA14B43&}Could you\Nreally\Ncall me\Nsheltered\Nthough?
+Dialogue: 0,0:00:53.21,0:00:57.59,White,,0,0,0,,{\fade(350,150)\fsp-3\pos(592,194)\blur1}Could you\Nreally\Ncall me\Nsheltered\Nthough?
+Dialogue: 0,0:00:58.68,0:01:02.99,White,,0,0,0,,{\fade(300,150)\fsp-3\pos(165,202)\1a&HAA\blur3\bord3\3c&HA14B43&}When the\Nworld has\Ntaught\Nme all\NI know
+Dialogue: 0,0:00:58.68,0:01:02.99,White,,0,0,0,,{\fade(300,150)\fsp-3\blur1\pos(165,202)}When the\Nworld has\Ntaught\Nme all\NI know
+Dialogue: 0,0:01:04.28,0:01:07.91,White,,0,0,0,,{\fade(300,100)\fsp-3\1a&HAA\blur3\bord3\3c&HA14B43&\pos(436,243)}When\Nthis\Nplace\Nis home,\Nwill I\Never\Nunderstand\Nit all?
+Dialogue: 0,0:01:04.28,0:01:07.91,White,,0,0,0,,{\fade(300,100)\fsp-3\blur1\pos(436,243)}When\Nthis\Nplace\Nis home,\Nwill I\Never\Nunderstand\Nit all?
+Dialogue: 0,0:01:08.51,0:01:10.89,Serif Blue Glow 2,,0,0,0,,{\fade(150,75)\blur2\bord1\fs25\fsp3\t(\fs22)\move(432,260,432,255)}Open up the book and read the page that you’re on
+Dialogue: 0,0:01:10.98,0:01:12.36,Serif Blue Glow 2,,0,0,0,,{\fade(150,90)\blur2\fs25\fsp5\pos(275,265)\c&HDBB57D&}Grow up and out until
+Dialogue: 0,0:01:12.45,0:01:13.50,Serif Blue Glow 2,,0,0,0,,{\fade(150,100)\blur2\fs25\fsp5\c&HDBB57D&\pos(650,272)}this world is empty and gone
+Dialogue: 0,0:01:13.58,0:01:17.98,Serif Blue Glow 2,,0,0,0,,{\fade(200,100)\fs25\blur3\bord2\t(\fs23)\pos(436,243)\fsp3\c&HC7845A&\1a&H33\3c&H5F1900&}'cause there will always be someone to laugh and point at you
+Dialogue: 0,0:01:13.58,0:01:17.98,Serif Blue Glow 2,,0,0,0,,{\fade(200,100)\fs25\blur1\t(\fs23)\pos(436,243)\fsp3\c&HC7845A&}'cause there will always be someone to laugh and point at you
+Dialogue: 0,0:01:18.11,0:01:19.25,Serif Blue Glow 2,,0,0,0,,{\fs25\c&HFFFFFF&\t(\fs24)\fade(200,50)\bord0\pos(450,270)}"Look at how worthless!"
+Dialogue: 0,0:01:19.61,0:01:21.75,Serif Blue Glow 2,,0,0,0,,{\fade(50,50)\blur2\move(300,265,300,275)\fs25\frz342.5\c&H965449&}I have wasted time with everything that I’ve learned
+Dialogue: 0,0:01:22.08,0:01:24.28,Serif Blue Glow 2,,0,0,0,,{\fade(50,80)\blur2\bord2\3a&H88\fs25\frz341.5\c&HF2D0A3&\move(550,280,550,290)\3c&H7E2900&}but I will not forget a single thing, if it’s earned
+Dialogue: 0,0:01:24.48,0:01:26.15,White Serif,,0,0,0,,{\pos(450,270)\blur0.5\fsp3\fade(150,75)\fs25\t(\fs23)}So carry on, carry proudly
+Dialogue: 0,0:01:26.21,0:01:27.55,White Serif,,0,0,0,,{\pos(450,270)\fade(150,75)\fs25\t(\fs24)}you’ll know you’ll make it through
+Dialogue: 0,0:01:27.78,0:01:30.21,White Serif,,0,0,0,,{\fs80\t(\fs72)\fade(100,0)\fsp5\pos(415,165)\bord2\blur2\3c&HBC7757&}hold it       high
+Dialogue: 0,0:01:30.41,0:01:33.01,Serif Blue Glow 2,,0,0,0,,{\fade(100,175)\fsp3\pos(440,270)\fs30\t(\fs27)}love can be life sized!
+Dialogue: 0,0:01:41.78,0:01:46.81,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(671,114,722,255)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:41.78,0:01:46.81,Blue Glow 2,,0,0,0,,{\fade(300,125)\pos(697,183)\blur2\fsp-3}Another day,\Nkicking\Npebbles\Nbeside you
+Dialogue: 0,0:01:44.41,0:01:46.81,Boxes,,0,0,0,,{\fsp-2\fscy10000\\fscx1000\fade(0,150)\pos(432,140)\clip(172,228,221,389)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:44.41,0:01:46.81,Blue Glow 2,,0,0,0,,{\fade(300,125)\blur2\fsp-3\pos(194,305)}Let's take a\Ndetour,\Nlet's try\Nsomething new
+Dialogue: 0,0:01:46.98,0:01:50.95,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(624,193,681,325)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:46.98,0:01:50.95,Blue Glow 2,,0,0,0,,{\fade(300,50)\blur2\fsp-3\pos(653,255)}Obeying\Nthe rules,\Nplaying\Nlike we're\Nso cool
+Dialogue: 0,0:01:49.71,0:01:50.98,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(169,145,193,251)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:49.71,0:01:50.98,Blue Glow 2,,0,0,0,,{\fade(300,75)\blur2\fsp-3\pos(179,197)}but every\Nday it\Njust
+Dialogue: 0,0:01:51.01,0:01:52.38,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(646,144,678,251)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:51.01,0:01:52.38,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(663,195)}causes\Ntrouble
+Dialogue: 0,0:01:52.58,0:01:55.25,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(626,168,681,297)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:52.58,0:01:55.25,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(654,230)}Some time\Nalong I told\Nlies like\Nwe all do
+Dialogue: 0,0:01:55.41,0:01:57.99,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(232,146,292,288)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:55.41,0:01:57.99,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(261,220)}I tried to\Nsmile, did\Nwhat I\Nwant to
+Dialogue: 0,0:01:58.18,0:01:59.39,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(619,147,658,285)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:58.18,0:01:59.39,Blue Glow 2,,0,0,0,,{\fade(300,150)\blur2\fsp-3\pos(640,215)}I had to\Ngrow on,
+Dialogue: 0,0:01:59.55,0:02:01.85,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,0)\pos(432,140)\clip(726,132,746,229)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:01:59.58,0:02:00.78,Blue Glow 2,,0,0,0,,{\fade(300,75)\blur2\fsp-3\pos(737,180)}adults\Nshould\Nmove on
+Dialogue: 0,0:02:00.91,0:02:01.82,Blue Glow 2,,0,0,0,,{\fade(0,150)\blur2\fsp-3\pos(737,180)}adults\Nshould\Nmove on
+Dialogue: 0,0:02:00.95,0:02:01.82,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,0)\pos(432,140)\clip(89,150,122,279)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:02:00.95,0:02:01.82,Blue Glow 2,,0,0,0,,{\fade(350,150)\blur2\fsp-3\pos(104,210)}Abandoned\Nall I had
+Dialogue: 0,0:02:01.98,0:02:04.25,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(424,94,456,275)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:02:01.98,0:02:03.28,Blue Glow 2,,0,0,0,,{\fade(350,0)\blur2\fsp-3\pos(440,185)}worked\Nhard to\Ncarry\Non to
+Dialogue: 0,0:02:03.48,0:02:04.25,Blue Glow 2,,0,0,0,,{\fade(0,150)\blur2\fsp-3\pos(440,185)}worked\Nhard to\Ncarry\Non to
+Dialogue: 0,0:02:04.58,0:02:08.98,White,,0,0,0,,{\fade(350,150)\blur1\fsp-3\fs17\t(\fs15)\move(440,330,440,320)}All my teachers taught the importance
+Dialogue: 0,0:02:09.91,0:02:14.29,White,,0,0,0,,{\fade(300,100)\fsp-3\1a&HAA\blur3\bord3\3c&HA14B43&\pos(432,243)}and the\Nmeaning\Nof true\N"common{\alpha&HFF}"\N"{\alpha&H00}sense"
+Dialogue: 0,0:02:09.91,0:02:14.29,White,,0,0,0,,{\fade(300,100)\fsp-3\blur1\pos(432,243)}and the\Nmeaning\Nof true\N"common{\alpha&HFF}"\N"{\alpha&H00}sense"
+Dialogue: 0,0:02:15.55,0:02:18.38,White,,0,0,0,,{\blur1\fade(350,75)\fs20\pos(432,230)}But I won't become so "common"
+Dialogue: 0,0:02:15.55,0:02:18.38,White,,0,0,0,,{\1a&HAA\blur3\bord3\3c&HA14B43&\fade(350,75)\fs20\pos(432,230)}But I won't become so "common"
+Dialogue: 0,0:02:18.48,0:02:19.18,White,,0,0,0,,{\blur1\fade(175,0)\pos(430,265)}like the rest of them
+Dialogue: 0,0:02:19.81,0:02:22.19,Serif Blue Glow 2,,0,0,0,,{\fade(150,75)\blur2\bord1\fs25\fsp3\t(\fs22)\move(432,260,432,255)}Open up the book and read the page that you’re on
+Dialogue: 0,0:02:22.28,0:02:23.65,Serif Blue Glow 2,,0,0,0,,{\fade(150,100)\blur2\fs25\fsp5\c&HDBB57D&\pos(605,265)}Grow up and out until
+Dialogue: 0,0:02:23.75,0:02:24.79,Serif Blue Glow 2,,0,0,0,,{\fade(150,90)\blur2\fs25\fsp5\pos(215,265)\c&HDBB57D&}this world is empty and gone
+Dialogue: 0,0:02:24.88,0:02:29.28,Serif Blue Glow 2,,0,0,0,,{\fade(200,100)\fs25\blur1\t(\fs23)\pos(436,243)\fsp3\c&HC7845A&}I heard a voice today, whispering inside my ear
+Dialogue: 0,0:02:29.41,0:02:30.55,Serif Blue Glow 2,,0,0,0,,{\fs25\fsp3\c&HFFFFFF&\t(\fs24)\fade(200,50)\blur0.5\bord0\pos(450,270)}"Why are you okay?"
+Dialogue: 0,0:02:30.91,0:02:33.05,Serif Blue Glow 2,,0,0,0,,{\fade(50,50)\blur2\move(300,265,300,275)\fs25\frz342.5\c&H965449&}Going home to books all lettered up with my notes
+Dialogue: 0,0:02:33.38,0:02:35.58,Serif Blue Glow 2,,0,0,0,,{\fade(50,80)\blur2\bord2\3a&H88\fs25\frz341.5\c&HF2D0A3&\move(540,260,540,270)\3c&H7E2900&}and formulas I know I’ll never use when I’m grown
+Dialogue: 0,0:02:35.78,0:02:37.42,White Serif,,0,0,0,,{\pos(450,270)\blur0.5\fsp3\fade(150,75)\fs25\t(\fs23)}But carry on, carry proudly
+Dialogue: 0,0:02:37.51,0:02:38.85,White Serif,,0,0,0,,{\pos(450,270)\fade(150,75)\fs25\t(\fs24)}you’ll know you’ll make it through
+Dialogue: 0,0:02:39.08,0:02:41.51,White Serif,,0,0,0,,{\fs80\t(\fs72)\fade(100,0)\fsp5\pos(415,165)\bord2\blur2\3c&HBC7757&}hold it       high
+Dialogue: 0,0:02:41.71,0:02:44.31,Serif Blue Glow 2,,0,0,0,,{\fade(100,175)\fsp3\pos(440,270)\fs30\t(\fs27)}love can be life sized!
+Dialogue: 0,0:03:05.15,0:03:05.92,Serif Blue Glow 2,,0,0,0,,{\fade(50,150)\fs25\fsp5\t(\fsp4)\blur3\pos(435,265)}Hey,
+Dialogue: 0,0:03:06.28,0:03:10.65,White,,0,0,0,,{\fade(350,150)\fsp-3\1a&HAA\blur3\bord3\3c&HA14B43&\pos(607,272)}Hey, Mr.\NTeacher,\Ncan you\Ntell me
+Dialogue: 0,0:03:06.28,0:03:10.65,White,,0,0,0,,{\fade(350,150)\blur1\fsp-3\3c&HA14B43&\pos(607,272)}Hey, Mr.\NTeacher,\Ncan you\Ntell me
+Dialogue: 0,0:03:11.68,0:03:16.05,White,,0,0,0,,{\fade(350,150)\1a&HAA\blur3\bord3\fsp-3\3c&HA14B43&\pos(165,193)}When they\Ngrow up,\Nwhat will\Nthey be?
+Dialogue: 0,0:03:11.68,0:03:16.05,White,,0,0,0,,{\fade(350,150)\blur1\fsp-3\3c&HA14B43&\pos(165,193)}When they\Ngrow up,\Nwhat will\Nthey be?
+Dialogue: 0,0:03:17.31,0:03:21.05,White,,0,0,0,,{\fade(350,0)\1a&HAA\blur3\bord3\fsp-3\3c&HA14B43&\pos(682,238)}Do I\Nlook\Nsurprised?\NWell, I\Nguess I\Nbetter\Nhide\Nit {\fsp-5}--
+Dialogue: 0,0:03:17.31,0:03:21.05,White,,0,0,0,,{\fade(350,0)\blur1\fsp-3\3c&HA14B43&\pos(682,238)}Do I\Nlook\Nsurprised?\NWell, I\Nguess I\Nbetter\Nhide\Nit {\fsp-5}--
+Dialogue: 0,0:03:21.41,0:03:23.75,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(425,128,457,368)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:03:21.41,0:03:23.75,Blue Glow 2,,0,0,0,,{\fade(350,150)\fsp-3\blur2\pos(440,245)}Open up\Nthe book\Nand read\Nthe page\Nthat\Nyou're on
+Dialogue: 0,0:03:23.91,0:03:26.55,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(144,131,179,394)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:03:23.91,0:03:26.55,Blue Glow 2,,0,0,0,,{\fade(350,150)\fsp-3\blur2\pos(162,262)}Grow up\Nand out\Nuntil this\Nworld is\Nempty\Nand gone
+Dialogue: 0,0:03:26.71,0:03:27.99,Boxes,,0,0,0,,{\fsp-2\fscy10000\fscx1000\fade(0,150)\pos(432,140)\clip(701,128,735,306)}■■■■■■■■■■■■■■■■■■■■■■
+Dialogue: 0,0:03:26.71,0:03:27.99,Blue Glow 2,,0,0,0,,{\fade(350,150)\fsp-3\blur2\pos(721,216)}It's for\Nconve-\Nnience,
+Dialogue: 0,0:03:28.01,0:03:30.98,White,,0,0,0,,{\fade(150,100)\blur1\pos(432,225)\fs20}but no one really does believe in it
+Dialogue: 0,0:03:31.15,0:03:32.11,White Serif,,0,0,0,,{\fs40\fade(100,75)\pos(432,295)\bord1\blur3}"Tell me the answer!"
+Dialogue: 0,0:03:32.51,0:03:33.51,White Serif,,0,0,0,,{\fade(50,0)\bord1\blur2\fs40\pos(560,295)}If I study hard, 
+Dialogue: 0,0:03:33.68,0:03:34.85,White Serif,,0,0,0,,{\fade(100,0)\bord1\blur2\fs40\pos(432,295)}and hate the life that I live,
+Dialogue: 0,0:03:35.01,0:03:36.15,White Serif,,0,0,0,,{\fade(50,50)\bord1\blur2\fs40\pos(580,290)}Will I forget these feelings
+Dialogue: 0,0:03:36.28,0:03:37.55,White Serif,,0,0,0,,{\fade(100,100)\bord1\blur2\fs40\pos(432,295)}and grow up in the end?
+Dialogue: 0,0:03:37.75,0:03:39.21,White Serif,,0,0,0,,{\fade(100,100)\bord1\blur2\fs40\pos(395,350)}Is an appearance worth it?
+Dialogue: 0,0:03:39.31,0:03:40.65,White Serif,,0,0,0,,{\fade(100,50)\bord1\blur2\fs40\pos(432,290)}No, I don’t think it’s true—
+Dialogue: 0,0:03:40.75,0:03:45.51,White Serif,,0,0,0,,{\fade(100,100)\bord1\blur2\fs40\pos(432,290)}Hold it high, love can be life sized!
+Dialogue: 0,0:03:46.28,0:03:52.27,White Serif,,0,0,0,,{\fade(100,150)\bord1\blur2\fs25\fsp3\pos(432,280)}"Warming up, this is who I’ll always be."

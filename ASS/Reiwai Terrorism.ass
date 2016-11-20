@@ -1,0 +1,104 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 854
+PlayResY: 480
+Scroll Position: 60
+Active Line: 63
+Video Zoom Percent: 0.875
+Video File: Reiwai Terrorism.mp4
+Video Aspect Ratio: c1.77917
+Video Position: 3766
+Last Style Storage: Default
+Audio URI: Reiwai Terrorism.mp4
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,小塚ゴシック Pro L,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Serif Black-Ish,小塚明朝 Pro H,20,&H003B1C23,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Pixel,88 Zen,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,15,1
+Style: Serif,小塚明朝 Pro H,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,15,1
+Style: Sans-Serif,小塚ゴシック Pro H,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.35,0:00:11.35,Title,,0,0,0,,{\move(427,280,427,270)\fsp3\fs30\t(\fs20)\bord1\3c&H6B3E24&\blur2}Heisei Project
+Dialogue: 0,0:00:12.05,0:00:13.35,Serif Black-Ish,,0,0,0,,{\fs80\move(375,330,360,365)\fay-0.08\bord3\3c&HFFFFB3&\blur3\3a&H22\frz355\frx0\t(\fry-15)}Zips
+Dialogue: 0,0:00:13.61,0:00:15.08,Serif Black-Ish,,0,0,0,,{\fs80\t(\fs75)\bord3\3c&HFFCC80&\blur3\3a&H44\move(427,370,427,360)}Kairiki Bear
+Dialogue: 0,0:00:18.75,0:00:18.88,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:18.95,0:00:20.48,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:20.68,0:00:20.71,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:20.88,0:00:21.05,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:21.21,0:00:23.88,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:24.55,0:00:24.61,Title,,0,0,0,,{\an2\c&H4A0002&\fn小塚ゴシック Pro H\fs50\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:25.71,0:00:27.25,Pixel,,0,0,0,,{\blur2\c&H6CF600&}The {\c&H00FDFF&}ambiguous meaning {\c&H6EFF00&}of {\c&HCEF900&}116
+Dialogue: 0,0:00:27.25,0:00:29.08,Pixel,,0,0,0,,{\c&H440AE7&\blur2}stops {\c&HFEFAFE&}in {\c&H401F3B&}agony
+Dialogue: 0,0:00:29.28,0:00:32.51,Pixel,,0,0,0,,{\blur2}Is {\c&HA9721B&}turning {\c&HFFFFFF&}over a {\c&H4355FB&}palm {\c&H0044F7&}of the value {\c&HFBF8FB&}of life {\c&H007488&}malicious intent{\c&HFA00F9&}?
+Dialogue: 0,0:00:32.68,0:00:34.01,Serif,,0,0,0,,{\c&H000098&}No matter how unpleasant it is, it's definitely
+Dialogue: 0,0:00:34.01,0:00:35.88,Serif,,0,0,0,,{\c&H000098&}an accidental death, it's autoscopy
+Dialogue: 0,0:00:35.98,0:00:38.05,Pixel,,0,0,0,,{\blur2}Jump to the memory level
+Dialogue: 0,0:00:39.31,0:00:40.95,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}A lonely soldier is fully armed
+Dialogue: 0,0:00:40.95,0:00:42.58,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}A scrap paper life, a great work
+Dialogue: 0,0:00:42.58,0:00:43.91,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}Brainwashing is expected even with a destroyed core
+Dialogue: 0,0:00:44.45,0:00:46.15,Sans-Serif,,0,0,0,,{\blur2\3c&HCC913A&\an5\t(\fsp2)\move(427,295,427,275,1650,1700)\t(1650,1700,\fs20)}Invite with a NO
+Dialogue: 0,0:00:46.31,0:00:47.78,Sans-Serif,,0,0,0,,{\fade(250,0)\t(\fsp3)\fs35\an5\pos(427,295)\bord0}In this era, even if you scatter bait,
+Dialogue: 0,0:00:47.95,0:00:49.25,Sans-Serif,,0,0,0,,{\t(\fsp2)\blur3\bord3\3c&HC17800&\an5\pos(427,305)\fs35}predation is also starving
+Dialogue: 0,0:00:49.28,0:00:51.21,Sans-Serif,,0,0,0,,{\t(\fsp2)\blur4\fade(200,0)\bord0.5\3a&H55\3c&HF2BC7F&\an5\pos(427,305)\fs35}I'm history's sign
+Dialogue: 0,0:00:52.15,0:00:52.55,Sans-Serif,,0,0,0,,{\fsp2\bord0\an5\pos(427,305)\fs35\c&H022852&}I'm history's sign
+Dialogue: 0,0:00:52.15,0:00:52.55,Sans-Serif,,0,0,0,,{\fsp2\bord0\an5\pos(427,305)\fs35\c&H000029&\clip(m 631 266 l 252 342 643 355)}I'm history's sign
+Dialogue: 0,0:00:52.65,0:00:52.91,Sans-Serif,,0,0,0,,{\fs70\fscx90\an5\pos(427,325)\c&HFFFF00&\bord0}Everyone,
+Dialogue: 0,0:00:53.21,0:00:54.65,Serif,,0,0,0,,Everyone, the {\c&H97FE42&}cyberterrorism's {\c&H0000FE&}begun,
+Dialogue: 0,0:00:54.65,0:00:55.71,Serif,,0,0,0,,{\c&H0000FE&}run {\c&HA2FE37&}away{\c&HFFFFFF&}!
+Dialogue: 0,0:00:56.31,0:00:59.61,Serif,,0,0,0,,{\3c&HFFFFFF\blur3\fs40\3a&H80\an3}Even if you want to\Nbecome a hero of justice,\Nyou can't
+Dialogue: 0,0:00:59.65,0:01:01.51,Sans-Serif,,0,0,0,,{\blur3\3c&H006388&}Keep spitting out {\c&H47DDF3&}soul distortion {\c}forever
+Dialogue: 0,0:01:01.75,0:01:03.05,Serif,,0,0,0,,{\fade(250,0)\t(\fsp3)\blur3\fs50\an5\pos(427,392)\3c&H590FE1&}「Unite and open!」
+Dialogue: 0,0:01:03.28,0:01:04.55,Serif,,0,0,0,,{\fade(250,100)\t(\fsp3)\blur3\fs35\3c&H80464F&}I ask and gazed
+Dialogue: 0,0:01:06.85,0:01:08.51,Serif,,0,0,0,,{\clip(0,0,855,480)\t(1480,1650,\clip(855,480,855,480))}Do unreasonable things with {\c&H000100&\3c&HFFFFFF}yes or no bodies,
+Dialogue: 0,0:01:08.31,0:01:10.11,Serif,,0,0,0,,{\clip(0,0,0,480)\t(40,180,\clip(0,0,855,480))\c&H0500E1&}break {\c&HFFFFFF&}and {\c&HFE4402&}be {\c&HF4FBF2&}eaten
+Dialogue: 0,0:01:10.21,0:01:13.21,Serif,,0,0,0,,{\bord1\blur2\3a&H80}Kill underestimated hostages with a murder knife
+Dialogue: 0,0:01:13.28,0:01:13.55,Serif,,0,0,0,,{\bord1\blur2\3a&H80\c&H1300BA&}Kill underestimated hostages with a murder knife
+Dialogue: 0,0:01:13.75,0:01:15.11,Pixel,,0,0,0,,{\fade(150,0)\an5\fs25\pos(215,285)}Even if you're reluctant, you're definitely
+Dialogue: 0,0:01:15.18,0:01:16.01,Pixel,,0,0,0,,{\c&H559CFF&}wo{\c&H3664FE&}rth{\c&HA6FFFF&}le{\c&H0401F5&}ss,
+Dialogue: 0,0:01:16.11,0:01:16.95,Sans-Serif,,0,0,0,,{\blur3\c&H6C4D3C&}a {\c&HFF6400&\3c&HB4200\blur2\bord3\3c&HFFFFFF}S{\1c&H2F0003&}o{\c&H4A0002&}u{\1c&H2F0003&}l {\c&H4A0002&}D{\1c&H2F0003&}i{\c&H4A0002&}s{\1c&H2F0003&}t{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}t{\1c&H2F0003&}i{\c&H4A0002&}o{\1c&H2F0003&}n {\c&H4A0002&}T{\1c&H2F0003&}e{\c&H4A0002&}r{\1c&H2F0003&}r{\c&H4A0002&}o{\1c&H2F0003&}r{\c&H4A0002&}i{\1c&H2F0003&}s{\c&H4A0002&}m
+Dialogue: 0,0:00:25.71,0:00:27.25,Pixel,,0,0,0,,{\blur2\c&H6CF600&}The {\c&H00FDFF&}ambiguous meaning {\c&H6EFF00&}of {\c&HCEF900&}116
+Dialogue: 0,0:00:27.25,0:00:29.08,Pixel,,0,0,0,,{\c&H440AE7&\blur2}stops {\c&HFEFAFE&}in {\c&H401F3B&}agony
+Dialogue: 0,0:00:29.28,0:00:32.51,Pixel,,0,0,0,,{\blur2}Is {\c&HA9721B&}turning {\c&HFFFFFF&}over a {\c&H4355FB&}palm {\c&H0044F7&}of the value {\c&HFBF8FB&}of life {\c&H007488&}malicious intent{\c&HFA00F9&}?
+Dialogue: 0,0:00:32.68,0:00:34.01,Serif,,0,0,0,,{\c&H000098&}No matter how unpleasant it is, it's definitely
+Dialogue: 0,0:00:34.01,0:00:35.88,Serif,,0,0,0,,{\c&H000098&}an accidental death, it's autoscopy
+Dialogue: 0,0:00:35.98,0:00:38.05,Pixel,,0,0,0,,{\blur2}Jump to the memory level
+Dialogue: 0,0:00:39.31,0:00:40.95,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}A lonely soldier is fully armed
+Dialogue: 0,0:00:40.95,0:00:42.58,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}A scrap paper life, a great work
+Dialogue: 0,0:00:42.58,0:00:43.91,Sans-Serif,,0,0,0,,{\c&H592D56&\3c&HF2D082&\blur2}Brainwashing is expected even with a destroyed core
+Dialogue: 0,0:00:44.45,0:00:46.15,Sans-Serif,,0,0,0,,{\blur2\3c&HCC913A&\an5\t(\fsp2)\move(427,295,427,275,1650,1700)\t(1650,1700,\fs20)}Invite with a NO
+Dialogue: 0,0:00:46.31,0:00:47.78,Sans-Serif,,0,0,0,,{\fade(250,0)\t(\fsp3)\fs35\an5\pos(427,295)\bord0}In this era, even if you scatter bait,
+Dialogue: 0,0:00:47.95,0:00:49.25,Sans-Serif,,0,0,0,,{\t(\fsp2)\blur3\bord3\3c&HC17800&\an5\pos(427,305)\fs35}predation is also starving
+Dialogue: 0,0:00:49.28,0:00:51.21,Sans-Serif,,0,0,0,,{\t(\fsp2)\blur4\fade(200,0)\bord0.5\3a&H55\3c&HF2BC7F&\an5\pos(427,305)\fs35}I'm history's sign
+Dialogue: 0,0:00:52.15,0:00:52.55,Sans-Serif,,0,0,0,,{\fsp2\bord0\an5\pos(427,305)\fs35\c&H022852&}I'm history's sign
+Dialogue: 0,0:00:52.15,0:00:52.55,Sans-Serif,,0,0,0,,{\fsp2\bord0\an5\pos(427,305)\fs35\c&H000029&\clip(m 631 266 l 252 342 643 355)}I'm history's sign
+Dialogue: 0,0:00:52.65,0:00:52.91,Sans-Serif,,0,0,0,,{\fs70\fscx90\an5\pos(427,325)\c&HFFFF00&\bord0}Everyone,
+Dialogue: 0,0:00:53.21,0:00:54.65,Serif,,0,0,0,,Everyone, the {\c&H97FE42&}cyberterrorism's {\c&H0000FE&}begun,
+Dialogue: 0,0:00:54.65,0:00:55.71,Serif,,0,0,0,,{\c&H0000FE&}run {\c&HA2FE37&}away{\c&HFFFFFF&}!
+Dialogue: 0,0:00:56.31,0:00:59.61,Serif,,0,0,0,,{\3c&HFFFFFF\blur3\fs40\3a&H80\an3}Even if you want to\Nbecome a hero of justice,\Nyou can't
+Dialogue: 0,0:00:59.65,0:01:01.51,Sans-Serif,,0,0,0,,{\blur3\3c&H006388&}Keep spitting out {\c&H47DDF3&}soul distortion {\c}forever
+Dialogue: 0,0:01:01.75,0:01:03.05,Serif,,0,0,0,,{\fade(250,0)\t(\fsp3)\blur3\fs50\an5\pos(427,392)\3c&H590FE1&}「Unite and open!」
+Dialogue: 0,0:01:03.28,0:01:04.55,Serif,,0,0,0,,{\fade(250,100)\t(\fsp3)\blur3\fs35\3c&H80464F&}I ask and gazed
+Dialogue: 0,0:01:06.85,0:01:08.51,Serif,,0,0,0,,{\clip(0,0,855,480)\t(1480,1650,\clip(855,480,855,480))}Do unreasonable things with {\c&H000100&\3c&HFFFFFF}yes or no bodies,
+Dialogue: 0,0:01:08.31,0:01:10.11,Serif,,0,0,0,,{\clip(0,0,0,480)\t(40,180,\clip(0,0,855,480))\c&H0500E1&}break {\c&HFFFFFF&}and {\c&HFE4402&}be {\c&HF4FBF2&}eaten
+Dialogue: 0,0:01:10.21,0:01:13.21,Serif,,0,0,0,,{\bord1\blur2\3a&H80}Kill underestimated hostages with a murder knife
+Dialogue: 0,0:01:13.28,0:01:13.55,Serif,,0,0,0,,{\bord1\blur2\3a&H80\c&H1300BA&}Kill underestimated hostages with a murder knife
+Dialogue: 0,0:01:13.75,0:01:15.11,Pixel,,0,0,0,,{\fade(150,0)\an5\fs25\pos(215,285)}Even if you're reluctant, you're definitely
+Dialogue: 0,0:01:15.18,0:01:16.01,Pixel,,0,0,0,,{\c&H559CFF&}wo{\c&H3664FE&}rth{\c&HA6FFFF&}le{\c&H0401F5&}ss,
+Dialogue: 0,0:01:16.11,0:01:16.95,Sans-Serif,,0,0,0,,{\blur3\c&H6C4D3C&}a {\c&HFF6400&\3c&HB42000&}dream {\c&HFF8867&}foot {\c&HFF6B33&}soldier
+Dialogue: 0,0:01:17.08,0:01:18.75,Pixel,,0,0,0,,{\an5\fade(250,0)\fscx90\fsp3\t(1250,1650,\fsp0)\bord0\pos(427,300)\fs35}Start running to the memory level
+Dialogue: 0,0:01:20.41,0:01:20.61,Sans-Serif,,0,0,0,,{\c&HFFFF5B&}Crybaby angels are {\c&HA2DC8E&\alpha&HFF}unprecedented
+Dialogue: 0,0:01:20.61,0:01:20.81,Sans-Serif,,0,0,0,,{\fs70\bord0\blur4\c&HFFFFFF&}Crybaby angels are {\c&HA2DC8E&\alpha&HFF}unprecedented
+Dialogue: 0,0:01:20.81,0:01:21.41,Sans-Serif,,0,0,0,,{\c&HFFFF5B&}Crybaby angels are {\c&HA2DC8E&\alpha&HFF}unprecedented
+Dialogue: 0,0:01:21.41,0:01:21.91,Sans-Serif,,0,0,0,,{\c&HFFFF5B&}Crybaby angels are {\c&HA05670&}unprecedented
+Dialogue: 0,0:01:21.91,0:01:23.55,Sans-Serif,,0,0,0,,{\blur3\c&H0400C1&}Trickery judgment, {\c&H214FFE&}a major premise
+Dialogue: 0,0:01:23.55,0:01:24.35,Sans-Serif,,0,0,0,,{\c&H57F9FB&}Even if a tailwind blows,
+Dialogue: 0,0:01:24.35,0:01:24.61,Sans-Serif,,0,0,0,,{\fs60\bord0\blur3\c&HB6FEFE&}Even if a tailwind blows,
+Dialogue: 0,0:01:24.61,0:01:24.81,Sans-Serif,,0,0,0,,{\c

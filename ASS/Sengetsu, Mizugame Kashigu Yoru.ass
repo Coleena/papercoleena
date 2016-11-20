@@ -1,0 +1,84 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 864
+PlayResY: 486
+Audio URI: Sengetsu, Mizugame Kashigu Yoru.mp4
+Scroll Position: 47
+Active Line: 55
+Video Zoom Percent: 0.75
+Video File: Sengetsu, Mizugame Kashigu Yoru.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 9379
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,衡山毛筆フォント行書,20,&H00FFFFFF,&H000000FF,&H00F2041D,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: Default,Candara,25,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,1,90,10,20,1
+Style: Default2,Candara,25,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,1,95,10,20,1
+Style: Default3,Candara,25,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,1,100,10,20,1
+Style: Pixel,88 Zen,25,&H00FFE690,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,90,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:37.55,0:00:50.06,Title,,0,0,0,,{\fade(600,0)\fs40\bord2\blur9\pos(432,413)\b1\fsp-1}Crescent Moon, Water Jug Waning Night
+Dialogue: 0,0:01:18.79,0:01:21.46,Default,,0,0,0,,{\fade(300,0)\blur2}The runway draws a horizon
+Dialogue: 0,0:01:21.46,0:01:25.60,Default,,0,0,0,,{\blur2}continuing endlessly
+Dialogue: 0,0:01:25.60,0:01:29.10,Default,,0,0,0,,{\blur2}I was satisfied with this
+Dialogue: 0,0:01:29.10,0:01:32.84,Default,,0,0,0,,{\blur2}perfectly clear, calm everyday
+Dialogue: 0,0:01:32.84,0:01:35.47,Default,,0,0,0,,{\blur2}I realized that thinking they'd continue forever
+Dialogue: 0,0:01:35.47,0:01:39.41,Default,,0,0,0,,{\blur2}was a too fragile ideal
+Dialogue: 0,0:01:39.41,0:01:43.12,Default,,0,0,0,,{\blur2}and made memories without time
+Dialogue: 0,0:01:43.12,0:01:46.85,Default,,0,0,0,,{\blur2}to even take a breath
+Dialogue: 0,0:01:46.85,0:01:51.79,Default,,0,0,0,,{\blur2}but a voice spitting out a pure white wall towards this back
+Dialogue: 0,0:01:51.79,0:01:54.46,Default,,0,0,0,,{\blur2}and noise mixing a bit
+Dialogue: 0,0:01:54.46,0:01:58.40,Default2,,0,0,0,,{\blur2}I follow the back of my head
+Dialogue: 0,0:01:58.40,0:02:00.87,Default2,,0,0,0,,{\blur2}One more step, I stop my hand
+Dialogue: 0,0:02:00.87,0:02:05.87,Default3,,0,0,0,,{\blur2}I realized the words we exchanged two days ago
+Dialogue: 0,0:02:05.87,0:02:08.51,Default,,0,0,0,,{\blur2}were the last
+Dialogue: 0,0:02:08.51,0:02:14.88,Default,,0,0,0,,{\blur2}Our everyday had dissolved, never to return
+Dialogue: 0,0:02:14.88,0:02:17.48,Default,,0,0,0,,{\blur2}Rays of light
+Dialogue: 0,0:02:17.48,0:02:22.55,Default,,0,0,0,,{\blur2}flow through the starry sky feigning calm
+Dialogue: 0,0:02:22.55,0:02:24.72,Default,,0,0,0,,{\blur2}I feign my emotions
+Dialogue: 0,0:02:24.72,0:02:28.93,Default,,0,0,0,,{\blur2}as this back of unflowing tears is pushed
+Dialogue: 0,0:02:28.93,0:02:30.20,Default,,0,0,0,,{\blur2}If after just a bit more,
+Dialogue: 0,0:02:30.20,0:02:31.56,Default,,0,0,0,,{\blur2}this heart
+Dialogue: 0,0:02:31.56,0:02:35.77,Default,,0,0,0,,{\blur2}would've been able to deeply understand this feeling
+Dialogue: 0,0:02:35.77,0:02:41.14,Default,,0,0,0,,{\blur2}yes, I want to pick up the moon's place
+Dialogue: 0,0:02:41.14,0:02:46.51,Default,,0,0,0,,{\blur2}concealed by shadow, ah
+Dialogue: 0,0:03:11.00,0:03:12.30,Default,,0,0,0,,{\blur2}Today as well,
+Dialogue: 0,0:03:15.27,0:03:18.81,Pixel,,0,0,0,,{\fade(1000,500)\bord0.2\blur5\3a&H77\pos(435,300)}Misei Hill
+Dialogue: 0,0:03:18.31,0:03:20.88,Pixel,,0,0,0,,{\fade(500,500)\bord0.2\blur5\3a&H77\pos(435,310)}Astronomical\NObservation
+Dialogue: 0,0:03:20.38,0:03:24.12,Pixel,,0,0,0,,{\fade(500,0)\bord0.2\blur5\3a&H77\pos(435,300)}Eta Aquariids
+Dialogue: 0,0:03:12.30,0:03:17.78,Default,,0,0,0,,{\blur2}the calendar says I had plans to go towards that hill
+Dialogue: 0,0:03:17.78,0:03:21.28,Default,,0,0,0,,{\blur2}I'd certainly seen it yesterday, too,
+Dialogue: 0,0:03:21.28,0:03:24.12,Default,,0,0,0,,{\blur2}the water jug's spilled wish
+Dialogue: 0,0:03:24.98,0:03:27.65,Default,,0,0,0,,{\blur2}For what, for whom
+Dialogue: 0,0:03:27.65,0:03:31.79,Default,,0,0,0,,{\blur2}I can't remember at all, but I believe
+Dialogue: 0,0:03:31.79,0:03:34.83,Default,,0,0,0,,{\blur2}there's definitely meaning
+Dialogue: 0,0:03:34.83,0:03:39.00,Default,,0,0,0,,{\blur2}I let the cloudy sky flow past
+Dialogue: 0,0:03:39.00,0:03:42.07,Default,,0,0,0,,{\blur2}Reflected on the pure white wall,
+Dialogue: 0,0:03:42.07,0:03:46.34,Default2,,0,0,0,,{\blur2}the usual scenery
+Dialogue: 0,0:03:46.34,0:03:49.21,Default,,0,0,0,,{\blur2}but the miniature garden is too beautiful
+Dialogue: 0,0:03:49.21,0:03:52.94,Default,,0,0,0,,{\blur2}My eyes follow its dust which dances as it falls
+Dialogue: 0,0:03:53.71,0:04:00.69,Default,,0,0,0,,{\blur2}I'll search for what was lost within that bright, shadowless room
+Dialogue: 0,0:04:00.69,0:04:07.60,Default,,0,0,0,,{\blur2\fade(0,300)}My memories had already dissolved, never to return
+Dialogue: 0,0:04:21.04,0:04:23.68,Default,,0,0,0,,{\blur2}The clouds covering the starry sky
+Dialogue: 0,0:04:23.68,0:04:28.42,Default,,0,0,0,,{\fade(0,250)\blur2}hide the brightness that should be there
+Dialogue: 0,0:04:35.05,0:04:37.66,Default,,0,0,0,,{\blur2}Alone, I extend my hand
+Dialogue: 0,0:04:37.66,0:04:38.99,Default,,0,0,0,,{\blur2}and cut the emptiness
+Dialogue: 0,0:04:38.99,0:04:42.73,Default,,0,0,0,,{\blur2}Lying ahead, the other side of the light that burns
+Dialogue: 0,0:04:42.73,0:04:44.90,Default,,0,0,0,,{\blur2}I suddenly heard
+Dialogue: 0,0:04:44.90,0:04:49.07,Default,,0,0,0,,{\blur2}the sound of footsteps riding on the strong wind
+Dialogue: 0,0:04:49.07,0:04:53.24,Default,,0,0,0,,{\blur2}My astir heart realized at the sight
+Dialogue: 0,0:04:53.24,0:04:56.68,Default2,,0,0,0,,{\blur2}of those figures I was sure I'd never seen before
+Dialogue: 0,0:04:56.68,0:04:58.88,Default,,0,0,0,,{\blur2}that the moon concealed by shadow
+Dialogue: 0,0:04:58.88,0:05:03.01,Default,,0,0,0,,{\blur2}shines a thin light
+Dialogue: 0,0:05:03.01,0:05:05.92,Default,,0,0,0,,{\blur2}Ah...
+Dialogue: 0,0:05:05.92,0:05:12.92,Default,,0,0,0,,{\blur2}The sky begins to shine
+Dialogue: 0,0:05:12.92,0:05:16.59,Default,,0,0,0,,{\fade(0,300)\blur2}Make a wish

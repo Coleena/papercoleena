@@ -1,0 +1,90 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 864
+PlayResY: 486
+Scroll Position: 50
+Active Line: 53
+Video Zoom Percent: 0.75
+Video File: Kogitsune no Ran.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 5355
+Audio URI: Kogitsune no Ran.mp4
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Black1,ゆず ペン字N [P],20,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: White1,ゆず ペン字N [P],20,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,15,1
+Style: WhiteIsh,ゆず ペン字N [P],20,&H00D6FAF7,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.85,0:00:03.82,Black1,,0,0,0,,{\blur0.5\fade(900,600)\pos(717,318)}Composition ・ Lyrics\N{\fs40}Marasy
+Dialogue: 0,0:00:04.02,0:00:07.09,Black1,,0,0,0,,{\blur0.5\fade(900,600)\pos(717,318)}Vocals\N{\fs35}Kagamine Rin
+Dialogue: 0,0:00:07.19,0:00:10.19,Black1,,0,0,0,,{\blur0.5\fade(900,600)\pos(717,250)\fs25}Bass\N{\fs35}drm
+Dialogue: 0,0:00:10.36,0:00:13.36,Black1,,0,0,0,,{\blur0.5\fade(900,700)\fs25\pos(717,345)}Illust. ・ Cont.\N{\fs35}Kitsune
+Dialogue: 0,0:00:13.53,0:00:16.53,Black1,,0,0,0,,{\blur0.5\fade(900,700)\fs25\pos(717,304.977)}Video\N{\fs35}Tansangata
+Dialogue: 0,0:00:22.10,0:00:33.85,White1,,0,0,0,,{\fade(800,250)\pos(432,455)\fs50\fnXaligraphy\b1}Rebellion of the Arc Fox
+Dialogue: 0,0:00:34.35,0:00:39.22,WhiteIsh,,0,0,0,,{\an6\fade(1000,500)\fs25\bord0.5\blur5\pos(807,338)}Today as well,\NI'm once again alone,\Nmy shout echoing\Ntowards the darkness,
+Dialogue: 0,0:00:39.22,0:00:45.02,WhiteIsh,,0,0,0,,{\fade(1500,500)\fs35\bord0.5\blur5\pos(686,345)}Mother,
+Dialogue: 0,0:00:41.25,0:00:44.72,WhiteIsh,,0,0,0,,{\fade(2000,600)\fs35\bord0.5\blur5\pos(585,399)}Mother
+Dialogue: 0,0:00:44.32,0:00:46.65,WhiteIsh,,0,0,0,,{\fade(1500,400)\an4\fs40\bord0.5\blur5\pos(24,161)}The day that smile was lost
+Dialogue: 0,0:00:46.59,0:00:49.33,WhiteIsh,,0,0,0,,{\fade(1500,400)\an4\fs40\bord0.5\blur5\pos(24,161)}on a trip to the starry heavens
+Dialogue: 0,0:00:49.10,0:00:51.16,WhiteIsh,,0,0,0,,{\fade(1500,400)\an4\fs40\bord0.5\blur5\pos(24,161)}is only a distant
+Dialogue: 0,0:00:51.23,0:00:53.90,WhiteIsh,,0,0,0,,{\fade(1500,0)\an6\fs45\bord0.5\blur5\pos(835,330)}memory
+Dialogue: 0,0:00:54.07,0:00:55.27,White1,,0,0,0,,{\fs80\pos(285,245)\frz8}The timid,
+Dialogue: 0,0:00:55.40,0:00:56.60,White1,,0,0,0,,{\fs80\pos(585,234)\frz4.557}cowardly
+Dialogue: 0,0:00:56.74,0:00:57.47,White1,,0,0,0,,{\fs70\pos(440,330)}kit fox's
+Dialogue: 0,0:00:57.54,0:00:58.74,White1,,0,0,0,,{\fs70\pos(440,330)}first bit of
+Dialogue: 0,0:00:58.87,0:01:00.34,White1,,0,0,0,,{\fs30\pos(432,278)}selfishness
+Dialogue: 0,0:01:00.47,0:01:01.54,White1,,0,0,0,,{\fs30\pos(432,278)}Call forth courage,
+Dialogue: 0,0:01:01.81,0:01:03.28,Black1,,0,0,0,,{\fs45\pos(432,300)}raise the start signal
+Dialogue: 0,0:01:03.51,0:01:05.75,White1,,0,0,0,,{\fade(750,250)\an2\fs30\c&HFEFEFF&}Now, jump into the first battle
+Dialogue: 0,0:01:05.85,0:01:08.31,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}With an excited impulse,
+Dialogue: 0,0:01:08.38,0:01:10.92,White1,,0,0,0,,{\fade(250,0)\an2\fs30\c&HFEFEFF&}the fox dashes through,
+Dialogue: 0,0:01:10.92,0:01:13.19,White1,,0,0,0,,{\fs30\pos(432,280)}dreaming of eternal happiness
+Dialogue: 0,0:01:13.19,0:01:15.45,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}Oppose fate
+Dialogue: 0,0:01:15.45,0:01:18.49,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}Fire was opened
+Dialogue: 0,0:01:18.49,0:01:21.23,White1,,0,0,0,,{\fs25\pos(432,280)}Rebellion of the arc fox
+Dialogue: 0,0:01:25.90,0:01:30.94,White1,,0,0,0,,{\an6\fade(1000,0)\fs25\bord0.5\blur5\pos(807,280)}The moment\Nwe'd bid good-bye,
+Dialogue: 0,0:01:28.57,0:01:30.94,White1,,0,0,0,,{\an4\fade(1000,0)\fs25\bord0.5\blur5\pos(67,340)}how had you felt,
+Dialogue: 0,0:01:31.00,0:01:36.04,WhiteIsh,,0,0,0,,{\fade(1500,0)\fs35\bord0.5\blur5\pos(790,315)}Mother,
+Dialogue: 0,0:01:33.41,0:01:36.04,WhiteIsh,,0,0,0,,{\fade(1500,0)\fs35\bord0.5\blur5\pos(696,380)}Mother?
+Dialogue: 0,0:01:36.11,0:01:38.54,WhiteIsh,,0,0,0,,{\fade(1500,400)\an4\fs40\bord0.5\blur5\pos(24,161)\3c&H79CDF9&}Was it joy? Sorrow?
+Dialogue: 0,0:01:38.38,0:01:40.51,WhiteIsh,,0,0,0,,{\fade(1500,0)\an4\fs40\bord0.5\blur5\pos(24,161)\3c&H79CDF9&}Fleeting, glistening pupils
+Dialogue: 0,0:01:40.55,0:01:43.67,WhiteIsh,,0,0,0,,{\fade(1500,500)\an4\fs40\bord0.5\blur5\pos(24,161)\3c&H79CDF9&}only wet
+Dialogue: 0,0:01:42.78,0:01:45.55,WhiteIsh,,0,0,0,,{\fade(1500,0)\an6\fs45\bord0.5\blur5\pos(835,330)}this smile
+Dialogue: 0,0:01:45.75,0:01:47.02,White1,,0,0,0,,{\fs80\pos(285,245)\frz8}The timid,
+Dialogue: 0,0:01:47.15,0:01:48.35,White1,,0,0,0,,{\fs80\pos(585,234)\frz4.557}cowardly
+Dialogue: 0,0:01:48.49,0:01:49.26,White1,,0,0,0,,{\fs70\pos(440,330)}kit fox's
+Dialogue: 0,0:01:49.32,0:01:50.32,White1,,0,0,0,,{\fs70\pos(440,330)}first bit of
+Dialogue: 0,0:01:50.46,0:01:51.96,White1,,0,0,0,,{\fs30\pos(432,278)}selfishness
+Dialogue: 0,0:01:52.12,0:01:55.01,Black1,,0,0,0,,{\fs45\pos(432,300)\fade(0,200)}Aah, I hate being alone!
+Dialogue: 0,0:01:55.09,0:01:57.40,White1,,0,0,0,,{\fade(750,250)\an2\fs30\c&HFEFEFF&}Now, jump into the first battle
+Dialogue: 0,0:01:57.50,0:01:59.97,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}It's impossible to return afterwards
+Dialogue: 0,0:02:00.00,0:02:02.54,White1,,0,0,0,,{\fade(250,0)\an2\fs30\c&HFEFEFF&}The fox dashes
+Dialogue: 0,0:02:02.54,0:02:04.80,White1,,0,0,0,,{\fs30\pos(432,280)}towards the cloudless sky
+Dialogue: 0,0:02:04.80,0:02:07.07,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}Oppose fate,
+Dialogue: 0,0:02:07.27,0:02:10.11,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}because what you want
+Dialogue: 0,0:02:10.11,0:02:12.91,White1,,0,0,0,,{\fs30\pos(432,280)}is there
+Dialogue: 0,0:02:52.02,0:02:53.29,White1,,0,0,0,,{\fs80\pos(285,245)\frz8}The timid,
+Dialogue: 0,0:02:53.42,0:02:54.62,White1,,0,0,0,,{\fs80\pos(585,234)\frz4.557}cowardly
+Dialogue: 0,0:02:54.75,0:02:55.59,White1,,0,0,0,,{\fs70\pos(440,330)}kit fox's
+Dialogue: 0,0:02:55.59,0:02:56.90,White1,,0,0,0,,{\fs70\pos(440,330)}first bit of
+Dialogue: 0,0:02:57.12,0:02:58.67,White1,,0,0,0,,{\fs30\pos(432,278)}selfishness
+Dialogue: 0,0:02:58.67,0:02:59.74,White1,,0,0,0,,{\fs30\pos(432,278)}"Once more,
+Dialogue: 0,0:02:59.74,0:03:01.96,White1,,0,0,0,,{\fs30\pos(432,285)}I want to see you, I want to see you!
+Dialogue: 0,0:03:02.09,0:03:03.90,White1,,0,0,0,,{\fade(500,500)\bord0.5\blur5\fs35\pos(432,285.725)\3c&HCAADA8&}it shouts to the celestial fox
+Dialogue: 0,0:03:04.03,0:03:06.23,White1,,0,0,0,,{\fade(750,250)\an2\fs30\c&HFEFEFF&}Now, jump into the first battle
+Dialogue: 0,0:03:06.23,0:03:08.80,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}The last fox from the beginning
+Dialogue: 0,0:03:08.80,0:03:11.40,White1,,0,0,0,,{\fade(250,0)\an2\fs30\c&HFEFEFF&}dashes through,
+Dialogue: 0,0:03:11.40,0:03:13.74,White1,,0,0,0,,{\pos(432,280)\fs30}dreaming of eternal happiness
+Dialogue: 0,0:03:13.74,0:03:15.94,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}Oppose fate
+Dialogue: 0,0:03:16.14,0:03:18.98,White1,,0,0,0,,{\fade(250,250)\an2\fs30\c&HFEFEFF&}Seize it back with those hands
+Dialogue: 0,0:03:19.08,0:03:21.75,White1,,0,0,0,,{\pos(432,280)\fs30}Rebellion of the arc fox
+Dialogue: 0,0:03:23.38,0:03:29.89,White1,,0,0,0,,{\pos(432,280)\fade(1000,1500)\fs30\bord0.5\fsp2\t(\fsp3)\blur5\3c&HA59895&}Mother, I'm home

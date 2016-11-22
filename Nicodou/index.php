@@ -42,40 +42,17 @@ $(document).ready(function() {
 </thead> 
 <tbody> 
 <?php 
-$result = $link->query("select englishTitle from vocalyriclist order by url");
-$englishList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$englishList[] = $row[0];
-}
-$result = $link->query("select romajiTitle from vocalyriclist order by url");
-$romajiList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$romajiList[] = $row[0];
-}
-$result = $link->query("select japaneseTitle from vocalyriclist order by url");
-$japaneseList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$japaneseList[] = $row[0];
-}
-$result = $link->query("select url from vocalyriclist order by url");
-$urlList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$urlList[] = $row[0];
-}
-$result = $link->query("select uploadDate from vocalyriclist order by url");
-$dateList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$dateList[] = $row[0];
-}
-$result = $link->query("select youtubeLink from vocalyriclist order by url");
-$youtubeList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$youtubeList[] = $row[0];
-}
-$result = $link->query("select tumblrLink from vocalyriclist order by url");
-$tumblrList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$tumblrList[] = $row[0];
+// Store all columns as arrays from vocalyriclist table
+$info = $link->query("select * from vocalyriclist order by id ASC")->fetch_all(MYSQLI_ASSOC);
+$englishList = $romajiList = $japaneseList = $urlList = $dateList = $youtubeList = $tumblrList = array();
+for($rowNum = 0; $rowNum < count($info); $rowNum++){
+	$englishList[] = $info[$rowNum]['englishTitle'];
+	$romajiList[] = $info[$rowNum]['romajiTitle'];
+	$japaneseList[] = $info[$rowNum]['japaneseTitle'];
+	$urlList[] = $info[$rowNum]['url'];
+	$dateList[] = $info[$rowNum]['uploadDate'];
+	$youtubeList[] = $info[$rowNum]['youtubeLink'];
+	$tumblrList[] = $info[$rowNum]['tumblrLink'];
 }
 
 for($i = 0; $i < sizeof($englishList); $i++){

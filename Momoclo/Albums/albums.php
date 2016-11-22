@@ -58,9 +58,6 @@ for($rowNum = 0; $rowNum < count($info); $rowNum++){
 	$altRomajiTitle[] = $info[$rowNum]['romajiTitle'];
 	$altJapaneseTitle[] = $info[$rowNum]['japaneseTitle'];
 	$trackUrl[] = $info[$rowNum]['trackUrl'];
-	$amazonLink[] = $info[$rowNum]['amazonLink'];
-	$cdjapanLink[] = $info[$rowNum]['cdjapanLink'];
-	$itunesLink[] = $info[$rowNum]['itunesLink'];
 }
 
 // Store all columns as arrays from purchaseinfo table

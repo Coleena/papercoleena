@@ -4,37 +4,37 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    height:7px;
+	height:7px;
 }
 ::-webkit-scrollbar-thumb:horizontal {
-    background-color:#FFFFFF;
-    height:7px!important;
+	background-color:#FFFFFF;
+	height:7px!important;
 }
 
 /* ------------ General Layout ------------ */
 body {
-    font-family:'Source Sans Pro', Calibri, "MS PGothic", Meiryo, sans-serif;
-    color: #666;
+	font-family:'Source Sans Pro', Calibri, "MS PGothic", Meiryo, sans-serif;
+	color: #666;
 	margin: 0;
 	height: 100%;
 	width: 100%;
 	font-size: 14.5px;
-    background-color: #F8F8FA;
+	background-color: #F8F8FA;
 }
 	.momoclo body{
 		background-color: #FFEAF3;
 	}
 p{
-    margin: 4px 14px;
-    max-height: 999999px;
+	margin: 4px 14px;
+	max-height: 999999px;
 }
 b, strong { color:#3e3e3e; }
 small {
 	font-size: 0.8em;
 }
 h1 {
-    font-size: 2.2em;
-    font-weight: 700;
+	font-size: 2.2em;
+	font-weight: 700;
 	margin: 0px 5px;
 	color: #000;
 }
@@ -62,11 +62,11 @@ img{
 }
  
 a, a:link{
-    color:#3893d0;
+	color:#3893d0;
 }
  
 a:visited {
-    color:#86649b;
+	color:#86649b;
 }
 
 ul{
@@ -119,20 +119,21 @@ header a{
 	outline: none;
 }
 #top #searchbox::-webkit-input-placeholder {
-    color: #999;
+	color: #999;
 }
 #top #searchbox:focus::-webkit-input-placeholder{
 	color: #CCC;
 }
 #top #homebuttonlink{
 	float: left;
+	margin-left: 100px;
 }
 #top #homebutton{
 	width: 30px;
 	height: 30px;
 	position: relative;
 	float: left;
-	margin: 4px 60px 4px 5px;
+	margin: 4px 30px 4px 5px;
 }
 #top #settingslink{
 	float: right;
@@ -165,7 +166,7 @@ header a{
 	background-color: #FF84AD;
 	list-style-type: none;	
 	color: #FFF;
-    box-shadow: 1px 1px 1px rgba(100,10,10,0.15), -1px -1px 1px rgba(100,10,10,0.15);
+	box-shadow: 1px 1px 1px rgba(100,10,10,0.15), -1px -1px 1px rgba(100,10,10,0.15);
 }
 .momoclo #top #settingsmenu #settings{
 	background-color: #FF9BD3;
@@ -173,11 +174,11 @@ header a{
 #top #settingsmenu #settings li{
 	padding: 7px 14px;
 	cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 #top #settingsmenu #settings li:hover{
 	background-color: #FFB7CF;
@@ -194,10 +195,10 @@ header a{
 	font-weight: 600;
 	text-decoration: none;
 	text-shadow:
-   -1px -1px 0 #F27DA4,  
-    1px -1px 0 #F27DA4,  
-    -1px 1px 0 #F27DA4,  
-     1px 1px 0 #F27DA4,  
+	-1px -1px 0 #F27DA4,  
+	1px -1px 0 #F27DA4,  
+	-1px 1px 0 #F27DA4,  
+	1px 1px 0 #F27DA4;
 }
 #about{
 	margin: 2px 30px;
@@ -227,6 +228,120 @@ header a{
 }
 .content2{
 	max-width: 980px;
+}
+
+/* ----- Lyriclist Album/List Display ----- */
+.settingslist{
+	height: 40px;
+	width: 100%;
+	margin: 8px 10px 4px 20px;
+	color: #ffb2d3;
+}
+.settingslist button.active{
+	color: #f52ca0;
+    border-bottom: 2px solid #ff0093;
+}
+.settingslist button{
+	padding: 7px 15px;
+	background-color: white;
+    border-bottom: 1px solid #ffb2d3;
+	border-radius: 0;
+	color: #ffb2d3;
+}
+.settingslist div.albumview{
+	display: inline-block;
+	margin-left: 18px;
+	color: #ff4192;
+}
+.settingslist div.albumview button:first-child{
+	margin-left: 5px;
+}
+.settingslist div.albumview button{
+	padding: 0 10px 5px 10px;
+	border-bottom: 0;
+}
+.settingslist div.albumview button.active{
+    border-bottom: 1px solid #ff0093;
+}
+
+.wrapping.albumview{
+	padding: 8px 20px;
+}
+.albumview .listitem{
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	height: 320px;
+	margin: 14px 20px;
+	background-size: cover;
+	background-position: center; 
+	text-align: center;
+	color: white;
+}
+.albumview .listitem .listtitle{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: 2px;
+	padding: 0 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	text-shadow: 
+				0.6px 0.6px 2.4px rgba(0,0,0,0.7),
+				0.6px -0.6px 2.4px rgba(0,0,0,0.7),
+				-0.6px 0.6px 2.4px rgba(0,0,0,0.7),
+				-0.6px -0.6px 2.4px rgba(0,0,0,0.7);
+}
+.albumview .listitem .listoverlay{
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: left;
+	overflow-y: scroll;
+	
+	background-color: rgba(0, 0, 0, 0.65);
+	font-size: 18px;
+	z-index: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	opacity: 0;
+	text-shadow: 
+				0.6px 0.6px 2px rgba(0,0,0,0.7),
+				-0.6px -0.6px 2px rgba(0,0,0,0.7);
+}
+.albumview .listitem .listoverlay::-webkit-scrollbar { 
+    display: none; 
+}
+.albumview .listitem .listoverlay ol{
+	padding-right: 10px;
+	margin: 28px 18px;
+}
+.albumview .listitem .listoverlay a:link{
+	color: #59afef
+}
+.albumview .listitem .listoverlay a:visited{
+	color: #c361ff
+}
+.albumview .listitem .listoverlay:hover{
+	opacity: 1;
+}
+.albumview .yearheader{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 32px;
+	font-family: 'Titan One', sans-serif;
+	color: #f52ca0;
+	border-bottom: 1px solid #ff84ad;
+}
+
+.listview{
+	display: none;
 }
 
 /* ------------- Lyrics Pages ------------- */
@@ -290,13 +405,18 @@ table{
 	position: relative;
 	right: 30px;
 	top: 8px;
+	background: linear-gradient(rgba(255,220,220,0.4), rgba(255,220,220,1) 70%, rgba(255,220,220,0.8));
+	font-size: 14px;
+}
+#versionbutton:active{
+	background-color: #FFDCDC;
 }
 
 /* ----------- Momoclo Albumart ----------- */
 #albumartcontainer{
 	display: block;
 	padding: 0px 0px;
-	max-width: 146px;
+	width: 146px;
 	height: 146px;
 	border: 2px solid;
 	border-color: #EEE;
@@ -355,12 +475,13 @@ table{
 #romajitable td,#japanesetable td{
 	border-right: 1px solid #333;
 }
-#japanesetable{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.listtitle, #japanesetable{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
 }
 .videolink{
 	margin: 3px 2px 0px 2px;
@@ -375,22 +496,22 @@ table{
 
 /* ---------------- Footer ---------------- */
 .kanako{
-    color:#FF0000;
+	color:#FF0000;
 }
 .akari{
-    color:blue;
+	color:blue;
 }
 .momoka{
-    color:green;
+	color:green;
 }
 .shiori{
-    color:#EBB400;
+	color:#EBB400;
 }
 .aarin{
-    color:#FF1493;
+	color:#FF1493;
 }
 .reni{
-    color:purple;
+	color:purple;
 }
 .zversion{
 	display:none;
@@ -454,31 +575,24 @@ table{
 	text-align: center;
 }
 .videotab {
-    display: none;
+	display: none;
 	max-width: 768px;
 	height: 432px;
 	padding: 5px 5px;
 }
 .videotab.active {
-    display: block;
+	display: block;
 }
 .videotab iframe, .videotab embed {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 button{
 	border-radius: 5px;
 	padding: 4px 12px;
 	border: none;
-	background: linear-gradient(rgba(255,220,220,0.4), rgba(255,220,220,1) 70%, rgba(255,220,220,0.8));
 	outline: 0;
-	font-size: 14px;
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
-}
-button:active{
-    background-color: #FFDCDC;
-	box-shadow: none;
 }
 
 iframe{
@@ -553,7 +667,7 @@ iframe{
 	display:none;
 	background-color:rgba(0, 0, 0, 0.7);
 	width:100%; 
-    height:100%; 
+	height:100%; 
 	top:0;
 	left:0;
 	text-align: center;
@@ -561,14 +675,14 @@ iframe{
 }
 .popped{
 	width: 90vw;
-    height: 50.625vw;
+	height: 50.625vw;
 	max-height: 90vh;
-    max-width: 160vh;
-    margin: auto;
-    position: absolute;
-    top: 0;
+	max-width: 160vh;
+	margin: auto;
+	position: absolute;
+	top: 0;
 	bottom: 0;
-    left: 0;
+	left: 0;
 	right: 0;
 }
 
@@ -626,6 +740,7 @@ header.series{
 @media all and (max-device-width: 790px){
 	.content, .content2{
 		margin-top: 0px;
+		margin-bottom: 0px;
 		border: none;
 	}
 	.tablist li{
@@ -673,7 +788,7 @@ header.series{
 		font-size: 1em;
 	}
 	#momoclologo{
-		height: 26px;
+		height: 28px;
 		padding-top: 1px;
 		padding-left: 4px;
 	}
@@ -694,7 +809,29 @@ header.series{
 		top: 25px;
 	}
 	
-	/* content */
+	/* List page content */
+	.albumview .listitem{
+		margin: 14px 0px;
+	}
+	.albumview .listitem .listoverlay{
+		opacity: 1;
+	}
+	.settingslist{
+		height: initial;
+		width: 90%;
+	}
+	.settingslist div.albumview{
+		margin: 8px 0px 0px 11px;
+	}
+	
+	.albumview .listitem{
+		width: 95%;
+	}
+	.albumview .listitem .listoverlay{
+		background-color: rgba(0, 0, 0, 0.45);
+	}
+	
+	/* Content */
 	h1{
 		font-size: 1.7em;
 	}
@@ -702,7 +839,7 @@ header.series{
 		font-size: 1.5em;
 	}
 	
-	/* lyricpage top */
+	/* Lyricpage top */
 	#versionbutton{
 		display: block;
 		float: none;
@@ -753,7 +890,7 @@ header.series{
 		font-size: 1em;
 	}
 	
-	/* lyricpage content */
+	/* Lyricpage content */
 	#lyriccontainer{
 		margin-left: 4px;
 	}
@@ -773,6 +910,16 @@ header.series{
 	}
 	#romajitable td, #japanesetable td{
 		border-right: none;
+	}
+	
+	/* Albumpage content */
+	.albumcontainer{
+		max-width: 310px;
+		width: initial;
+		display: block;
+		border: none;
+		padding: 8px 22px 18px 22px;
+		margin: auto;
 	}
 }
 

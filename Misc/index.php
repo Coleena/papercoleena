@@ -38,35 +38,16 @@ $(document).ready(function() {
 </thead> 
 <tbody> 
 <?php 
-$result = $link->query("select englishTitle from misclyriclist order by url");
-$englishList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$englishList[] = $row[0];
-}
-$result = $link->query("select romajiTitle from misclyriclist order by url");
-$romajiList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$romajiList[] = $row[0];
-}
-$result = $link->query("select japaneseTitle from misclyriclist order by url");
-$japaneseList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$japaneseList[] = $row[0];
-}
-$result = $link->query("select url from misclyriclist order by url");
-$urlList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$urlList[] = $row[0];
-}
-$result = $link->query("select artistName from misclyriclist order by url");
-$artistList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$artistList[] = $row[0];
-}
-$result = $link->query("select releaseDate from misclyriclist order by url");
-$dateList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$dateList[] = $row[0];
+// Store all columns as arrays from misclyriclist table
+$info = $link->query("select * from misclyriclist order by url ASC")->fetch_all(MYSQLI_ASSOC);
+$englishList = $romajiList = $japaneseList = $urlList = $dateList = $artistList = array();
+for($rowNum = 0; $rowNum < count($info); $rowNum++){
+	$englishList[] = $info[$rowNum]['englishTitle'];
+	$romajiList[] = $info[$rowNum]['romajiTitle'];
+	$japaneseList[] = $info[$rowNum]['japaneseTitle'];
+	$artistList[] = $info[$rowNum]['artistName'];
+	$urlList[] = $info[$rowNum]['url'];
+	$dateList[] = $info[$rowNum]['releaseDate'];
 }
 
 for($i = 0; $i < sizeof($englishList); $i++){

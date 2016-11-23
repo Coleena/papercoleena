@@ -12,9 +12,9 @@ NicoNico Douga Translations
 </a>
 <div id="settingsmenu">
 	<ul id="settings">
-		<li id="japanesetoggle"><span class="placeholderjapanese">Show Japanese Lyrics</span><span class="hiddenjapanese">Hide Japanese Lyrics</span></li>
-		<li id="romajitoggle"><span class="placeholderromaji">Show Romaji Lyrics</span><span class="romaji">Hide Romaji Lyrics</span></li>
-		<li id="preferencetoggle"><span class="romajipreference">Display Titles in Japanese</span><span class="japanesepreference">Display Titles in Romaji</span></li>
+		<li id="japanesetoggle"><span class="placeholderjapanese">✖	Jpn</span><span class="hiddenjapanese">✔ Jpn</span></li><!--
+		--><li id="romajitoggle"><span class="placeholderromaji">✖	Rom</span><span class="romaji">✔ Rom</span></li><!--
+		--><li id="preferencetoggle"><span class="romajipreference">Display Titles in Japanese</span><span class="japanesepreference">Display Titles in Romaji</span></li>
 	</ul>
 </div>
 </form>

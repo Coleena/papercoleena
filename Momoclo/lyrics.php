@@ -218,13 +218,17 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 </div>
 
 <div id="lyriccontainer">
-<table class="lyrictable hiddenjapanese" id="japanesetable">
-<?php include "./Text/" . $url . "_j.html" ?>
-</table><table class="lyrictable romaji" id="romajitable">
-<?php include "./Text/" . $url . "_r.html" ?>
-</table><table class="lyrictable" id="englishtable">
-<?php include "./Text/" . $url . "_e.html" ?>
-</table>
+<table class="lyrictable hiddenjapanese" id="japanesetable"><?php 
+	include "./Text/" . $url . "_j.html" 
+?> </table><table class="lyrictable romaji" id="romajitable"><?php 
+	include "./Text/" . $url . "_r.html"
+?></table><table class="lyrictable calls" id="callstable"><?php 
+if(file_exists("./Calls/" . $url . "_calls.html")){
+	include "./Calls/" . $url . "_calls.html";
+}
+?></table><table class="lyrictable" id="englishtable"><?php 
+	include "./Text/" . $url . "_e.html"
+?></table>
 </div>
 
 </div>

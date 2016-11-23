@@ -43,7 +43,7 @@ $(document).ready(function() {
 <tbody> 
 <?php 
 // Store all columns as arrays from vocalyriclist table
-$info = $link->query("select * from vocalyriclist order by id ASC")->fetch_all(MYSQLI_ASSOC);
+$info = $link->query("select * from vocalyriclist order by url ASC")->fetch_all(MYSQLI_ASSOC);
 $englishList = $romajiList = $japaneseList = $urlList = $dateList = $youtubeList = $tumblrList = array();
 for($rowNum = 0; $rowNum < count($info); $rowNum++){
 	$englishList[] = $info[$rowNum]['englishTitle'];

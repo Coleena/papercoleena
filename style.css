@@ -171,21 +171,40 @@ header a{
 .momoclo #top #settingsmenu #settings{
 	background-color: #FF9BD3;
 }
-#top #settingsmenu #settings li{
-	padding: 7px 14px;
+
+#settingsmenu ul#settings{
+	padding: 0;
+}
+#settingsmenu #settings li{
+	display: inline-block;
+	width: 90%;
+	padding: 7px 5%;
 	cursor: pointer;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	
+	text-align: center;
 }
+#settingsmenu #settings li#japanesetoggle, #settingsmenu #settings li#romajitoggle{
+	width: 40%;
+	padding: 10px 5%;
+}
+.momoclo #settingsmenu #settings li#japanesetoggle, .momoclo #settingsmenu #settings li#romajitoggle,
+.momoclo #settingsmenu #settings li#callstoggle{
+	width: 25%;
+	padding: 10px 4.15%;
+}
+
 #top #settingsmenu #settings li:hover{
 	background-color: #FFB7CF;
 }
 .momoclo #top #settingsmenu #settings li:hover{
 	background-color: #FFBFE3;
 }
+
 #pagetitle, #pagetitle a{
 	margin: 2px 3px;
 	padding: 0px;
@@ -405,11 +424,17 @@ table{
 	position: relative;
 	right: 30px;
 	top: 8px;
-	background: linear-gradient(rgba(255,220,220,0.4), rgba(255,220,220,1) 70%, rgba(255,220,220,0.8));
-	font-size: 14px;
+	padding: 4px 10px;
+	
+	color: #666;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 15px;
+	background: #f8f8fa;
+	border: 1px solid #EDEDED;
 }
 #versionbutton:active{
-	background-color: #FFDCDC;
+	background-color: #EDEDED;
 }
 
 /* ----------- Momoclo Albumart ----------- */
@@ -472,8 +497,15 @@ table{
 .lyrictable td{
 	padding: 5px 15px;
 }
-#romajitable td,#japanesetable td{
+#romajitable td, #japanesetable td, #callstable td{
 	border-right: 1px solid #333;
+}
+#callstable td{
+	padding: 8px 15px;
+	line-height: 120%;
+}
+#callstable tr:first-child td{
+	padding: 5px 15px;
 }
 .listtitle, #japanesetable{
 	-webkit-touch-callout: none;
@@ -487,34 +519,94 @@ table{
 	margin: 3px 2px 0px 2px;
 }
 
-.hiddenjapanese,.placeholderromaji{
+.hiddenjapanese, .placeholderromaji, .calls{
 	display: none;
 }
 .japanesepreference{
 	display: none;
 }
 
+/* ---------------- Calls ----------------- */
+.lyrictable#callstable{
+	max-width: 515px;
+}
+.lyrictable sup{
+	cursor: pointer;
+}
+
+rt, .lyrictable sup{
+	font-weight: 600;
+	color: #00cfd0;
+}
+rt{
+	font-size: 85%;
+}
+rt span.jump{
+	font-size: 106%;
+	font-weight: 800;
+}
+.blankspace, ruby.blankspace{
+	color: #fff;
+}
+div.splitcall{
+	display: inline-block;
+	max-width: 185px;
+}
+div.splitcall:first-child{
+	padding-right: 5px;
+	border-right: 1px solid #777;
+}
+div.splitcall:nth-child(2){
+	padding-left: 5px;
+}
+div.splitcall:nth-child(3){
+	padding-left: 5px;
+	border-left: 1px solid #777;
+}
+
+rt.kanako, rt.akari, rt.momoka, rt.shiori, rt.aarin, rt.reni{
+	color: #00cfd0;
+}
+rt.kanako{
+	border-bottom: 1px solid #FF0000;
+}
+rt.akari{
+	border-bottom: 1px solid blue;
+}
+rt.momoka{
+	border-bottom: 1px solid green;
+}
+rt.shiori{
+	border-bottom: 1px solid #EBB400;
+}
+rt.aarin{
+	border-bottom: 1px solid #FF1493;
+}
+rt.reni{
+	border-bottom: 1px solid purple;
+}
+
 /* ---------------- Footer ---------------- */
 .kanako{
-	color:#FF0000;
+	color: #FF0000;
 }
 .akari{
-	color:blue;
+	color: blue;
 }
 .momoka{
-	color:green;
+	color: green;
 }
 .shiori{
-	color:#EBB400;
+	color: #EBB400;
 }
 .aarin{
-	color:#FF1493;
+	color: #FF1493;
 }
 .reni{
-	color:purple;
+	color: purple;
 }
 .zversion{
-	display:none;
+	display: none;
 }
 
 /* ------------- Video Links -------------- */
@@ -589,7 +681,6 @@ table{
 }
 
 button{
-	border-radius: 5px;
 	padding: 4px 12px;
 	border: none;
 	outline: 0;
@@ -908,7 +999,7 @@ header.series{
 		font-size: 1.5em;
 		padding-bottom: 2px;
 	}
-	#romajitable td, #japanesetable td{
+	#romajitable td, #japanesetable td, #callstable td{
 		border-right: none;
 	}
 	

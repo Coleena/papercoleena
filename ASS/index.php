@@ -46,9 +46,9 @@ $(document).ready(function() {
 
 <header class="top">
 <div id="top">
-<span id="pagetitle"><a href="./">
+<h1 id="pagetitle"><a href="./">
 Coleena's ASS Files
-</a></span>
+</a></h1>
 <a href="../" id="homebuttonlink">
 <img src="../home.png" alt="Home" id="homebutton">
 </a>
@@ -64,7 +64,7 @@ Coleena's ASS Files
 <p>I won't be providing download links to the fonts because there's too many, but if you can't find one that you want to use, just shoot me a message. (I can't provide download links to copyrighted fonts, though - you're on your own there.)</p>
 
 <h2>VOCALOID</h2>
-<table id="vocaasstable" class="tablesorter"> 
+<table id="vocaasstable" class="tablesorter">
 <thead> 
 <tr> 
     <th>English Title</th> 
@@ -75,30 +75,15 @@ Coleena's ASS Files
 </thead> 
 <tbody> 
 <?php 
-$result = $link->query("select englishTitle from vocaasslist order by englishTitle");
-$englishList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$englishList[] = $row[0];
-}
-$result = $link->query("select romajiTitle from vocaasslist order by englishTitle");
-$romajiList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$romajiList[] = $row[0];
-}
-$result = $link->query("select uploadDate from vocaasslist order by englishTitle");
-$dateList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$dateList[] = $row[0];
-}
-$result = $link->query("select nicodouLink from vocaasslist order by englishTitle");
-$nicodouList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$nicodouList[] = $row[0];
-}
-$result = $link->query("select youtubeLink from vocaasslist order by englishTitle");
-$youtubeList = array();
-while ($row = mysqli_fetch_array($result)){  
-	$youtubeList[] = $row[0];
+// Store all columns as arrays from misclyriclist table
+$info = $link->query("select * from vocaasslist order by uploadDate DESC")->fetch_all(MYSQLI_ASSOC);
+$englishList = $romajiList = $dateList = $nicodouList = $youtubeList = array();
+for($rowNum = 0; $rowNum < count($info); $rowNum++){
+	$englishList[] = $info[$rowNum]['englishTitle'];
+	$romajiList[] = $info[$rowNum]['romajiTitle'];
+	$dateList[] = $info[$rowNum]['uploadDate'];
+	$nicodouList[] = $info[$rowNum]['nicodouLink'];
+	$youtubeList[] = $info[$rowNum]['youtubeLink'];
 }
 
 for($i = 0; $i < sizeof($englishList); $i++){
@@ -141,27 +126,27 @@ for($i = 0; $i < sizeof($englishList); $i++){
 </thead> 
 <tbody> 
 <?php 
-$result = $link->query("select englishTitle from momoasslist order by releaseDate");
+$result = $link->query("select englishTitle from momoasslist order by releaseDate ASC");
 $englishList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$englishList[] = $row[0];
 }
-$result = $link->query("select romajiTitle from momoasslist order by releaseDate");
+$result = $link->query("select romajiTitle from momoasslist order by releaseDate ASC");
 $romajiList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$romajiList[] = $row[0];
 }
-$result = $link->query("select releaseDate from momoasslist order by releaseDate");
+$result = $link->query("select releaseDate from momoasslist order by releaseDate ASC");
 $dateList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$dateList[] = $row[0];
 }
-$result = $link->query("select nicodouLink from momoasslist order by releaseDate");
+$result = $link->query("select nicodouLink from momoasslist order by releaseDate ASC");
 $nicodouList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$nicodouList[] = $row[0];
 }
-$result = $link->query("select youtubeLink from momoasslist order by releaseDate");
+$result = $link->query("select youtubeLink from momoasslist order by releaseDate ASC");
 $youtubeList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$youtubeList[] = $row[0];
@@ -207,27 +192,27 @@ for($i = 0; $i < sizeof($englishList); $i++){
 </thead> 
 <tbody> 
 <?php 
-$result = $link->query("select englishTitle from miscasslist");
+$result = $link->query("select englishTitle from miscasslist order by englishTitle ASC");
 $englishList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$englishList[] = $row[0];
 }
-$result = $link->query("select romajiTitle from miscasslist");
+$result = $link->query("select romajiTitle from miscasslist order by englishTitle ASC");
 $romajiList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$romajiList[] = $row[0];
 }
-$result = $link->query("select artistName from miscasslist");
+$result = $link->query("select artistName from miscasslist order by englishTitle ASC");
 $artistList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$artistList[] = $row[0];
 }
-$result = $link->query("select releaseDate from miscasslist");
+$result = $link->query("select releaseDate from miscasslist order by englishTitle ASC");
 $dateList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$dateList[] = $row[0];
 }
-$result = $link->query("select youtubeLink from miscasslist");
+$result = $link->query("select youtubeLink from miscasslist order by englishTitle ASC");
 $youtubeList = array();
 while ($row = mysqli_fetch_array($result)){  
 	$youtubeList[] = $row[0];

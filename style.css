@@ -41,7 +41,7 @@ h1 {
 h2{
 	font-size: 1.7em;
 	font-weight: 600;
-	margin: 1px 5px;
+	margin: 7px 5px 1px 5px;
 	color: #111;
 }
 h3{
@@ -81,6 +81,10 @@ ol{
 	margin: 2px 0px;
 }
 
+.invisible{
+	visibility: hidden;
+}
+
 /* ---------------- Header ---------------- */
 header.top{
 	background-color: #FF84AD;
@@ -95,6 +99,7 @@ header #top{
 	margin: 0px auto;
 	max-width: 1000px;
 	position: relative;
+	text-align: center;
 }
 header a{
 	display: inline-block;
@@ -126,7 +131,6 @@ header a{
 }
 #top #homebuttonlink{
 	float: left;
-	margin-left: 100px;
 }
 #top #homebutton{
 	width: 30px;
@@ -206,8 +210,8 @@ header a{
 }
 
 #pagetitle, #pagetitle a{
-	margin: 2px 3px;
-	padding: 0px;
+	margin: 2px 15px 2px 3px;
+	padding: 0;
 	color: #FFF;
 	display: inline-block;
 	font-size: 1.45em;

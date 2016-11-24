@@ -11,14 +11,14 @@ PlayResY: 720
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: Haitateki.mp4
-Video File: Haitateki.mp4
+Audio File: Haitateki!.mp4
+Video File: Haitateki!.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Scroll Position: 82
-Active Line: 92
-Video Position: 2106
+Scroll Position: 15
+Active Line: 16
+Video Position: 5379
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -37,14 +37,14 @@ Dialogue: 0,0:00:43.31,0:00:46.10,Default,,0,0,0,,The Wi-Fi-Crazy Club
 Dialogue: 0,0:00:46.10,0:00:48.56,Default,,0,0,0,,Universal sweet-tooth; three days zazen
 Dialogue: 0,0:00:48.56,0:00:51.69,Default,,0,0,0,,A bad experience with non-REM rejection
 Dialogue: 0,0:00:51.69,0:00:54.56,Default,,0,0,0,,He's the cause of this sensation
-Dialogue: 0,0:00:54.56,0:00:56.61,Default,,0,0,0,,A riajuu? You know?
+Dialogue: 0,0:00:54.56,0:00:56.61,Default,,0,0,0,,A normal person? You know?
 Dialogue: 0,0:00:56.61,0:01:00.03,Default,,0,0,0,,It suddenly began one morning
 Dialogue: 0,0:01:00.03,0:01:02.33,Default,,0,0,0,,I couldn't take it anymore
 Dialogue: 0,0:01:02.33,0:01:06.67,Default,,0,0,0,,Could it be the first signs of{\fsp3} {\fsp\fax-0.15}tha{\fsp-3}t{\fax0}?
 Dialogue: 0,0:01:06.67,0:01:08.13,Default,,0,0,0,,Don't tell me...!
 Dialogue: 0,0:01:08.13,0:01:11.05,Default,,0,0,0,,Like a toothache! A painful love
 Dialogue: 0,0:01:11.05,0:01:13.88,Default,,0,0,0,,Mental health check; I've got the jitters!
-Dialogue: 0,0:01:13.88,0:01:16.68,Default,,0,0,0,,A friend? Or foe? Rather away
+Dialogue: 0,0:01:13.88,0:01:16.68,Default,,0,0,0,,A friend? Or foe? In unfamiliar territory
 Dialogue: 0,0:01:16.68,0:01:19.47,Default,,0,0,0,,The fight for reality over illusions
 Dialogue: 0,0:01:19.47,0:01:22.22,Default,,0,0,0,,Exclusivity! Out of range of these taste buds
 Dialogue: 0,0:01:22.22,0:01:25.10,Default,,0,0,0,,Not without complications; my head's spinning!
@@ -85,7 +85,7 @@ Dialogue: 0,0:03:39.07,0:03:40.57,Default,,0,0,0,,What I'm scared of
 Dialogue: 0,0:03:42.03,0:03:44.32,Default,,0,0,0,,is pain, pain, pain
 Dialogue: 0,0:03:44.32,0:03:47.41,Default,,0,0,0,,Like a toothache! A painful love
 Dialogue: 0,0:03:47.41,0:03:50.18,Default,,0,0,0,,Mental health check; I've got the jitters!
-Dialogue: 0,0:03:50.18,0:03:52.94,Default,,0,0,0,,A friend? Or foe? Rather away
+Dialogue: 0,0:03:50.18,0:03:52.94,Default,,0,0,0,,A friend? Or foe? In unfamiliar territory
 Dialogue: 0,0:03:52.94,0:03:55.79,Default,,0,0,0,,The fight for reality over illusions
 Dialogue: 0,0:03:55.79,0:03:58.63,Default,,0,0,0,,Exclusivity! Out of range of these taste buds
 Dialogue: 0,0:03:58.63,0:04:01.34,Default,,0,0,0,,Not without complications; my head's spinning!
@@ -108,14 +108,14 @@ Dialogue: 0,0:00:43.31,0:00:46.10,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\b
 Dialogue: 0,0:00:46.10,0:00:48.56,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Universal sweet-tooth; three days zazen
 Dialogue: 0,0:00:48.56,0:00:51.69,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A bad experience with non-REM rejection
 Dialogue: 0,0:00:51.69,0:00:54.56,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}He's the cause of this sensation
-Dialogue: 0,0:00:54.56,0:00:56.61,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A riajuu? You know?
+Dialogue: 0,0:00:54.56,0:00:56.61,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A normal person? You know?
 Dialogue: 0,0:00:56.61,0:01:00.03,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}It suddenly began one morning
 Dialogue: 0,0:01:00.03,0:01:02.33,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}I couldn't take it anymore
 Dialogue: 0,0:01:02.33,0:01:06.67,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Could it be the first signs of{\fsp3} {\fsp\fax-0.15}tha{\fsp-3}t{\fax0}?
 Dialogue: 0,0:01:06.67,0:01:08.13,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Don't tell me...!
 Dialogue: 0,0:01:08.13,0:01:11.05,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Like a toothache! A painful love
 Dialogue: 0,0:01:11.05,0:01:13.88,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Mental health check; I've got the jitters!
-Dialogue: 0,0:01:13.88,0:01:16.68,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A friend? Or foe? Rather away
+Dialogue: 0,0:01:13.88,0:01:16.68,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A friend? Or foe? In unfamiliar territory
 Dialogue: 0,0:01:16.68,0:01:19.47,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}The fight for reality over illusions
 Dialogue: 0,0:01:19.47,0:01:22.22,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Exclusivity! Out of range of these taste buds
 Dialogue: 0,0:01:22.22,0:01:25.10,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Not without complications; my head's spinning!
@@ -156,7 +156,7 @@ Dialogue: 0,0:03:39.07,0:03:40.57,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\b
 Dialogue: 0,0:03:42.03,0:03:44.32,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}is pain, pain, pain
 Dialogue: 0,0:03:44.32,0:03:47.41,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Like a toothache! A painful love
 Dialogue: 0,0:03:47.41,0:03:50.18,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Mental health check; I've got the jitters!
-Dialogue: 0,0:03:50.18,0:03:52.94,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A friend? Or foe? Rather away
+Dialogue: 0,0:03:50.18,0:03:52.94,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}A friend? Or foe? In unfamiliar territory
 Dialogue: 0,0:03:52.94,0:03:55.79,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}The fight for reality over illusions
 Dialogue: 0,0:03:55.79,0:03:58.63,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Exclusivity! Out of range of these taste buds
 Dialogue: 0,0:03:58.63,0:04:01.34,Default,,0,0,0,,{\org(0,0)\shad0\3c&H000000&\bord0.6\3a&H77}Not without complications; my head's spinning!

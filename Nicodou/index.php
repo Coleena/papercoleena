@@ -5,7 +5,7 @@
 
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php require_once realpath(__DIR__.'/..').'/config.php' ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/config.php' ?>
 <link rel="stylesheet" type="text/css" href="./sorterstyle.css">
 <script type="text/javascript" src="./jquery.tablesorter.js"></script> 
 

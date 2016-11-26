@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/style.css">
 <link rel="stylesheet" type="text/css" href="sorterstyle.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' type='text/css'>
-<?php require_once realpath(__DIR__.'/..').'/config.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/config.php' ?>
 <script type="text/javascript" src="./jquery.tablesorter.js"></script> 
 
 <script type="text/javascript">

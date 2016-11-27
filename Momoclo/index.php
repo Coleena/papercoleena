@@ -80,6 +80,12 @@ $(document).ready(function() {
 
 <?php include("header.php"); ?>
 
+<div class="headtablist">
+<a href="/momoclo/"><div class="tab active"><div id="rectangle"></div>Lyrics</div></a><!--
+!--><a href="/momoclo/albums/"><div class="tab">Albums</div></a><!--
+!--><a href="/momoclo/info/"><div class="tab">Info</div></a>
+</div>
+
 <div class="content">
 
 <div class="settingslist">
@@ -92,7 +98,7 @@ $(document).ready(function() {
 <div class="wrapping albumview">
 	<span class="yearheader" id="year2016">2016</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/goldhist_limitedA.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/goldhist_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./goldhist">The Golden History</a></li>
 		<li>Decoration</li>
@@ -104,7 +110,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/newmoon_momoclo.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/newmoon_momoclo.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>In Love with the New Moon</li>
 		<li>Only Eternity Bridges Our Distance</li>
@@ -114,7 +120,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/yoake_limited.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/yoake_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>The Individual A, The Z of Beginning -prologue-</li>
 		<li>The Peach Blossom Spring</li>
@@ -136,7 +142,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/amaranthus_limited.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/amaranthus_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Embryo -Prologue-</li>
 		<li><a href="./wab">We Are Born</a></li>
@@ -159,7 +165,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2015">2015</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/koyoi_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/koyoi_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Tonight, Under this Live</li>
 	</ol></div>
@@ -168,7 +174,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/znochikai_f.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/znochikai_f.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Our "Z" Pledge (Pledge of "Z")</li>
 		<li>Romantic Tangle-Ups</li>
@@ -179,7 +185,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/seishunfu_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/seishunfu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Our Youth</li> 
 		<li><a href="./hashire_z">Run! -Z ver.-</a></li>
@@ -191,7 +197,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/ukiyo_momoclo.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/ukiyo_momoclo.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./ukiyo">Bloom Within this Transient Dream World</a></li>
 		<li>Rock and Roll All Nite</li>
@@ -204,7 +210,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2014">2014</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/hitotsubu_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hitotsubu_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>With a Drop of a Smile</li>
 		<li>Chai Maxx Zero</li>
@@ -215,7 +221,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/moonpride_momoclo.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/moonpride_momoclo.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./moonpride">Moon Pride</a></li>
 		<li>Moonbow</li>
@@ -226,7 +232,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/naitemo_limited.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/naitemo_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./naitemo">It's Okay to Cry</a></li>
 		<li>Grand Peace Declaration</li>
@@ -239,7 +245,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2013">2013</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/naifuyu_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/naifuyu_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Tearful Winter</li>
 		<li>Steel Will</li>
@@ -249,7 +255,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/gounn_limited.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/gounn_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>The Five Skandhas</li>
 		<li>Someday, You Will</li>
@@ -260,7 +266,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/iriguchi_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/iriguchi_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./anosora">Towards Those Skies</a></li>
 		<li><a href="./milkyway">Milky Way</a></li>
@@ -285,7 +291,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/5th_limitedA.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/5th_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./neostar">Neo Stargate</a></li>
 		<li>Imaginary Dystopia</li>
@@ -308,7 +314,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2012">2012</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/bokusen_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bokusen_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Our Century</li>
 		<li>The Sky's Curtain</li>
@@ -318,7 +324,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/saraba_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/saraba_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./saraba">Farewell, My Dear Sorrows</a></li>
 		<li><a href="./kuroshuu">Black Weekend</a></li>
@@ -329,7 +335,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/egaohyakkei_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/egaohyakkei_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./egaohyakkei">Japan's Hundred Smiles</a></li>
 		<li>It's Morifu! Everyone Gather</li>
@@ -340,7 +346,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/otomesensou_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/otomesensou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./otomesensou">Otome Sensou</a></li>
 		<li><a href="./push">Push</a></li>
@@ -350,7 +356,7 @@ $(document).ready(function() {
 	<span class="listtitle">Otome Sensou</span>
 	</div>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/allstars_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/allstars_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./lalala">Seashore Lalala</a></li>
 		<li><a href="./namidame">Teary-Eyed Alice</a></li>
@@ -365,7 +371,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/mouretsu_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/mouretsu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./mouretsu">Bodacious Space Symphony, Movement Seven: "Infinite Love"</a></li>
 		<li><a href="./lostchild">Lost Child</a></li>
@@ -378,7 +384,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2011">2011</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/shiroikaze_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/shiroikaze_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./shiroikaze">Pure-White Wind</a></li>
 		<li>We are UFI!!!!</li>
@@ -388,7 +394,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/roudou_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/roudou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./roudou">Labor Anthem</a></li>
 		<li><a href="./santasan">Mr. Santa</a></li>
@@ -399,7 +405,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/djun_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/djun_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./djun">The Innocence of D'</a></li>
 	</ol></div>
@@ -408,7 +414,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/zdensetsu_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/zdensetsu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./zdensetsu">Z Legend ~Unending Revolution~</a></li>
 	</ol></div>
@@ -417,7 +423,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/bar_limitedA.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bar_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./zdensetsu">Z Legend ~Unending Revolution~</a></li>
 		<li><a href="./contradiction">Contradiction</a></li>
@@ -445,7 +451,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/akarin_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/akarin_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./dekomayu">ForeheadEyebrow: The Final Flaming Showdown</a></li>
 		<li><a href="./akarin">Our Song for Akarin</a></li>
@@ -455,7 +461,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/miraibowl_limitedA.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/miraibowl_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./miraibowl">Future Bowl</a></li>
 		<li><a href="./chaima">Chai Maxx</a></li>
@@ -468,7 +474,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2010">2010</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/momokuri_event.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/momokuri_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./kimiyuki">The Snow and You</a></li>
 		<li><a href="./believe">Believe</a></li>
@@ -480,7 +486,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/pinkyjones_limitedA.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/pinkyjones_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./pinkyjones">Pinky Jones</a></li>
 		<li><a href="./kokonatsu">Coco☆nuts</a></li>
@@ -491,7 +497,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/kaitou_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/kaitou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./kaitou">Here We Go! Phantom Thief Girls</a></li>
 		<li><a href="./hashire">Run!</a></li>
@@ -503,7 +509,7 @@ $(document).ready(function() {
 	
 	<span class="yearheader" id="year2009">2009</span>
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/miraihesusume_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/miraihesusume_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./miraihesusume">Advance Towards the Future!</a></li>
 		<li><a href="./supergirl">Feeling like a Super Girl!</a></li>
@@ -513,7 +519,7 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('albums/Album%20Art/momopan_regular.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/momopan_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./momopan">Peach-Pink Punch</a></li>
 		<li><a href="./milkyway">Milky Way</a></li>
@@ -569,7 +575,7 @@ for($i = 0; $i < sizeof($englishList); $i++){
 
 </div>
 
-<?php include("../socialmedia.html"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/socialmedia.html"); ?>
 
 </body>
 

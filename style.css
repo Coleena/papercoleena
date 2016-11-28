@@ -222,7 +222,7 @@ header a{
 }
 
 #pagetitle, #pagetitle a{
-	margin: 2px 15px 2px 3px;
+	margin: 0px 15px 2px 3px;
 	padding: 0;
 	color: #FFF;
 	display: inline-block;

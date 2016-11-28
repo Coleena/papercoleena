@@ -6,7 +6,22 @@
 <?php //error if no song exists
 	require_once realpath(__DIR__.'/..').'/config.php';
 	$url = $_GET['song'];
-	if(is_null($link->query("select url from vocalyriclist where vocalyriclist.url = '" . $url . "'")->fetch_array())){
+	
+	// Sanitize input by checking against file existence before going to SQL
+	if(!file_exists("./Text/" . $url . "_e.html")){
+		include("error.php");
+		exit;
+	}
+
+	// Extra sanitizer
+	$stmt = $link->prepare("select url from vocalyriclist where vocalyriclist.url = ?");
+	$stmt->bind_param("s", $url);
+	$stmt->execute();
+	
+	$res = $stmt->get_result();
+	$stmt->close();
+	
+	if( is_null( $res->fetch_array() ) ){
 		include("error.php");
 		exit;
 	}

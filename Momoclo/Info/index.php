@@ -42,6 +42,7 @@
 	<li><a href="//www.facebook.com/Momoiro-Clover-Z-ももいろクローバーZ-610958879052943/">Official Facebook Page</a></li>
 	<li><a href="//www.youtube.com/user/MCZofficial">Official YouTube Channel</a></li>
 	<li><a href="//www.ustream.tv/channel/momoclotv">Official Ustream</a></li>
+	<li><a href="//www.youtube.com/channel/UC7pcEjI2U2vg6CqgbwIpjgg">New Type Broadcasting Station</a></li>
 	<li><a href="//twitter.com/momowgp">Kawakami's Twitter</a></li>
 </ul>
 

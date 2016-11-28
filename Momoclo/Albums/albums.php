@@ -6,9 +6,17 @@
 <?php // Display error message if no album exists
 	include_once realpath(__DIR__ . '/../..') . '/config.php';
 	$url = $_GET['album'];
-	if(is_null($link->query("select id from albumlist where albumlist.url = '" . $url . "'")->fetch_array())){
-	include("../error.php");
-	exit;
+	
+	$stmt = $link->prepare("select id from albumlist where albumlist.url = ?");
+	$stmt->bind_param("s", $url);
+	$stmt->execute();
+	
+	$res = $stmt->get_result();
+	$stmt->close();
+	
+	if(is_null($res->fetch_array())){
+		include("../error.php");
+		exit;
 	}
 ?>
 <?php // Get album id for album info lookup

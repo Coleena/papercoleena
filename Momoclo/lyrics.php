@@ -6,9 +6,24 @@
 <?php // Display error message if no song exists
 	require_once realpath(__DIR__ . '/..') . '/config.php';
 	$url = $_GET['song'];
-	if(is_null($link->query("select id from lyriclist where lyriclist.url = '" . $url . "'")->fetch_array())){
-	include("error.php");
-	exit;
+
+	// Sanitize input by checking against file existence before going to SQL
+	if(!file_exists("./Text/" . $url . "_e.html")){
+		include("error.php");
+		exit;
+	}
+	
+	// Extra sanitizer
+	$stmt = $link->prepare("select id from lyriclist where lyriclist.url = ?");
+	$stmt->bind_param("s", $url);
+	$stmt->execute();
+	
+	$res = $stmt->get_result();
+	$stmt->close();
+	
+	if( is_null( $res->fetch_array() ) ){
+		include("error.php");
+		exit;
 	}
 ?>
 <?php // Get song id for song info lookup

@@ -188,15 +188,51 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 </tr>
 <tr style="height: 31pt">
 	<th>Composer(s):</th>
-	<td><?php echo $composer; ?></td>
+	<td><?php
+		// Split into multiple links if delimited by comma and space
+		$composerList = explode(", ", $composer);
+		for($i = 0; $i < count($composerList); $i++){
+			if($i > 0){
+				echo ", ";
+			}
+			
+			echo "<a href='/momoclo/?view=list&songwriter=" . $composerList[$i] . "'>";
+			echo $composerList[$i];
+			echo "</a>";
+		}
+		?></td>
 </tr>
 <tr style="height: 31pt">
 	<th>Lyrics:</th>
-	<td><?php echo $lyricist; ?></td>
+	<td><?php 		
+		// Split into multiple links if delimited by comma and space
+		$lyricistList = explode(", ", $lyricist);
+		for($i = 0; $i < count($lyricistList); $i++){
+			if($i > 0){
+				echo ", ";
+			}
+			
+			echo "<a href='/momoclo/?view=list&songwriter=" . $lyricistList[$i] . "'>";
+			echo $lyricistList[$i];
+			echo "</a>";
+		}
+	?></td>
 </tr>
 <tr style="height: 17pt">
 	<th>Arrangement:</th>
-	<td><?php echo $arrangement; ?></td>
+	<td><?php 
+		// Split into multiple links if delimited by comma and space
+		$arrangementList = explode(", ", $arrangement);
+		for($i = 0; $i < count($arrangementList); $i++){
+			if($i > 0){
+				echo ", ";
+			}
+			
+			echo "<a href='/momoclo/?view=list&songwriter=" . $arrangementList[$i] . "'>";
+			echo $arrangementList[$i];
+			echo "</a>";
+		}
+	?></td>
 </tr>
 </tbody>
 </table><table class="infotable">

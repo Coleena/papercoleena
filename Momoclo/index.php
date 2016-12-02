@@ -6,16 +6,44 @@
 
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php require_once $_SERVER['DOCUMENT_ROOT'].'/config.php' ?>
+<?php 
+require_once($_SERVER['DOCUMENT_ROOT'].'/config.php');
+$view = $_GET['view'];
+
+// Filter by composer/lyricist/arrangement in list view
+$songwriter = $_GET['songwriter'];
+?>
 <link rel="stylesheet" type="text/css" href="./sorterstyle.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Titan+One" rel="stylesheet">
 <script type="text/javascript" src="./jquery.tablesorter.js"></script> 
 
 <script type="text/javascript">
+function albumViewOn(){
+	$("button").not(".albumview button").removeClass("active");
+	$("button#albumon").addClass("active");
+	$(".listview").hide();
+	$(".albumview").show();
+}
+function listViewOn(){
+	$("button").removeClass("active");
+	$("button#liston").addClass("active");
+	$(".albumview").hide();
+	$(".listview").show();
+}
+
 $(document).ready(function() { 
 	$(".tablesorter").tablesorter({ 
 		sortList: [[3,1]]
     }); 
+	
+	<?php
+		if($view === "album"){
+			echo "albumViewOn();";
+		}
+		else if($view === "list"){
+			echo "listViewOn();";
+		}
+	?>
 	
 	$(".listoverlay").on('DOMMouseScroll mousewheel', function(ev) {
 		var $this = $(this),
@@ -50,16 +78,12 @@ $(document).ready(function() {
 	});
 	
 	$("button#albumon").click(function(){
-		$("button").not(".albumview button").removeClass("active");
-		$(this).addClass("active");
-		$(".listview").hide();
-		$(".albumview").show();
+		albumViewOn();
+		history.pushState(null, null, "?view=album");
 	});
 	$("button#liston").not(".albumview").click(function(){
-		$("button").removeClass("active");
-		$(this).addClass("active");
-		$(".albumview").hide();
-		$(".listview").show();
+		listViewOn();
+		history.pushState(null, null, "?view=list");
 	});
 	
 	// Scroll to span with id 'year####' when button of id 'to####' clicked
@@ -541,31 +565,59 @@ $(document).ready(function() {
 </thead> 
 <tbody> 
 <?php 
-// Store all columns as arrays from lyriclist table
-$info = $link->query("select * from lyriclist order by id ASC")->fetch_all(MYSQLI_ASSOC);
-$englishList = $romajiList = $japaneseList = $urlList = $dateList = array();
-for($rowNum = 0; $rowNum < count($info); $rowNum++){
-	$englishList[] = $info[$rowNum]['englishTitle'];
-	$romajiList[] = $info[$rowNum]['romajiTitle'];
-	$japaneseList[] = $info[$rowNum]['japaneseTitle'];
-	$urlList[] = $info[$rowNum]['url'];
-	$dateList[] = $info[$rowNum]['releaseDate'];
-}
+// Store all columns as arrays from lyriclist table, filter by composer/lyricist/arrangement
+$filtered = !empty($songwriter);
 
-for($i = 0; $i < sizeof($englishList); $i++){
-	echo "<tr>";
-	if(!file_exists("./Text/" . $urlList[$i] . "_e.html")){
-		echo "\t<td>" . $englishList[$i] . "</td>";
-		echo "\t<td>" . $romajiList[$i] . "</td>";
-		echo "\t<td>" . $japaneseList[$i] . "</td>";
+// Wildcards for fields with multiple songwriters
+$songwriter = "%" . $songwriter . "%";
+$select = "SELECT englishTitle, romajiTitle, japaneseTitle, url, releaseDate, composer, lyricist, arrangement 
+FROM lyriclist 
+JOIN lyrics 
+ON lyriclist.id=lyrics.id";
+if($filtered){
+	$select .= " WHERE composer LIKE ? OR lyricist LIKE ? OR arrangement LIKE ?";
+}
+$select .= " ORDER BY lyriclist.id ASC";
+$stmt = $link->prepare($select);
+if($filtered){
+	$stmt->bind_param("sss", $songwriter, $songwriter, $songwriter);
+}
+$stmt->execute();
+
+$info = $stmt->get_result();
+$stmt->close();
+
+// Skip output if nothing found
+if($info->num_rows != 0){
+	$info = $info->fetch_all(MYSQLI_ASSOC);
+	
+	$englishList = $romajiList = $japaneseList = $urlList = $dateList = array();
+	for($rowNum = 0; $rowNum < count($info); $rowNum++){
+		$englishList[] = $info[$rowNum]['englishTitle'];
+		$romajiList[] = $info[$rowNum]['romajiTitle'];
+		$japaneseList[] = $info[$rowNum]['japaneseTitle'];
+		$urlList[] = $info[$rowNum]['url'];
+		$dateList[] = $info[$rowNum]['releaseDate'];
 	}
-	else{
-		echo "\t<td><a href='./" . $urlList[$i] . "'>" . $englishList[$i] . "</a></td>";
-		echo "\t<td><a href='./" . $urlList[$i] . "'>" . $romajiList[$i] . "</a></td>";
-		echo "\t<td><a href='./" . $urlList[$i] . "'>" . $japaneseList[$i] . "</a></td>";
+
+	for($i = 0; $i < sizeof($englishList); $i++){
+		echo "<tr>";
+		if(!file_exists("./Text/" . $urlList[$i] . "_e.html")){
+			echo "\t<td>" . $englishList[$i] . "</td>";
+			echo "\t<td>" . $romajiList[$i] . "</td>";
+			echo "\t<td>" . $japaneseList[$i] . "</td>";
+		}
+		else{
+			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $englishList[$i] . "</a></td>";
+			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $romajiList[$i] . "</a></td>";
+			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $japaneseList[$i] . "</a></td>";
+		}
+		echo "\t<td>" . $dateList[$i] . "</td>";
+		echo "</tr>";
 	}
-	echo "\t<td>" . $dateList[$i] . "</td>";
-	echo "</tr>";
+}
+else{
+	echo "<tr>\n\t<td></td>\n\t<td></td>\n\t<td></td>\n\t<td></td>\n</tr>";
 }
 
 ?>

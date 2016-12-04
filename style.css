@@ -559,7 +559,7 @@ table{
 .lyrictable tbody{
 	border-right: 1px solid #333;
 }
-.lyrictable.lone tbody{
+.lyrictable.lone tbody, .lyrictable#englishtable tbody{
 	border-right: none;
 }
 #callstable td{
@@ -630,25 +630,25 @@ div.splitcall:nth-child(3){
 	border-left: 1px solid #777;
 }
 
-rt.kanako, rt.akari, rt.momoka, rt.shiori, rt.aarin, rt.reni{
+ruby .kanako, ruby .akari, ruby .momoka, ruby .shiori, ruby .aarin, ruby .reni{
 	color: #00cfd0;
 }
-rt.kanako{
+ruby .kanako{
 	border-bottom: 2px solid #FF0000;
 }
-rt.akari{
+ruby .akari{
 	border-bottom: 2px solid blue;
 }
-rt.momoka{
+ruby .momoka{
 	border-bottom: 2px solid green;
 }
-rt.shiori{
+ruby .shiori{
 	border-bottom: 2px solid #EBB400;
 }
-rt.aarin{
+ruby .aarin{
 	border-bottom: 2px solid #FF1493;
 }
-rt.reni{
+ruby .reni{
 	border-bottom: 2px solid purple;
 }
 

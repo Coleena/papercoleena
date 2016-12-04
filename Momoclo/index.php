@@ -318,7 +318,7 @@ $(document).ready(function() {
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/5th_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li><a href="./neostar">Neo Stargate</a></li>
-		<li>Imaginary Dystopia</li>
+		<li><a href="./dystopia">Imaginary Dystopia</a></li>
 		<li><a href="./mouretsu">Bodacious Space Symphony, Movement Seven: "Infinite Love"</a></li>
 		<li>5 the Power</li>
 		<li><a href="./roudou">Labor Anthem</a></li>
@@ -603,17 +603,17 @@ if($info->num_rows != 0){
 	for($i = 0; $i < sizeof($englishList); $i++){
 		echo "<tr>";
 		if(!file_exists("./Text/" . $urlList[$i] . "_e.html")){
-			echo "\t<td>" . $englishList[$i] . "</td>";
-			echo "\t<td>" . $romajiList[$i] . "</td>";
-			echo "\t<td>" . $japaneseList[$i] . "</td>";
+			echo "\t<td> $englishList[$i] </td>";
+			echo "\t<td> $romajiList[$i] </td>";
+			echo "\t<td> $japaneseList[$i] </td>";
 		}
 		else{
-			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $englishList[$i] . "</a></td>";
-			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $romajiList[$i] . "</a></td>";
-			echo "\t<td><a href='./" . $urlList[$i] . "'>" . $japaneseList[$i] . "</a></td>";
+			echo "\t<td><a href='./$urlList[$i]'> $englishList[$i] </a></td>";
+			echo "\t<td><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
+			echo "\t<td><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
 		}
-		echo "\t<td>" . $dateList[$i] . "</td>";
-		echo "</tr>";
+		echo "\t<td> $dateList[$i] </td>";
+		echo "</tr>\n";
 	}
 }
 else{

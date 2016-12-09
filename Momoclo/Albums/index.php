@@ -6,28 +6,49 @@
 
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php require_once $_SERVER['DOCUMENT_ROOT'].'/config.php' ?>
+<?php 
+require_once($_SERVER['DOCUMENT_ROOT'].'/config.php');
+$view = $_GET['view'];
+?>
 <link rel="stylesheet" type="text/css" href="./../sorterstyle.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Titan+One" rel="stylesheet">
 <script type="text/javascript" src="/jquery.tablesorter.js"></script> 
 
 <script type="text/javascript">
+function albumViewOn(){
+	$("button").not(".albumview button").removeClass("active");
+	$("button#albumon").addClass("active");
+	$(".listview").hide();
+	$(".albumview").show();
+}
+function listViewOn(){
+	$("button").removeClass("active");
+	$("button#liston").addClass("active");
+	$(".albumview").hide();
+	$(".listview").show();
+}
+
 $(document).ready(function() { 
 	$(".tablesorter").tablesorter({ 
 		sortList: [[3,1]]
     });
+
+	<?php
+		if($view === "album"){
+			echo "albumViewOn();";
+		}
+		else if($view === "list"){
+			echo "listViewOn();";
+		}
+	?>
 	
 	$("button#albumon").click(function(){
-		$("button").not(".albumview button").removeClass("active");
-		$(this).addClass("active");
-		$(".listview").hide();
-		$(".albumview").show();
+		albumViewOn();
+		history.pushState(null, null, "?view=album");
 	});
 	$("button#liston").not(".albumview").click(function(){
-		$("button").removeClass("active");
-		$(this).addClass("active");
-		$(".albumview").hide();
-		$(".listview").show();
+		listViewOn();
+		history.pushState(null, null, "?view=list");
 	});
 	
 	// Scroll to span with id 'year####' when button of id 'to####' clicked
@@ -304,11 +325,11 @@ for($rowNum = 0; $rowNum < count($info); $rowNum++){
 for($i = 0; $i < sizeof($englishList); $i++){
 	echo "<tr>";
 	
-	echo "\t<td><a href='./" . $urlList[$i] . "'>" . $englishList[$i] . "</a></td>";
-	echo "\t<td><a href='./" . $urlList[$i] . "'>" . $romajiList[$i] . "</a></td>";
-	echo "\t<td><a href='./" . $urlList[$i] . "'>" . $japaneseList[$i] . "</a></td>";
+	echo "\t<td><a href='./$urlList[$i]'> $englishList[$i] </a></td>";
+	echo "\t<td><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
+	echo "\t<td><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
 	
-	echo "\t<td>" . $dateList[$i] . "</td>";
+	echo "\t<td> $dateList[$i] </td>";
 	echo "</tr>";
 }
 

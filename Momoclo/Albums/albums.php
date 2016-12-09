@@ -20,9 +20,9 @@
 	}
 ?>
 <?php // Get album id for album info lookup
-$id = fetch("select id from albumlist where albumlist.url = '" . $url . "'",$link);	
+$id = fetch("select id from albumlist where albumlist.url = '$url'",$link);	
 
-$currentAlbum = $link->query("select * from albumlist,albuminfo where albumlist.id=albuminfo.id and albumlist.id = " . $id)->fetch_array();
+$currentAlbum = $link->query("select * from albumlist,albuminfo where albumlist.id=albuminfo.id and albumlist.id = $id")->fetch_array();
 
 $descriptor = $currentAlbum{'descriptor'};
 $englishTitle = $currentAlbum{'englishTitle'};
@@ -34,7 +34,11 @@ $albumUrl = $currentAlbum{'url'};
 
 ?>
 
-<title><?php echo $englishTitle . " (" . $romajiTitle . ") Album Info - Coleena's Translations" ?> </title>
+<title><?php echo "$englishTitle "; 
+if(strcmp($englishTitle, $romajiTitle) != 0){
+	echo "($romajiTitle) "; 
+}
+echo "Album Info - Coleena's Translations" ?> </title>
 
 </head>
 
@@ -47,9 +51,9 @@ $albumUrl = $currentAlbum{'url'};
 <h3><?php echo $descriptor; ?></h3>
 <h1><?php echo $englishTitle; ?></h1> 
 <?php if($englishTitle != $romajiTitle){
-	echo "<h2 class='romajipreference'>(" . $romajiTitle . ")</h2>"; 
+	echo "<h2 class='romajipreference'>($romajiTitle)</h2>"; 
 }
-echo "<h2 class='japanesepreference'>(" . $japaneseTitle . ")</h2>"; 
+echo "<h2 class='japanesepreference'>($japaneseTitle)</h2>"; 
 ?>
 
 <?php
@@ -57,7 +61,7 @@ echo "<h2 class='japanesepreference'>(" . $japaneseTitle . ")</h2>";
 $albumType = array('limited' => 'Limited Edition', 'regular' => 'Regular Edition', 'event' => 'Event Single', 'special' => 'Special Edition', 'emperor' => 'Emperor Style', 'pokemon' => 'Pokemon Edition', 'momoclo' => 'Momoclo Edition', 'kiss' => 'Kiss Edition', 'sailormoon' => 'Sailor Moon Edition', 'f' => 'F Edition', 'z' => 'Z Edition', 'limitedA' => 'Limited Edition A', 'limitedB' => 'Limited Edition B',  'limitedC' => 'Limited Edition C',  'limitedD' => 'Limited Edition D',  'limitedE' => 'Limited Edition E',  'limitedF' => 'Limited Edition F');
 
 // Store all columns as arrays from tracklist table
-$info = $link->query("select * from tracklist,albuminfo where albuminfo.url = tracklist.albumUrl and albuminfo.url = '" . $url . "' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC, trackNumber ASC")->fetch_all(MYSQLI_ASSOC);
+$info = $link->query("select * from tracklist,albuminfo where albuminfo.url = tracklist.albumUrl and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC, trackNumber ASC")->fetch_all(MYSQLI_ASSOC);
 $edition = $trackNumber = $altEnglishTitle = $altRomajiTitle = $altJapaneseTitle = $trackUrl = array();
 for($rowNum = 0; $rowNum < count($info); $rowNum++){
 	$edition[] = $info[$rowNum]['edition'];
@@ -69,7 +73,7 @@ for($rowNum = 0; $rowNum < count($info); $rowNum++){
 }
 
 // Store all columns as arrays from purchaseinfo table
-$purchaseInfo = $link->query("select * from albumpurchaseinfo,albuminfo where albuminfo.url = albumpurchaseinfo.url and albuminfo.url = '" . $url . "' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC")->fetch_all(MYSQLI_ASSOC);
+$purchaseInfo = $link->query("select * from albumpurchaseinfo,albuminfo where albuminfo.url = albumpurchaseinfo.url and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC")->fetch_all(MYSQLI_ASSOC);
 $amazonLink = $cdjapanLink = $itunesLink = array();
 for($rowNum = 0; $rowNum < count($purchaseInfo); $rowNum++){
 	$amazonLink[] = $purchaseInfo[$rowNum]['amazonLink'];
@@ -83,7 +87,7 @@ $j = 0; // Edition index
 while($i < count($edition)){
 	// First find album art and display purchase links
 	echo "<div class='albumcontainer'>";
-	echo '<div class="albumartcontainer2"><a target="_blank" href="./Album%20Art/' . $albumUrl . '_' . $edition[$i] . '.jpg">' . '<img src="./Album%20Art/' . $albumUrl . "_" . $edition[$i] . '.jpg" alt="Album art" class="albumart2"></a></div>';
+	echo "<div class='albumartcontainer2'><a target='_blank' href='./Album%20Art/{$albumUrl}_{$edition[$i]}.jpg'><img src='./Album%20Art/{$albumUrl}_{$edition[$i]}.jpg' alt='Album art' class='albumart2'></a></div>";
 	echo "<h2>" . $albumType[$edition[$i]] . "</h2>\n";
 	echo "<div class='purchaselinks'>";
 	if(!empty($amazonLink) && !is_null($amazonLink[$j])){
@@ -96,10 +100,10 @@ while($i < count($edition)){
 		}
 	}
 	if(!empty($cdjapanLink) && !is_null($cdjapanLink[$j])){
-		echo "<a href='" . $cdjapanLink[$j] . "'><img alt=\"CDJapan\" src='cdjapan.png'></a>";
+		echo "<a href='$cdjapanLink[$j]'><img alt=\"CDJapan\" src='cdjapan.png'></a>";
 	}
 	if(!empty($itunesLink) && !is_null($itunesLink[$j])){
-		echo "<a href='" . $itunesLink[$j] . "'><img alt=\"iTunes\" src='itunes.png'></a>";
+		echo "<a href='$itunesLink[$j]'><img alt=\"iTunes\" src='itunes.png'></a>";
 	}
 	echo "</div>";
 	echo "<table class=\"tracklist\">\n";
@@ -107,45 +111,45 @@ while($i < count($edition)){
 	$currentEdition = $i; // Output tracklist until next edition
 	while($i < count($edition) && $edition[$currentEdition] == $edition[$i]){
 		if(!is_null($trackUrl[$i])){
-			$songInfo = $link->query("select * from tracklist, lyriclist where tracklist.trackUrl = lyriclist.url and tracklist.trackUrl = '" . $trackUrl[$i] . "'")->fetch_array();
+			$songInfo = $link->query("select * from tracklist, lyriclist where tracklist.trackUrl = lyriclist.url and tracklist.trackUrl = '$trackUrl[$i]'")->fetch_array();
 			
 			$englishTitle = $songInfo{'englishTitle'};
 			$romajiTitle = $songInfo{'romajiTitle'};
 			$japaneseTitle = $songInfo{'japaneseTitle'};
 			
 			echo "<tr><td>" . $trackNumber[$i] . ".</td>";
-			echo "<td><a href='../" . $trackUrl[$i] . "'>" . $englishTitle . " ";
+			echo "<td><a href='../{$trackUrl[$i]}'>{$englishTitle} ";
 			if($englishTitle != $romajiTitle){
-				echo "<span class=\"romajipreference\"> (" . $romajiTitle . ")</span>";
+				echo "<span class=\"romajipreference\"> ($romajiTitle)</span>";
 			}
 			if($englishTitle != $japaneseTitle){
-				echo "<span class=\"japanesepreference\"> (" . $japaneseTitle . ")</span>";
+				echo "<span class=\"japanesepreference\"> ($japaneseTitle)</span>";
 			}
 			echo "</a></td>\n";
 		}
 		else{ //tracks with no lyrics page
-			echo "<tr><td>" . $trackNumber[$i] . ".</td><td>" . $altEnglishTitle[$i] . " ";
+			echo "<tr><td>{$trackNumber[$i]}.</td><td>$altEnglishTitle[$i] ";
 			if($altEnglishTitle[$i] != $altRomajiTitle[$i]){
-				echo "<span class=\"romajipreference\"> / " . $altRomajiTitle[$i] . "</span>";
+				echo "<span class=\"romajipreference\"> / $altRomajiTitle[$i]</span>";
 			}
 			if($altEnglishTitle[$i] != $altJapaneseTitle[$i]){
-				echo "<span class=\"japanesepreference\"> / " . $altJapaneseTitle[$i] . "</span>";
+				echo "<span class=\"japanesepreference\"> / $altJapaneseTitle[$i]</span>";
 			}
 			echo "</td></td>\n";
 		}
 		$i++;
 	}
 	echo "</table>\n";
-	$bonus = fetch("select bonus from albumbonus,albuminfo where albuminfo.url = albumbonus.albumUrl and albumbonus.edition = '" . $edition[$currentEdition] . "' and albuminfo.url = '" . $url . "'",$link);
-	if(substr($bonus,-5) == ".html"){
+	$bonus = fetch("select bonus from albumbonus,albuminfo where albuminfo.url = albumbonus.albumUrl and albumbonus.edition = '$edition[$currentEdition]' and albuminfo.url = '$url'",$link);
+	if(substr($bonus,-5) == '.html'){
 		echo "<h4>Bonus:</h4>\n";
 		include $bonus;
 	}
 	else if(!is_null($bonus)){
-		echo "<h4>Bonus:</h4>\n";
-		echo "<p style='padding-left: 8px; margin-top: 0px'>" . $bonus . "</p>";
+		echo "<h4>Bonus:</h4>";
+	echo "<p style='padding-left: 8px; margin-top: 0px'>{$bonus}</p>";
 	}
-	echo "</div>";
+	echo '</div>';
 	$j++;
 }
 

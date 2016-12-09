@@ -119,15 +119,56 @@ $(document).ready(function() {
 <button id="to2009">2009</button><button id="to2010">2010</button><button id="to2011">2011</button><button id="to2012">2012</button><button id="to2013">2013</button><button id="to2014">2014</button><button id="to2015">2015</button><button id="to2016">2016</button></div>
 </div>
 
+<?php
+function printTracks($albumUrl){
+	global $link;
+	$info = $link->query("select trackNumber,trackUrl,edition,englishTitle,romajiTitle,japaneseTitle from tracklist,albuminfo where albuminfo.url = tracklist.albumUrl and albuminfo.url = '$albumUrl' order by field(edition, 'regular', 'limited', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC, trackNumber ASC")->fetch_all(MYSQLI_ASSOC);
+	$currEdition = $edition = $info[0]['edition'];
+	
+	// Get all tracks from one edition of album
+	$edition = $trackNumber = $altEnglishTitle = $altRomajiTitle = $altJapaneseTitle = $trackUrl = array();
+	for($rowNum = 0; $rowNum < count($info); $rowNum++){
+		$temp = $info[$rowNum]['edition'];
+		
+		if($currEdition != $temp){ // Break before going to next edition
+			break;
+		}
+		
+		$edition[] = $info[$rowNum]['edition'];
+		$trackNumber[] = $info[$rowNum]['trackNumber'];
+		$altEnglishTitle[] = $info[$rowNum]['englishTitle'];
+		$altRomajiTitle[] = $info[$rowNum]['romajiTitle'];
+		$altJapaneseTitle[] = $info[$rowNum]['japaneseTitle'];
+		$trackUrl[] = $info[$rowNum]['trackUrl'];
+	}
+	
+	// Print as list items
+	for($rowNum = 0; $rowNum < count($trackUrl); $rowNum++){
+		if(!is_null($trackUrl[$rowNum])){
+			$songInfo = $link->query("select * from tracklist, lyriclist where tracklist.trackUrl = lyriclist.url and tracklist.trackUrl = '{$trackUrl[$rowNum]}'")->fetch_array();
+			
+			$englishTitle = $songInfo{'englishTitle'};
+			$romajiTitle = $songInfo{'romajiTitle'};
+			$japaneseTitle = $songInfo{'japaneseTitle'};
+			
+			if(file_exists("./Text/{$trackUrl[$rowNum]}_e.html")){
+				echo "\t\t<li><a href='./{$trackUrl[$rowNum]}'>{$englishTitle}</a></li>\n";
+			}
+			else{
+				echo "\t\t<li>{$englishTitle}</li>\n";
+			}
+		}
+		else if(stripos($altEnglishTitle[$rowNum], 'off vocal') === false && stripos($altEnglishTitle[$rowNum], '(inst') === false){ // Tracks with no lyrics page, only print if not off-vocal
+			echo "\t\t<li>$altEnglishTitle[$rowNum]</li>\n";
+		}
+	}
+} ?>
 <div class="wrapping albumview">
 	<span class="yearheader" id="year2016">2016</span>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/goldhist_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./goldhist">The Golden History</a></li>
-		<li>Decoration</li>
-		<li>Fireworks</li>
-		<li>Make It or Break It</li>
+	<?php printTracks('goldhist')?>
 	</ol></div>
 	
 	<span class="listtitle">The Golden History</span>
@@ -146,20 +187,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/yoake_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li>The Individual A, The Z of Beginning -prologue-</li>
-		<li>The Peach Blossom Spring</li>
-		<li><a href="./yoake">Platinum Daybreak</a></li>
-		<li>Mahorovacation</li>
-		<li><a href="./ukiyo">Bloom Within this Transient Dream World</a></li> 
-		<li>Rock the Boat</li>
-		<li>Where Hope Lies</li>
-		<li>Country Roads -Wayfarers of Time-</li>
-		<li>Imagination</li>
-		<li><a href="./moonpride">Moon Pride</a></li>
-		<li>Our "Z" Pledge (Pledge of "Z")</li>
-		<li>Those Who Carry On Love</li>
-		<li>We All Become Peach-Black</li>
-		<li>Pink Skies</li>
+	<?php printTracks('yoake')?>
 	</ol></div>
 	
 	<span class="listtitle">Hakkin no Yoake</span>
@@ -168,20 +196,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/amaranthus_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li>Embryo -Prologue-</li>
-		<li><a href="./wab">We Are Born</a></li>
-		<li>Monochrome Sketch </li>
-		<li>Gorilla Punch </li>
-		<li><a href="./buryoutougen">A Utopian Get-Along Story</a></li>
-		<li>To You</li>
-		<li>Our Youth</li>
-		<li>A Cactus and Ribbon</li>
-		<li>Demonstration</li>
-		<li>Chinese Hibiscus</li>
-		<li><a href="./naitemo">It's Okay to Cry</a></li>
-		<li>Guns N' Diamond</li>
-		<li>Say Farewell with a Bye-Bye</li>
-		<li>HAPPY Re:BIRTHDAY</li>
+	<?php printTracks('amaranthus')?>
 	</ol></div>
 	
 	<span class="listtitle">AMARANTHUS</span>
@@ -211,10 +226,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/seishunfu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li>Our Youth</li> 
-		<li><a href="./hashire_z">Run! -Z ver.-</a></li>
-		<li>Leaving Spring, Coming Spring</li>
-		<li><a href="./linklink">Link Link</a></li>
+	<?php printTracks('seishunfu')?>
 	</ol></div>
 	
 	<span class="listtitle">Seishunfu</span>
@@ -223,9 +235,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/ukiyo_momoclo.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./ukiyo">Bloom Within this Transient Dream World</a></li>
-		<li>Rock and Roll All Nite</li>
-		<li>SAMURAI SON</li>
+	<?php printTracks('ukiyo')?>
 	</ol></div>
 	
 	<span class="listtitle">Yume no Ukiyo ni Saitemina</span>
@@ -292,23 +302,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/iriguchi_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./anosora">Towards Those Skies</a></li>
-		<li><a href="./milkyway">Milky Way</a></li>
-		<li><a href="./roughstyle">Rough Style</a></li>
-		<li><a href="./momopan">Peach-Pink Punch</a></li>
-		<li>Love You!!</li> 
-		<li>Dream Wave</li>
-		<li>Hello... goodbye</li>
-		<li><a href="./supergirl">Feeling like a Super Girl!</a></li>
-		<li><a href="./pareparade">Strongest Para-Parade</a></li>
-		<li><a href="./miraihesusume">Advance Towards the Future!</a></li>
-		<li><a href="./tsuyoku">Strongly, Strongly</a></li>
-		<li><a href="./words">words of the mind -brand new journey-</a></li>
-		<li><a href="./believe">Believe</a></li>
-		<li><a href="./hashire">Run!</a></li>
-		<li><a href="./kimiyuki">The Snow and You</a></li>
-		<li><a href="./roughstyle_z">Rough Style for Momoiro Clover Z</a></li>
-		<li><a href="./anosora_z">Towards Those Skies (Z ver.)</a></li>
+	<?php printTracks('iriguchi')?>
 	</ol></div>
 	
 	<span class="listtitle">Iriguchi no Nai Deguchi</span>
@@ -317,19 +311,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/5th_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./neostar">Neo Stargate</a></li>
-		<li><a href="./dystopia">Imaginary Dystopia</a></li>
-		<li><a href="./mouretsu">Bodacious Space Symphony, Movement Seven: "Infinite Love"</a></li>
-		<li>5 the Power</li>
-		<li><a href="./roudou">Labor Anthem</a></li>
-		<li>Get Down!</li>
-		<li><a href="./otomesensou">GirlZ' War</a></li>
-		<li>The Moon and an Aluminum Foil Airship</li>
-		<li>Birth Ø Birth</li>
-		<li>Journey to the Earth -Carpe diem-</li>
-		<li>Fly through Space! Tatami-Room Train </li>
-		<li><a href="./saraba">Farewell, My Dear Sorrows</a></li>
-		<li>Ash and Diamond </li>
+	<?php printTracks('5th')?>
 	</ol></div>
 	
 	<span class="listtitle">5th Dimension</span>
@@ -350,9 +332,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/saraba_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./saraba">Farewell, My Dear Sorrows</a></li>
-		<li><a href="./kuroshuu">Black Weekend</a></li>
-		<li><a href="./wtwt">Wee-Tee-Wee-Tee</a></li>
+	<?php printTracks('saraba')?>
 	</ol></div>
 	
 	<span class="listtitle">Saraba, Itoshiki Kanashimi-tachi yo</span>
@@ -361,9 +341,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/egaohyakkei_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./egaohyakkei">Japan's Hundred Smiles</a></li>
-		<li>It's Morifu! Everyone Gather</li>
-		<li>Better is the Best </li>
+	<?php printTracks('egaohyakkei')?>
 	</ol></div>
 	
 	<span class="listtitle">Nippon Egao Hyakkei</span>
@@ -372,9 +350,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/otomesensou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./otomesensou">Otome Sensou</a></li>
-		<li><a href="./push">Push</a></li>
-		<li><a href="./mitemite">Look Look☆Over Here</a></li>
+	<?php printTracks('otomesensou')?>
 	</ol></div>
 	
 	<span class="listtitle">Otome Sensou</span>
@@ -382,13 +358,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/allstars_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./lalala">Seashore Lalala</a></li>
-		<li><a href="./namidame">Teary-Eyed Alice</a></li>
-		<li><a href="./hankouki">Ahrin's in Her Rebellious Phase!</a></li>
-		<li>Education</li>
-		<li><a href="./tappizaki">Tsugaru Peninsula's Tappizaki Cape</a></li>
-		<li><a href="./singlebed">A Single Bed is Too Small</a></li>
-		<li><a href="./osaretai">The Group Less Supported by the Company</a></li>
+	<?php printTracks('allstars')?>
 	</ol></div>
 	
 	<span class="listtitle">Momoclo★Allstars 2012</span>
@@ -397,9 +367,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/mouretsu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./mouretsu">Bodacious Space Symphony, Movement Seven: "Infinite Love"</a></li>
-		<li><a href="./lostchild">Lost Child</a></li>
-		<li><a href="./dna">DNA Rhapsody</a></li>
+	<?php printTracks('mouretsu')?>
 	</ol></div>
 	
 	<span class="listtitle" style="margin-top:-52px">Mouretsu Uchuu Koukyoukyoku Dai Nana Gakushou "Mugen no Ai"</span>
@@ -410,8 +378,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/shiroikaze_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./shiroikaze">Pure-White Wind</a></li>
-		<li>We are UFI!!!!</li>
+	<?php printTracks('shiroikaze')?>
 	</ol></div>
 	
 	<span class="listtitle">Shiroi Kaze</span>
@@ -420,9 +387,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/roudou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./roudou">Labor Anthem</a></li>
-		<li><a href="./santasan">Mr. Santa</a></li>
-		<li><a href="./bc">Bionic Cherry</a></li>
+	<?php printTracks('roudou')?>
 	</ol></div>
 	
 	<span class="listtitle">Roudou Sanka</span>
@@ -431,7 +396,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/djun_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./djun">The Innocence of D'</a></li>
+	<?php printTracks('djun')?>
 	</ol></div>
 	
 	<span class="listtitle">D' no Junjou</span>
@@ -440,7 +405,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/zdensetsu_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./zdensetsu">Z Legend ~Unending Revolution~</a></li>
+	<?php printTracks('zdensetsu')?>
 	</ol></div>
 	
 	<span class="listtitle">Z Densetsu ~Owarinaki Kakumei~</span>
@@ -449,19 +414,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bar_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./zdensetsu">Z Legend ~Unending Revolution~</a></li>
-		<li><a href="./contradiction">Contradiction</a></li>
-		<li><a href="./miraibowl_z">Future Bowl</a></li>
-		<li><a href="./wanishan">Alligators and Shampoo </a></li>
-		<li><a href="./pinkyjones_z">Pinky Jones</a></li>
-		<li><a href="./kiminoato">Remnants of You</a></li>
-		<li><a href="./djun">The Innocence of D'</a></li>
-		<li><a href="./ametaji">Ame no Tajikarao</a></li>
-		<li><a href="./orangenote">Orange Notebook</a></li>
-		<li><a href="./kaitou_z">Here We Go! Phantom Thief Girls </a></li>
-		<li><a href="./stardust">Stardust Serenade</a></li>
-		<li><a href="./konouta">This Song</a></li>
-		<li><a href="./nipponbanzai">Momoclo's Japan Banzai!</a></li>
+	<?php printTracks('bar')?>
 	</ol><ol class="tracklist">Bonus:
 		<li><a href="./taieku">The Sun and Dimples</a></li>
 		<li><a href="./fallintome">fall into me</a></li>
@@ -477,8 +430,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/akarin_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./dekomayu">ForeheadEyebrow: The Final Flaming Showdown</a></li>
-		<li><a href="./akarin">Our Song for Akarin</a></li>
+	<?php printTracks('akarin')?>
 	</ol></div>
 	
 	<span class="listtitle">Akarin he Okuru Uta</span>
@@ -487,9 +439,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/miraibowl_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./miraibowl">Future Bowl</a></li>
-		<li><a href="./chaima">Chai Maxx</a></li>
-		<li><a href="./zenryoku">Full-Power Girl</a></li>
+	<?php printTracks('miraibowl')?>
 	</ol></div>
 	
 	<span class="listtitle">Mirai Bowl/Chai Maxx</span>
@@ -500,10 +450,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/momokuri_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./kimiyuki">The Snow and You</a></li>
-		<li><a href="./believe">Believe</a></li>
-		<li><a href="./words">words of the mind -brand new journey-</a></li>
-		<li><a href="./pareparade">Strongest Para-Parade</a></li>
+	<?php printTracks('momokuri')?>
 	</ol></div>
 	
 	<span class="listtitle">Momokuri</span>
@@ -512,9 +459,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/pinkyjones_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./pinkyjones">Pinky Jones</a></li>
-		<li><a href="./kokonatsu">Coco☆nuts</a></li>
-		<li><a href="./kimiseka">You and the World</a></li>
+	<?php printTracks('pinkyjones')?>
 	</ol></div>
 	
 	<span class="listtitle">Pinky Jones</span>
@@ -523,8 +468,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/kaitou_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./kaitou">Here We Go! Phantom Thief Girls</a></li>
-		<li><a href="./hashire">Run!</a></li>
+	<?php printTracks('kaitou')?>
 	</ol></div>
 	
 	<span class="listtitle">Ikuze! Kaitou Shoujo</span>
@@ -535,8 +479,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/miraihesusume_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./miraihesusume">Advance Towards the Future!</a></li>
-		<li><a href="./supergirl">Feeling like a Super Girl!</a></li>
+	<?php printTracks('miraihesusume')?>
 	</ol></div>
 	
 	<span class="listtitle">Mirai he Susume!</span>
@@ -545,9 +488,7 @@ $(document).ready(function() {
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/momopan_regular.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li><a href="./momopan">Peach-Pink Punch</a></li>
-		<li><a href="./milkyway">Milky Way</a></li>
-		<li><a href="./roughstyle">Rough Style</a></li>
+	<?php printTracks('momopan')?>
 	</ol></div>
 	
 	<span class="listtitle">Momoiro Punch</span>
@@ -602,7 +543,7 @@ if($info->num_rows != 0){
 
 	for($i = 0; $i < sizeof($englishList); $i++){
 		echo "<tr>";
-		if(!file_exists("./Text/" . $urlList[$i] . "_e.html")){
+		if(!file_exists("./Text/$urlList[$i]_e.html")){
 			echo "\t<td> $englishList[$i] </td>";
 			echo "\t<td> $romajiList[$i] </td>";
 			echo "\t<td> $japaneseList[$i] </td>";

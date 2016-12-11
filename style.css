@@ -107,7 +107,7 @@ header.top{
 	.momoclo header.top{
 		background-color:#FF9BD3;
 	}
-header #top{
+header div#top{
 	margin: 0px auto;
 	max-width: 1000px;
 	position: relative;
@@ -117,17 +117,17 @@ header a{
 	display: inline-block;
 	padding: 2.5px 0px;
 }
-#top #momoclologo{
+header.top #momoclologo{
 	padding-left: 4px;
 }
-#top #searchform{
+header.top #searchform{
 	position: relative;
 	display: inline-block;
 	float: right;
 	margin: 12px 8px 0px 0px;
 	display: none;
 }
-#top #searchbox{
+header.top #searchbox{
 	height: 22px;
 	width: 160px;
 	padding: 0px 10px;
@@ -135,28 +135,28 @@ header a{
 	border: 1px solid #F27DA4;
 	outline: none;
 }
-#top #searchbox::-webkit-input-placeholder {
+header.top #searchbox::-webkit-input-placeholder {
 	color: #999;
 }
-#top #searchbox:focus::-webkit-input-placeholder{
+header.top #searchbox:focus::-webkit-input-placeholder{
 	color: #CCC;
 }
-#top #homebuttonlink{
+header.top #homebuttonlink{
 	float: left;
 }
-#top #homebutton{
+header.top #homebutton{
 	width: 30px;
 	height: 30px;
 	position: relative;
 	float: left;
 	margin: 4px 30px 4px 5px;
 }
-#top #settingslink{
+header.top #settingslink{
 	float: right;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	-webkit-tap-highlight-color: transparent;
 }
-#top #settingsbutton{
+header.top #settingsbutton{
 	width: 28px;
 	height: 28px;
 	position: relative;
@@ -164,7 +164,7 @@ header a{
 	margin: 6px 2px;
 	cursor: pointer;
 }
-#top #settingsmenu{
+header.top #settingsmenu{
 	display: none;
 	position: absolute;
 	width: 210px;
@@ -175,10 +175,10 @@ header a{
 	font-size: 16px;
 	z-index: 1;
 }
-#top .active#settingsmenu{
+header.top .active#settingsmenu{
 	display: inline-block;
 }
-#top #settingsmenu #settings{
+header.top #settingsmenu #settings{
 	padding-left: 0;
 	margin: 0;
 	background-color: #FF84AD;
@@ -186,7 +186,7 @@ header a{
 	color: #FFF;
 	box-shadow: 1px 1px 1px rgba(100,10,10,0.15), -1px -1px 1px rgba(100,10,10,0.15);
 }
-.momoclo #top #settingsmenu #settings{
+.momoclo header.top #settingsmenu #settings{
 	background-color: #FF9BD3;
 }
 
@@ -916,7 +916,8 @@ header.series{
 	/* tables */
 	#nicodoutable th:nth-child(2), #nicodoutable td:nth-child(2){
 		display: none;
-	}
+	}	
+	
 }
 
 @media all and (max-device-width: 540px){
@@ -935,38 +936,55 @@ header.series{
 	/* Mobile header */
 	header.top{
 		position: fixed;
-		height: 36px;
+		max-height: 36px;
 		width: 100%;
 		top: 0;
 		z-index: 99;
 	}
+	header.top div{
+		height: 100%;
+	}
+	header.top a{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+	header.top img{
+		padding-top: 4px;
+	}
+	header.top img#momoclologo{
+		height: 90%;
+		padding-top: 2px;
+		margin: auto;
+	}
+	
 	#pagetitle{
 		margin-top: 3px;
+		margin-right: 3px;
 		line-height: 26px;
 		vertical-align: middle;
 	}
 	#pagetitle a{
-		padding-left: 8px;
-		padding-right: 1px;
-		font-size: 1em;
-	}
-	#momoclologo{
-		height: 28px;
-		padding-top: 1px;
 		padding-left: 4px;
+		padding-right: 1px;
+		margin-top: 2px;
+		margin-right: 4px;
+		height: 100%;
+		font-size: 0.96em;
 	}
 	#searchform{
 		display: none;
 	}
-	#top #homebutton,#top #settingsbutton{
+	header.top #homebutton,header.top #settingsbutton{
 		height: 24px;
 		width: 24px;
-		margin-top: 2px;
-		margin-bottom: 0;
-		margin-right: 2px;
+		margin: 2px 2px 0 4px;
 	}
-		#homebutton{
-			margin-left: 10px;
+		header.top #homebutton{
+			margin-left: 8px;
+		}
+		header.top #settingsbutton{
+			margin-right: 8px;
 		}
 	#top #settingsmenu{
 		position: relative;
@@ -1014,7 +1032,7 @@ header.series{
 	}
 	
 	/* Content */
-	.content, .content2{
+	.content, .content2, .headtablist{
 		margin-top: 36px;
 	}
 	h1{
@@ -1118,3 +1136,25 @@ header.series{
 	}
 }
 
+
+@media all and (max-device-width: 355px) {
+	header.top{
+		height: 8vw;
+	}
+	header.top #homebutton,header.top #settingsbutton{
+		height: 70%;
+		width: initial;
+		margin-top: auto;
+	}
+	#pagetitle a{
+		font-size: 0.9em;
+		font-size: 6vw;
+	}
+}
+	
+@media all and (max-device-width: 220px) {
+	.momoclo #settingsmenu #settings li#japanesetoggle, .momoclo #settingsmenu #settings li#romajitoggle, 
+	.momoclo #settingsmenu #settings li#callstoggle, .momoclo #settingsmenu #settings li#preferencetoggle{
+		font-size: 7vw;
+	}
+}

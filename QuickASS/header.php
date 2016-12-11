@@ -6,6 +6,5 @@ QuickASS Tag Insertion
 <a href="/" id="homebuttonlink">
 <img src="/home.png" alt="Home" id="homebutton">
 </a>
-</form>
 </div>
 </header>

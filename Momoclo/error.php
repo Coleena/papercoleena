@@ -5,7 +5,10 @@
 
 <body>
 
-<?php include("header.php"); ?>
+<?php 
+include("header.php"); 
+header("HTTP/1.0 404 Not Found");
+?>
 
 <div class="headtablist">
 <a href="/momoclo/"><div class="tab">Lyrics</div></a><!--

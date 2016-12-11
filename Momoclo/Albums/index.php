@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="momoclo">
+<html lang="en" class="momoclo">
 <head>
 
 <title>Coleena's Momoiro Clover Z Album Translations</title>

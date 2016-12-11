@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="momoclo">
+<html lang="en" class="momoclo">
 <head>
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -135,7 +135,7 @@ while($i < count($edition)){
 			if($altEnglishTitle[$i] != $altJapaneseTitle[$i]){
 				echo "<span class=\"japanesepreference\"> / $altJapaneseTitle[$i]</span>";
 			}
-			echo "</td></td>\n";
+			echo "</td>\n";
 		}
 		$i++;
 	}

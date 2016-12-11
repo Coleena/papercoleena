@@ -93,16 +93,16 @@ for($i = 0; $i < sizeof($englishList); $i++){
 	echo "\t<td>" . $dateList[$i] . "</td>\n";
 	echo "\t<td>";
 	if(!is_null($nicodouList[$i])){
-		echo "<a href='//www.nicovideo.jp/watch/" . $nicodouList[$i] . "'><img src='/nicodoulink.png' class='videolink'></a>";
+		echo "<a href='//www.nicovideo.jp/watch/" . $nicodouList[$i] . "'><img src='/nicodoulink.png' class='videolink' alt='NicoNico Douga Link'></a>";
 	}
 	else{
-		echo "<img src='/nicodoulink_gray.png' class='videolink'>";
+		echo "<img src='/nicodoulink_gray.png' class='videolink' alt='No NicoNico Douga Link'>";
 	}
 	if(!is_null($youtubeList[$i])){
-		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='/youtubelink.png' class='videolink'></a>";
+		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='/youtubelink.png' class='videolink' alt='YouTube Link'></a>";
 	}
 	else{
-		echo "<img src='/youtubelink_gray.png' class='videolink'>";
+		echo "<img src='/youtubelink_gray.png' class='videolink' alt='No YouTube Link'>";
 	}
 	echo "</td>\n";
 	echo "</tr>\n";
@@ -159,16 +159,16 @@ for($i = 0; $i < sizeof($englishList); $i++){
 	echo "\t<td>" . $dateList[$i] . "</td>\n";
 	echo "\t<td>";
 	if(!is_null($nicodouList[$i])){
-		echo "<a href='//www.nicovideo.jp/watch/" . $nicodouList[$i] . "'><img src='/nicodoulink.png' class='videolink'></a>";
+		echo "<a href='//www.nicovideo.jp/watch/" . $nicodouList[$i] . "'><img src='/nicodoulink.png' class='videolink' alt='NicoNico Douga Link'></a>";
 	}
 	else{
-		echo "<img src='/nicodoulink_gray.png' class='videolink'>";
+		echo "<img src='/nicodoulink_gray.png' class='videolink' alt='No NicoNico Douga Link'>";
 	}
 	if(!is_null($youtubeList[$i])){
-		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='/youtubelink.png' class='videolink'></a>";
+		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='/youtubelink.png' class='videolink' alt='YouTube Link'></a>";
 	}
 	else{
-		echo "<img src='/youtubelink_gray.png' class='videolink'>";
+		echo "<img src='/youtubelink_gray.png' class='videolink'  alt='No YouTube Link'>";
 	}
 	echo "</td>\n";
 	echo "</tr>\n";
@@ -180,7 +180,7 @@ for($i = 0; $i < sizeof($englishList); $i++){
 </table> 
 
 <h2>Miscellaneous Japanese Music</h2>
-<table id="miscasstable" class="tablesorter"> 
+<table id="miscasstable" class="tablesorter">
 <thead> 
 <tr> 
     <th>English Title</th> 
@@ -226,7 +226,7 @@ for($i = 0; $i < sizeof($englishList); $i++){
 	echo "\t<td>" . $dateList[$i] . "</td>\n";
 	echo "\t<td>";
 	if(!is_null($youtubeList[$i])){
-		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='../youtubelink.png' class='videolink'></a>";
+		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='../youtubelink.png' class='videolink' alt='YouTube Link'></a>";
 	}
 	echo "</td>\n";
 	echo "</tr>\n";

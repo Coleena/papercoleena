@@ -547,7 +547,8 @@ table{
 	max-width: 475px;
 	text-align: left;
 }
-.columnhead{
+.lyrictable .columnhead, .lyrictable th{
+	padding: 5px 15px;
 	font-size: 1.25em;
 	font-weight: 600;
 	border-bottom: 1px solid;

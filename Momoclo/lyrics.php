@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="momoclo">
+<html lang="en" class="momoclo">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -151,9 +151,9 @@ if($englishTitle != $japaneseTitle){
 ?>
 
 <?php
-if(file_exists("./Text/" . $url . "_embed.html")){
+if(file_exists("./Text/{$url}_embed.html")){
 	echo "<div id=\"videoembedbox\">\n";
-	include("./Text/" . $url . "_embed.html"); 
+	include("./Text/{$url}_embed.html"); 
 	echo "</div>";
 }
 ?>
@@ -182,6 +182,7 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 </tr>
 </tbody>
 </table><table class="infotable">
+<tbody>
 <tr style="height: 31pt">
 	<th>Artist(s):</th>
 	<td><?php echo $artist; ?></td>
@@ -196,7 +197,7 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 				echo ", ";
 			}
 			
-			echo "<a href='/momoclo/?view=list&songwriter=" . $composerList[$i] . "'>";
+			echo "<a href='/momoclo/?view=list&songwriter=" . urlencode("{$composerList[$i]}") . "'>";
 			echo $composerList[$i];
 			echo "</a>";
 		}
@@ -212,7 +213,7 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 				echo ", ";
 			}
 			
-			echo "<a href='/momoclo/?view=list&songwriter=" . $lyricistList[$i] . "'>";
+			echo "<a href='/momoclo/?view=list&songwriter=" . urlencode("{$lyricistList[$i]}") . "'>";
 			echo $lyricistList[$i];
 			echo "</a>";
 		}
@@ -228,7 +229,7 @@ if(file_exists("./Text/" . $url . "_embed.html")){
 				echo ", ";
 			}
 			
-			echo "<a href='/momoclo/?view=list&songwriter=" . $arrangementList[$i] . "'>";
+			echo "<a href='/momoclo/?view=list&songwriter=" . urlencode("{$arrangementList[$i]}") . "'>";
 			echo $arrangementList[$i];
 			echo "</a>";
 		}

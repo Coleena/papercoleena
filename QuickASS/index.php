@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 <title>QuickASS Tag Insertion</title>
@@ -27,7 +27,7 @@ Insert at beginning:<br/>
 <form id="alttags">
 <a href="#" tabindex="-1"><div id="alttagplus"></div></a><a href="#" tabindex="-1"><div id="alttagminus"></div></a>
 Alternating tags:<br/>
-<span><label for="alttag1">1.</label><input type="text" class="inputfield alttag" id="alttag1" tabindex="2"></span><span><label for="alttag2">2.</label><input type="text" class="inputfield alttag" id="alttag1" tabindex="3"></span></form>
+<span><label for="alttag1">1.</label><input type="text" class="inputfield alttag" id="alttag1" tabindex="2"></span><span><label for="alttag2">2.</label><input type="text" class="inputfield alttag" id="alttag2" tabindex="3"></span></form>
 <p>
 Insert at end:<br/>
 <input type="text" class="inputfield" id="endingtags" tabindex="4">

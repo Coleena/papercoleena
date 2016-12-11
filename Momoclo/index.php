@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="momoclo">
+<html lang="en" class="momoclo">
 <head>
 
 <title>Coleena's Momoiro Clover Z Lyrics Translations</title>
@@ -14,7 +14,7 @@ $view = $_GET['view'];
 $songwriter = $_GET['songwriter'];
 ?>
 <link rel="stylesheet" type="text/css" href="./sorterstyle.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Titan+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:800&#124;Titan+One" rel="stylesheet">
 <script type="text/javascript" src="./jquery.tablesorter.js"></script> 
 
 <script type="text/javascript">
@@ -170,7 +170,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('goldhist')?>
 	</ol></div>
-	
 	<span class="listtitle">The Golden History</span>
 	</div>
 	
@@ -180,7 +179,6 @@ function printTracks($albumUrl){
 		<li>In Love with the New Moon</li>
 		<li>Only Eternity Bridges Our Distance</li>
 	</ol></div>
-	
 	<span class="listtitle">New Moon ni Koishite</span>
 	</div>
 	
@@ -189,7 +187,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('yoake')?>
 	</ol></div>
-	
 	<span class="listtitle">Hakkin no Yoake</span>
 	</div>
 	
@@ -198,7 +195,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('amaranthus')?>
 	</ol></div>
-	
 	<span class="listtitle">AMARANTHUS</span>
 	</div>
 	
@@ -208,7 +204,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Tonight, Under this Live</li>
 	</ol></div>
-	
 	<span class="listtitle">Koyoi, Live no Shita de</span>
 	</div>
 	
@@ -219,7 +214,6 @@ function printTracks($albumUrl){
 		<li>Romantic Tangle-Ups</li>
 		<li>CHA-LA HEAD-CHA-LA</li>
 	</ol></div>
-	
 	<span class="listtitle">"Z" no Chikai</span>
 	</div>
 	
@@ -228,7 +222,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('seishunfu')?>
 	</ol></div>
-	
 	<span class="listtitle">Seishunfu</span>
 	</div>
 	
@@ -237,7 +230,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('ukiyo')?>
 	</ol></div>
-	
 	<span class="listtitle">Yume no Ukiyo ni Saitemina</span>
 	</div>
 	
@@ -250,7 +242,6 @@ function printTracks($albumUrl){
 		<li>Chai Maxx Zero</li>
 		<li>STOp THESe FINGERs</li>
 	</ol></div>
-	
 	<span class="listtitle">Hitotsubu no Egao de... / Chai Maxx Zero</span>
 	</div>
 	
@@ -261,7 +252,6 @@ function printTracks($albumUrl){
 		<li>Moonbow</li>
 		<li>Moon Revenge</li>
 	</ol></div>
-	
 	<span class="listtitle">Moon Pride</span>
 	</div>
 	
@@ -272,7 +262,6 @@ function printTracks($albumUrl){
 		<li>Grand Peace Declaration</li>
 		<li>My Dear Fellow</li>
 	</ol></div>
-	
 	<span class="listtitle">Naitemo Iindayo</span>
 	</div>
 	
@@ -284,7 +273,6 @@ function printTracks($albumUrl){
 		<li>Tearful Winter</li>
 		<li>Steel Will</li>
 	</ol></div>
-	
 	<span class="listtitle">Naichaisou Fuyu / Hagane no Ishi</span>
 	</div>
 	
@@ -295,7 +283,6 @@ function printTracks($albumUrl){
 		<li>Someday, You Will</li>
 		<li>Momoiro Taiko Do-don-ga Song</li>
 	</ol></div>
-	
 	<span class="listtitle">GOUNN</span>
 	</div>
 	
@@ -304,7 +291,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('iriguchi')?>
 	</ol></div>
-	
 	<span class="listtitle">Iriguchi no Nai Deguchi</span>
 	</div>
 	
@@ -313,7 +299,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('5th')?>
 	</ol></div>
-	
 	<span class="listtitle">5th Dimension</span>
 	</div>
 	
@@ -325,7 +310,6 @@ function printTracks($albumUrl){
 		<li>Our Century</li>
 		<li>The Sky's Curtain</li>
 	</ol></div>
-	
 	<span class="listtitle">Bokura no Century</span>
 	</div>
 	
@@ -334,7 +318,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('saraba')?>
 	</ol></div>
-	
 	<span class="listtitle">Saraba, Itoshiki Kanashimi-tachi yo</span>
 	</div>
 	
@@ -343,7 +326,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('egaohyakkei')?>
 	</ol></div>
-	
 	<span class="listtitle">Nippon Egao Hyakkei</span>
 	</div>
 	
@@ -352,7 +334,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('otomesensou')?>
 	</ol></div>
-	
 	<span class="listtitle">Otome Sensou</span>
 	</div>
 	
@@ -360,7 +341,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('allstars')?>
 	</ol></div>
-	
 	<span class="listtitle">Momoclo★Allstars 2012</span>
 	</div>
 	
@@ -369,7 +349,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('mouretsu')?>
 	</ol></div>
-	
 	<span class="listtitle" style="margin-top:-52px">Mouretsu Uchuu Koukyoukyoku Dai Nana Gakushou "Mugen no Ai"</span>
 	</div>
 	
@@ -380,7 +359,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('shiroikaze')?>
 	</ol></div>
-	
 	<span class="listtitle">Shiroi Kaze</span>
 	</div>
 	
@@ -389,7 +367,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('roudou')?>
 	</ol></div>
-	
 	<span class="listtitle">Roudou Sanka</span>
 	</div>
 	
@@ -398,7 +375,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('djun')?>
 	</ol></div>
-	
 	<span class="listtitle">D' no Junjou</span>
 	</div>
 	
@@ -407,7 +383,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('zdensetsu')?>
 	</ol></div>
-	
 	<span class="listtitle">Z Densetsu ~Owarinaki Kakumei~</span>
 	</div>
 	
@@ -415,7 +390,7 @@ function printTracks($albumUrl){
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bar_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('bar')?>
-	</ol><ol class="tracklist">Bonus:
+	</ol><ol class="tracklist"><li>Bonus:</li>
 		<li><a href="./taieku">The Sun and Dimples</a></li>
 		<li><a href="./fallintome">fall into me</a></li>
 		<li>...is this Love?</li>
@@ -423,7 +398,6 @@ function printTracks($albumUrl){
 		<li><a href="./aripre">Thank-You Present</a></li>
 		<li><a href="./onidaiko">Love is a Raging Demon Drum</a></li>
 	</ol></div>
-	
 	<span class="listtitle">Battle and Romance</span>
 	</div>
 	
@@ -432,7 +406,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('akarin')?>
 	</ol></div>
-	
 	<span class="listtitle">Akarin he Okuru Uta</span>
 	</div>
 	
@@ -441,7 +414,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('miraibowl')?>
 	</ol></div>
-	
 	<span class="listtitle">Mirai Bowl/Chai Maxx</span>
 	</div>
 	
@@ -452,7 +424,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('momokuri')?>
 	</ol></div>
-	
 	<span class="listtitle">Momokuri</span>
 	</div>
 	
@@ -461,7 +432,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('pinkyjones')?>
 	</ol></div>
-	
 	<span class="listtitle">Pinky Jones</span>
 	</div>
 	
@@ -470,7 +440,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('kaitou')?>
 	</ol></div>
-	
 	<span class="listtitle">Ikuze! Kaitou Shoujo</span>
 	</div>
 	
@@ -481,7 +450,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('miraihesusume')?>
 	</ol></div>
-	
 	<span class="listtitle">Mirai he Susume!</span>
 	</div>
 	
@@ -490,7 +458,6 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 	<?php printTracks('momopan')?>
 	</ol></div>
-	
 	<span class="listtitle">Momoiro Punch</span>
 	</div>
 </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,6 +94,7 @@ echo "<h2 class='japanesepreference'>(" . $japaneseTitle . ")</h2>";
 <div id="infobox">
 
 <table class="infotable">
+<tbody>
 <tr>
 	<th>Vocals:</th>
 	<td><?php echo $vocals; ?></td>
@@ -142,11 +143,13 @@ else{
 </div>
 
 <div id="lyriccontainer">
-<table class="lyrictable hiddenjapanese" id="japanesetable"><?php if(file_exists("./Text/" . $url . "_j.html")){
-	include "./Text/" . $url . "_j.html";
+<table class="lyrictable hiddenjapanese" id="japanesetable"><?php if(file_exists("./Text/{$url}_j.html")){
+	include "./Text/{$url}_j.html";
 } ?>
-</table><table class="lyrictable romaji" id="romajitable"><?php include "./Text/" . $url . "_r.html" ?>
-</table><table class="lyrictable" id="englishtable"><?php include "./Text/" . $url . "_e.html" ?>
+</table><table class="lyrictable romaji" id="romajitable">
+<?php include "./Text/{$url}_r.html" ?>
+</table><table class="lyrictable" id="englishtable">
+<?php include "./Text/{$url}_e.html" ?>
 </table>
 </div>
 

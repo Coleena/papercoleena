@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 
 <title>Coleena's NicoNico Douga Lyrics Translations</title>
@@ -70,10 +71,10 @@ for($i = 0; $i < sizeof($englishList); $i++){
 	echo "\t<td>" . $dateList[$i] . "</td>";
 	echo "\t<td>";
 	if(!is_null($youtubeList[$i])){
-		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='../youtubelink.png' class='videolink'></a>";
+		echo "<a href='//youtu.be/" . $youtubeList[$i] . "'><img src='../youtubelink.png' class='videolink' alt='Youtube Link'></a>";
 	}
 	if(!is_null($tumblrList[$i])){
-		echo "<a href='//papercoleena.tumblr.com/" . $tumblrList[$i] . "'><img src='../tumblrlink.png' class='videolink'></a>";
+		echo "<a href='//papercoleena.tumblr.com/" . $tumblrList[$i] . "'><img src='../tumblrlink.png' class='videolink' alt='Tumblr Link'></a>";
 	}
 	echo "</td>";
 	echo "</tr>";

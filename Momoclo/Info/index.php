@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="momoclo">
+<html lang="en" class="momoclo">
 <head>
 
 <title>Momoiro Clover Z Info Index</title>

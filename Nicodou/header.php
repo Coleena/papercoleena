@@ -17,6 +17,5 @@ NicoNico Douga Translations
 		--><li id="preferencetoggle"><span class="romajipreference">Display Titles in Japanese</span><span class="japanesepreference">Display Titles in Romaji</span></li>
 	</ul>
 </div>
-</form>
 </div>
 </header>

@@ -153,6 +153,8 @@ header a{
 }
 #top #settingslink{
 	float: right;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
 }
 #top #settingsbutton{
 	width: 28px;
@@ -930,9 +932,13 @@ header.series{
 }
 
 @media all and (max-device-width: 540px) {
-	/* header */
+	/* Mobile header */
 	header.top{
+		position: fixed;
 		height: 36px;
+		width: 100%;
+		top: 0;
+		z-index: 99;
 	}
 	#pagetitle{
 		margin-top: 3px;
@@ -964,11 +970,22 @@ header.series{
 		}
 	#top #settingsmenu{
 		position: relative;
-		display: none;
+		display: block;
+		height: 0;
 		width: 100%;
+		
 		padding-top: 0;
-		top: 0;
+		top: -4px;
 		z-index: 2;
+		transition: all 1s ease;
+		overflow: hidden;
+	}
+	#top .active#settingsmenu{
+		display: block;
+		height: 75px;
+	}
+	#top #settingsmenu ul#settings{
+		box-shadow: none;
 	}
 	
 	/* List page content */
@@ -997,13 +1014,15 @@ header.series{
 	}
 	
 	/* Content */
+	.content, .content2{
+		margin-top: 36px;
+	}
 	h1{
 		font-size: 1.7em;
 	}
 	h2{
 		font-size: 1.5em;
 	}
-
 
 	/* Lyricpage top */
 	#versionbutton{
@@ -1012,18 +1031,24 @@ header.series{
 		position: static;
 	}
 	#albumartcontainer{
+		position: relative;
 		width: 200px;
 		height: 200px;
 		border-width: 4px;
 	}
-	.albumart{
+	#albumartcontainer img.albumart{
+		position: absolute;
 		max-width: 200px;
 		max-height: 200px;
+		left: 0;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 	#nextbutton,#backbutton{
 		height: 30px;
 		width: 30px;
 		background-size: contain;
+		z-index: 2;
 	}
 	#nextbutton{
 		left: 170px;
@@ -1041,10 +1066,18 @@ header.series{
 		display: block;
 		max-width: 100%;
 	}
+		.infotable:first-child{
+			margin-bottom: 8px;
+		}
 		.infotable:nth-child(n+2) th, .infotable:nth-child(n+2) td{
 			border-top: 1px solid;
 			border-color: #C5C5C5;
 		}
+	/* All info sections on individual lines in mobile view */
+	.infotable tr{
+		height: initial !important;
+		line-height: 1.5em;
+	}
 	.infotable th{
 		padding-left: 8px;
 		width: 110px;

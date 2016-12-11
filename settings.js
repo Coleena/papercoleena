@@ -32,25 +32,39 @@ $(document).ready(function(){
 		$('.japanesepreference').show();
 	}
 	
-	// Display submenu when settings gear hovered over
-	var timer;
-	$('#settingsbutton').mouseenter(function(){
+	// Display submenu when settings gear hovered over, alternate menu behavior for mobile view
+	if($(window).width() > 540){
+		var timer;
+		$('#settingsbutton').mouseenter(function(){
 			clearTimeout(timer);
 			$('#settingsmenu').addClass("active");
-		}
-	).mouseleave(function(){
-		timer = setTimeout(function(){
+		}).mouseleave(function(){
+			timer = setTimeout(function(){
+				$('#settingsmenu').removeClass("active");
+			},50)
+		});
+		$('#settingsmenu').mouseenter(function(){
+			clearTimeout(timer);
+		});
+		$('#settingsmenu').mouseleave(function(){
+			timer = setTimeout(function(){
+				$('#settingsmenu').removeClass("active");
+			},80)
+		});
+	}
+	else{
+		$('#settingsbutton').click(function(e){
+			e.stopPropagation();
+			$('#settingsmenu').toggleClass("active");
+		});
+		/* Prevent propagation of click-out-of-menu close */
+		$('#settingsmenu').click(function(e){
+			e.stopPropagation();
+		});
+		$(document).click(function(){
 			$('#settingsmenu').removeClass("active");
-		},50)
-	});
-	$('#settingsmenu').mouseenter(function(){
-		clearTimeout(timer);
-	});
-	$('#settingsmenu').mouseleave(function(){
-		timer = setTimeout(function(){
-			$('#settingsmenu').removeClass("active");
-		},80)
-	});
+		});
+	}
 	
 	// Set cookies when Japanese toggle clicked (default false)
 	$('#japanesetoggle').click(function(){

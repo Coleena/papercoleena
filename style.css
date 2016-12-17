@@ -270,7 +270,7 @@ header.top #settingsmenu #settings{
 /* ----- Lyriclist Album/List Display ----- */
 .headtablist{
 	position: relative;
-	margin: 7px auto 0 auto;
+	margin: 5px auto 0 auto;
 	top: 1px; /* Cover top border of content */
 	z-index: 1;
 	max-width: 800px;

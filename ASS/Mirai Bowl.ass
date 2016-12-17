@@ -6,314 +6,160 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 720
-PlayResY: 480
+PlayResX: 1920
+PlayResY: 1080
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
-Audio File: Mirai Bowl.mp4
-Video File: Mirai Bowl.mp4
+Last Style Storage: Temp
+Audio File: Momoiro Clover Z - Momoiro Clover Z MUSIC VIDEO CLIPS-007.mkv
+Video File: Momoiro Clover Z - Momoiro Clover Z MUSIC VIDEO CLIPS-007.mkv
 Video AR Mode: 4
-Video AR Value: 1.767901
-Video Zoom Percent: 1.000000
-Scroll Position: 231
-Active Line: 246
-Video Position: 13939
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Scroll Position: 96
+Active Line: 103
+Video Position: 5856
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Title,Poetsen One,40,&H00C855A3,&H000019FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,5,10,10,20,1
-Style: Credits,Rosewood,50,&H0076135D,&H000019FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1.6,0,5,10,10,20,1
-Style: Default,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H28000000,&H78000000,0,0,0,0,100,115,0,0,1,1.8,1.2,2,10,10,35,1
-Style: Kanako,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H320015D4,&H00000000,-1,0,0,0,100,115,0,0,1,1.8,0,2,10,10,35,1
-Style: Shiorin,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H140094D9,&H78000000,-1,0,0,0,100,115,0,0,1,1.8,0,2,10,10,35,1
-Style: Aarin,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H149A5EFF,&H78000000,-1,0,0,0,100,115,0,0,1,1.8,0,2,10,10,35,1
-Style: Momoka,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H14116A00,&H78000000,-1,0,0,0,100,115,0,0,1,1.8,0,2,10,10,35,1
-Style: Reni,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H147F0F54,&H78000000,-1,0,0,0,100,115,0,0,1,1.8,0,2,10,10,35,1
-Style: Akari,One Stroke Script LET,32,&H00FFFFFF,&H000019FF,&H14A63500,&HB4000000,-1,0,0,0,100,115,0,0,1,1.8,0.6,2,10,10,35,1
+Style: Default,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H28000000,&H78000000,0,0,0,0,102,100,0,0,1,4,2,2,27,27,57,1
+Style: Title,Poetsen One,91,&H00AD2B89,&H000019FF,&H00FFFFFF,&H00000000,-1,0,0,0,118.519,100,0,0,1,4.49999,0,5,27,27,44,1
+Style: Credits,Rosewood,112,&H0076135D,&H000019FF,&H00FFFFFF,&H00000000,-1,0,0,0,118.519,100,0,0,1,3.60001,0,5,27,27,44,1
+Style: Kanako,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H321728C7,&H00000000,0,0,0,0,102,100,0,0,1,4.05,0,2,27,27,57,1
+Style: Shiorin,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H14007CC4,&H78000000,0,0,0,0,102,100,0,0,1,4.05,0,2,27,27,57,1
+Style: Aarin,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H149A5EFF,&H78000000,0,0,0,0,102,100,0,0,1,4.05,0,2,27,27,57,1
+Style: Momoka,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H14116A00,&H78000000,0,0,0,0,102,100,0,0,1,4.05,0,2,27,27,57,1
+Style: Reni,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H147F0F54,&H78000000,0,0,0,0,102,100,0,0,1,4.05,0,2,27,27,57,1
+Style: Akari,One Stroke Script LET,76,&H00FFFFFF,&H000019FF,&H14A63500,&HB4000000,0,0,0,0,102,100,0,0,1,4.05,1.35,2,27,27,57,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.41,0:00:06.49,Title,,0,0,0,,{\fax0.1\1a&HFF\t(\fs44)\frx90\blur3\bord0.2\t(0,360,\bord2\frx0)\move(360,409,360,421)\c&HD960B1&}Future Bowl
-Dialogue: 0,0:00:01.41,0:00:06.49,Title,,0,0,0,,{\fax0.1\t(\fs44)\frx90\blur3\bord0.2\t(0,360,\bord2\frx0)\move(361,411,361,423)\c&H993C7E&}Future Bowl
-Dialogue: 0,0:00:01.41,0:00:06.49,Title,,0,0,0,,{\fax0.1\3a&HFF\t(\fs44)\frx90\blur3\bord0.2\t(0,360,\bord2\frx0)\move(360,409,360,421)\c&HD960B1&}Future Bowl
-Dialogue: 0,0:00:23.57,0:00:23.60,Credits,,0,0,0,,{\pos(745,458)}Lackey
-Comment: 0,0:00:23.60,0:00:23.87,Credits,,0,0,0,,{\pos(605,460)}Lackey
-Dialogue: 0,0:00:23.60,0:00:23.64,Credits,,0,0,0,,{\pos(698.39,458)}Lackey
-Dialogue: 0,0:00:23.64,0:00:23.67,Credits,,0,0,0,,{\pos(662.37,458)}Lackey
-Dialogue: 0,0:00:23.67,0:00:23.70,Credits,,0,0,0,,{\pos(638.11,458)}Lackey
-Dialogue: 0,0:00:23.70,0:00:23.74,Credits,,0,0,0,,{\pos(638.07,458)}Lackey
-Dialogue: 0,0:00:23.74,0:00:23.77,Credits,,0,0,0,,{\pos(622.02,458)}Lackey
-Dialogue: 0,0:00:23.77,0:00:23.80,Credits,,0,0,0,,{\pos(612.06,458)}Lackey
-Dialogue: 0,0:00:23.80,0:00:23.84,Credits,,0,0,0,,{\pos(606.7,458)}Lackey
-Dialogue: 0,0:00:23.84,0:00:23.87,Credits,,0,0,0,,{\pos(605,458)}Lackey
-Dialogue: 0,0:00:23.87,0:00:27.31,Credits,,0,0,0,,{\pos(605,458)}Lackey
-Dialogue: 0,0:00:40.40,0:00:42.00,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}His name is Danny.
-Dialogue: 0,0:00:40.40,0:00:42.00,Kanako,,0,0,0,,{\org(0,0)\fax0.07\org(0,0)\blur0.4}His name is Danny.
-Dialogue: 0,0:00:43.61,0:00:46.20,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's the number 1 Super Bowler in town.
-Dialogue: 0,0:00:43.61,0:00:46.20,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's the number 1 Super Bowler in town.
-Dialogue: 0,0:00:47.78,0:00:49.64,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}People call him...
-Dialogue: 0,0:00:47.78,0:00:49.64,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}People call him...
-Dialogue: 0,0:00:49.64,0:00:52.28,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}"The Golden Leftie".
-Dialogue: 0,0:00:49.64,0:00:52.28,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}"The Golden Leftie".
-Dialogue: 0,0:00:54.09,0:00:57.45,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The straight ball delivered from his southpaw
-Dialogue: 0,0:00:54.09,0:00:57.45,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The straight ball delivered from his southpaw
-Dialogue: 0,0:00:58.90,0:01:00.34,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}scored on my heart...
-Dialogue: 0,0:00:58.90,0:01:00.34,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}scored on my heart...
-Dialogue: 0,0:01:00.90,0:01:01.89,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-{\alpha&HFF}t-r-i-k-e.
-Dialogue: 0,0:01:00.90,0:01:01.89,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-{\alpha&HFF}t-r-i-k-e.
-Dialogue: 0,0:01:01.89,0:01:02.59,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-{\alpha&HFF}r-i-k-e.
-Dialogue: 0,0:01:01.89,0:01:02.59,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-{\alpha&HFF}r-i-k-e.
-Dialogue: 0,0:01:02.59,0:01:03.29,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-{\alpha&HFF}i-k-e.
-Dialogue: 0,0:01:02.59,0:01:03.29,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-{\alpha&HFF}i-k-e.
-Dialogue: 0,0:01:03.29,0:01:03.89,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-i-{\alpha&HFF}k-e.
-Dialogue: 0,0:01:03.29,0:01:03.89,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-i-{\alpha&HFF}k-e.
-Dialogue: 0,0:01:03.89,0:01:05.89,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-i-k-e.
-Dialogue: 0,0:01:03.89,0:01:05.89,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}a s-t-r-i-k-e.
-Dialogue: 0,0:01:12.30,0:01:13.31,Default,,0,0,0,,{\blur0.4\fax0.07\org(0,0)}I'm telling you it'll be fine!
-Dialogue: 0,0:01:12.30,0:01:13.31,Shiorin,,0,0,0,,{\blur0.4\fax0.07\org(0,0)}I'm telling you it'll be fine!
-Dialogue: 0,0:01:13.31,0:01:17.81,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Just be honest with him, and it's no problem.
-Dialogue: 0,0:01:13.31,0:01:17.81,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Just be honest with him, and it's no problem.
-Dialogue: 0,0:01:15.92,0:01:17.81,Default,,0,0,0,,{\pos(360,400)\fax0.07\org(0,0)\blur0.4}No problem.
-Dialogue: 0,0:01:15.92,0:01:17.81,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4\pos(360,400)}No problem.
-Dialogue: 0,0:01:17.81,0:01:20.53,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I just can't! There's no way it'll work out.
-Dialogue: 0,0:01:17.81,0:01:20.53,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I just can't! There's no way it'll work out.
-Dialogue: 0,0:01:20.53,0:01:23.30,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}It{\i1\fax0.2}will{\i0\fax0.07}  work out! You have my word.
-Dialogue: 0,0:01:20.53,0:01:23.30,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}It{\i1\fax0.2}will{\i0\fax0.07}  work out! You have my word.
-Dialogue: 0,0:01:23.30,0:01:24.15,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:23.30,0:01:24.15,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:24.15,0:01:26.33,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Danny even said he likes you too.
-Dialogue: 0,0:01:24.15,0:01:26.33,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Danny even said he likes you too.
-Dialogue: 0,0:01:26.33,0:01:27.37,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:26.33,0:01:27.37,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:30.15,0:01:31.82,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Anyways, it'll work out, so get going!
-Dialogue: 0,0:01:30.15,0:01:31.82,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Anyways, it'll work out, so get going!
-Dialogue: 0,0:01:31.82,0:01:33.41,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:31.82,0:01:33.41,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:33.41,0:01:36.17,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Besides, Danny said to bring you along.
-Dialogue: 0,0:01:33.41,0:01:36.17,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Besides, Danny said to bring you along.
-Dialogue: 0,0:01:36.17,0:01:37.31,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:36.17,0:01:37.31,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Promise.
-Dialogue: 0,0:01:44.19,0:01:46.33,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Leader! At this rate,
-Dialogue: 0,0:01:44.19,0:01:46.33,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Leader! At this rate,
-Dialogue: 0,0:01:46.33,0:01:49.02,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Sandy will be taken away by Danny!
-Dialogue: 0,0:01:46.33,0:01:49.02,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Sandy will be taken away by Danny!
-Dialogue: 0,0:01:49.79,0:01:52.30,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Tch. That goddamned Danny.
-Dialogue: 0,0:01:49.79,0:01:52.30,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Tch. That goddamned Danny.
-Dialogue: 0,0:01:52.30,0:01:54.20,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Not only did he steal my popularity all around the city,
-Dialogue: 0,0:01:52.30,0:01:54.20,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Not only did he steal my popularity all around the city,
-Dialogue: 0,0:01:54.20,0:01:57.56,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}now he's trying to take away my lovely Sandy-chan...
-Dialogue: 0,0:01:54.20,0:01:57.56,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}now he's trying to take away my lovely Sandy-chan...
-Dialogue: 0,0:01:58.43,0:01:59.63,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's not getting away with this... {\alpha&HFF}baby.
-Dialogue: 0,0:01:58.43,0:01:59.63,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's not getting away with this... {\alpha&HFF}baby.
-Dialogue: 0,0:01:59.63,0:02:01.30,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's not getting away with this... baby.
-Dialogue: 0,0:01:59.63,0:02:01.30,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}He's not getting away with this... baby.
-Dialogue: 0,0:02:01.30,0:02:03.99,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Ain't there any tricks that can deal with this guy?
-Dialogue: 0,0:02:01.30,0:02:03.99,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Ain't there any tricks that can deal with this guy?
-Dialogue: 0,0:02:05.00,0:02:07.40,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}...alright. I'll leave the usual to you.
-Dialogue: 0,0:02:05.00,0:02:07.40,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}...alright. I'll leave the usual to you.
-Dialogue: 0,0:02:08.18,0:02:10.41,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The usual?!
-Dialogue: 0,0:02:08.18,0:02:10.41,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The usual?!
-Dialogue: 0,0:02:10.41,0:02:11.34,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The usual.
-Dialogue: 0,0:02:10.41,0:02:11.34,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The usual.
-Dialogue: 0,0:02:13.37,0:02:15.48,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Give me chapa chapa...
-Dialogue: 0,0:02:13.37,0:02:15.48,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Give me chapa chapa...
-Dialogue: 0,0:02:15.48,0:02:17.51,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Believe me chapa chapa...
-Dialogue: 0,0:02:15.48,0:02:17.51,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Believe me chapa chapa...
-Dialogue: 0,0:02:18.34,0:02:21.19,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Come on! Come on! Yes! Yes! Yes! Yes!
-Dialogue: 0,0:02:18.34,0:02:21.19,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Come on! Come on! Yes! Yes! Yes! Yes!
-Dialogue: 0,0:02:22.35,0:02:23.41,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Leader!
-Dialogue: 0,0:02:22.35,0:02:23.41,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Leader!
-Dialogue: 0,0:02:27.43,0:02:29.15,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}In other words,
-Dialogue: 0,0:02:27.43,0:02:29.15,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}In other words,
-Dialogue: 0,0:02:29.15,0:02:31.26,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}the Bowling No. 1 title
-Dialogue: 0,0:02:29.15,0:02:31.26,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}the Bowling No. 1 title
-Dialogue: 0,0:02:31.26,0:02:35.20,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and Sandy-chan will soon be mine... {\alpha&HFF}baby.
-Dialogue: 0,0:02:31.26,0:02:35.20,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and Sandy-chan will soon be mine... {\alpha&HFF}baby.
-Dialogue: 0,0:02:35.20,0:02:37.07,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and Sandy-chan will soon be mine... baby.
-Dialogue: 0,0:02:35.20,0:02:37.07,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and Sandy-chan will soon be mine... baby.
-Dialogue: 0,0:02:52.53,0:02:53.49,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Um...
-Dialogue: 0,0:02:52.53,0:02:53.49,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Um...
-Dialogue: 0,0:02:55.67,0:02:56.97,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I...
-Dialogue: 0,0:02:55.67,0:02:56.97,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I...
-Dialogue: 0,0:02:58.18,0:02:59.21,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I...
-Dialogue: 0,0:02:58.18,0:02:59.21,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I...
-Dialogue: 0,0:03:23.75,0:03:24.48,Default,,0,0,0,,{\fax0.07\blur0.4}Hi, hi!
-Dialogue: 0,0:03:22.28,0:03:24.48,Default,,0,0,0,,{\fax0.07\blur0.4}'scuse me!
-Dialogue: 0,0:03:24.48,0:03:26.69,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Before I knew it, it was love at first sight
-Dialogue: 0,0:03:24.48,0:03:26.69,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Before I knew it, it was love at first sight
-Dialogue: 0,0:03:26.69,0:03:28.02,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Head over heels!
-Dialogue: 0,0:03:26.69,0:03:28.02,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Head over heels!
-Dialogue: 0,0:03:28.02,0:03:28.99,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Dummy.
-Dialogue: 0,0:03:28.02,0:03:28.99,Akari,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Dummy.
-Dialogue: 0,0:03:28.99,0:03:29.85,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Look straight at me!
-Dialogue: 0,0:03:28.99,0:03:29.85,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Look straight at me!
-Dialogue: 0,0:03:29.85,0:03:32.02,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Until you pierce holes through
-Dialogue: 0,0:03:29.85,0:03:32.02,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Until you pierce holes through
-Dialogue: 0,0:03:32.02,0:03:36.16,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Let's believe in inspiration, 'kay?
-Dialogue: 0,0:03:32.02,0:03:36.16,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Let's believe in inspiration, 'kay?
-Dialogue: 0,0:03:36.16,0:03:38.50,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}It's not all romantic
-Dialogue: 0,0:03:36.16,0:03:38.50,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}It's not all romantic
-Dialogue: 0,0:03:38.50,0:03:39.86,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I'm well aware!
-Dialogue: 0,0:03:38.50,0:03:39.86,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}I'm well aware!
-Dialogue: 0,0:03:39.86,0:03:42.13,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Throughout my body! (Shiver shiver!!)
-Dialogue: 0,0:03:42.13,0:03:45.44,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}As I'm flooded with dazzling music
-Dialogue: 0,0:03:42.13,0:03:45.44,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}As I'm flooded with dazzling music
-Dialogue: 0,0:03:45.44,0:03:46.47,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}That's right!
-Dialogue: 0,0:03:45.44,0:03:46.47,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}That's right!
-Dialogue: 0,0:03:46.47,0:03:49.64,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and if I act a little spoiled, you get irritated
-Dialogue: 0,0:03:46.47,0:03:49.64,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}and if I act a little spoiled, you get irritated
-Dialogue: 0,0:03:49.64,0:03:52.88,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}But I won't ever let you out of my sight ever again
-Dialogue: 0,0:03:49.64,0:03:52.88,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}But I won't ever let you out of my sight ever again
-Dialogue: 0,0:03:52.88,0:03:57.95,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Yes, I'm crazy about you
-Dialogue: 0,0:03:52.88,0:03:57.95,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Yes, I'm crazy about you
-Dialogue: 0,0:03:57.95,0:04:02.49,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The more I dream, the faster my heart beats
-Dialogue: 0,0:03:57.95,0:04:02.49,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}The more I dream, the faster my heart beats
-Dialogue: 0,0:04:02.49,0:04:04.72,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Stop, stop, I can't be doing this!
-Dialogue: 0,0:04:04.72,0:04:06.96,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Now, right now's the time!
-Dialogue: 0,0:04:06.96,0:04:12.30,Default,,0,0,0,,{\t(4350,5400,\1c&H000000&)\fax0.07\org(0,0)\blur0.4}Let's get this love started!!
-Dialogue: 0,0:04:13.42,0:04:15.28,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Hey, you two!
-Dialogue: 0,0:04:13.42,0:04:15.28,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Hey, you two!
-Dialogue: 0,0:04:17.65,0:04:19.80,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Wait a minute, please.
-Dialogue: 0,0:04:17.65,0:04:19.80,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.4}Wait a minute, please.
-Dialogue: 0,0:04:22.16,0:04:23.31,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}What do you need?
-Dialogue: 0,0:04:22.16,0:04:23.31,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}What do you need?
-Dialogue: 0,0:04:24.43,0:04:26.61,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}We won't let you keep doing as you please!
-Dialogue: 0,0:04:24.43,0:04:26.61,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}We won't let you keep doing as you please!
-Dialogue: 0,0:04:27.47,0:04:28.81,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Leader!
-Dialogue: 0,0:04:27.47,0:04:28.81,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Leader!
-Dialogue: 0,0:04:29.51,0:04:31.76,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Leader!!
-Dialogue: 0,0:04:29.51,0:04:31.76,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Leader!!
-Dialogue: 0,0:04:37.80,0:04:40.67,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sorry to keep you waiting... {\alpha&HFF}baby.
-Dialogue: 0,0:04:37.80,0:04:40.67,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sorry to keep you waiting... {\alpha&HFF}baby.
-Dialogue: 0,0:04:40.67,0:04:41.53,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sorry to keep you waiting... baby.
-Dialogue: 0,0:04:40.67,0:04:41.53,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sorry to keep you waiting... baby.
-Dialogue: 0,0:04:41.53,0:04:43.10,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}You were there the whole time!
-Dialogue: 0,0:04:41.53,0:04:43.10,Shiorin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}You were there the whole time!
-Dialogue: 0,0:04:42.16,0:04:43.10,Default,,0,0,0,,{\pos(360,400)\org(0,0)\fax0.07\blur0.4}Watching.
-Dialogue: 0,0:04:42.16,0:04:43.10,Momoka,,0,0,0,,{\pos(360,400)\org(0,0)\fax0.07\blur0.4}Watching.
-Dialogue: 0,0:04:43.41,0:04:44.71,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Look, a UFO!
-Dialogue: 0,0:04:43.41,0:04:44.71,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Look, a UFO!
-Dialogue: 0,0:04:57.58,0:05:01.40,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love is glittery; our hearts sparkling
-Dialogue: 0,0:05:01.40,0:05:03.85,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Nothing can stop us now
-Dialogue: 0,0:05:03.85,0:05:07.87,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love is bursting forth; my heart wide open
-Dialogue: 0,0:05:07.87,0:05:10.29,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I want to connect with you
-Dialogue: 0,0:05:10.29,0:05:12.73,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go all 'round, glittery
-Dialogue: 0,0:05:12.73,0:05:14.23,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Shine, sparkling
-Dialogue: 0,0:05:14.23,0:05:16.70,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}With the rhythm of fate,
-Dialogue: 0,0:05:16.70,0:05:18.89,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}let's make our mark in history
-Dialogue: 0,0:05:18.89,0:05:20.57,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go 'round and 'round
-Dialogue: 0,0:05:20.57,0:05:25.24,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4\t(4200,4700,\1c&H000000&)}in this Future Bowl of love
-Dialogue: 0,0:05:27.57,0:05:30.24,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'm taking Sandy now... {\alpha&HFF}baby.
-Dialogue: 0,0:05:27.57,0:05:30.24,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'm taking Sandy now... {\alpha&HFF}baby.
-Dialogue: 0,0:05:30.24,0:05:31.39,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'm taking Sandy now... baby.
-Dialogue: 0,0:05:30.24,0:05:31.39,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'm taking Sandy now... baby.
-Dialogue: 0,0:05:31.39,0:05:32.21,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Danny!
-Dialogue: 0,0:05:31.39,0:05:32.21,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Danny!
-Dialogue: 0,0:05:32.21,0:05:33.10,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sandy...
-Dialogue: 0,0:05:32.21,0:05:33.10,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sandy...
-Dialogue: 0,0:05:33.68,0:05:35.00,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sandy!!
-Dialogue: 0,0:05:33.68,0:05:35.00,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sandy!!
-Dialogue: 0,0:05:35.00,0:05:37.08,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}If you manage to win against me at bowling,
-Dialogue: 0,0:05:35.00,0:05:37.08,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}If you manage to win against me at bowling,
-Dialogue: 0,0:05:37.08,0:05:38.75,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I guess I could give her back.
-Dialogue: 0,0:05:37.08,0:05:38.75,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I guess I could give her back.
-Dialogue: 0,0:05:38.75,0:05:40.28,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Baby.
-Dialogue: 0,0:05:38.75,0:05:40.28,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Baby.
-Dialogue: 0,0:05:40.28,0:05:43.16,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Though with that your left hand of yours, you haven't got a chance.
-Dialogue: 0,0:05:40.28,0:05:43.16,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Though with that your left hand of yours, you haven't got a chance.
-Dialogue: 0,0:05:45.28,0:05:47.99,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Next Sunday. It's a match at the Future Bowl.
-Dialogue: 0,0:05:45.28,0:05:47.99,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Next Sunday. It's a match at the Future Bowl.
-Dialogue: 0,0:05:47.99,0:05:49.46,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Only for Sandy.
-Dialogue: 0,0:05:47.99,0:05:49.46,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Only for Sandy.
-Dialogue: 0,0:05:56.56,0:05:58.47,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Oh no!
-Dialogue: 0,0:06:02.57,0:06:03.91,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}A pink heart!
-Dialogue: 0,0:06:02.57,0:06:03.91,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}A pink heart!
-Dialogue: 0,0:06:03.91,0:06:04.95,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Seriously?
-Dialogue: 0,0:06:03.91,0:06:04.95,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Seriously?
-Dialogue: 0,0:06:04.95,0:06:08.51,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Doesn't matter if you trip and skin your knee red
-Dialogue: 0,0:06:04.95,0:06:08.51,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Doesn't matter if you trip and skin your knee red
-Dialogue: 0,0:06:08.51,0:06:09.11,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Oh no!!
-Dialogue: 0,0:06:09.11,0:06:12.42,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Though the bruises of youth are left, purple,
-Dialogue: 0,0:06:09.11,0:06:12.42,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Though the bruises of youth are left, purple,
-Dialogue: 0,0:06:12.42,0:06:15.99,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}with a high yellow voice, confess!
-Dialogue: 0,0:06:12.42,0:06:15.99,Shiorin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}with a high yellow voice, confess!
-Dialogue: 0,0:06:15.99,0:06:16.49,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}'kay?
-Dialogue: 0,0:06:16.49,0:06:20.19,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}All shades of girls dreamingreen are in big trouble!
-Dialogue: 0,0:06:16.49,0:06:20.19,Momoka,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}All shades of girls dreamingreen are in big trouble!
-Dialogue: 0,0:06:20.19,0:06:21.43,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}When we're together
-Dialogue: 0,0:06:20.19,0:06:21.43,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}When we're together
-Dialogue: 0,0:06:21.43,0:06:22.43,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Yes, yes!!
-Dialogue: 0,0:06:21.43,0:06:22.43,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Yes, yes!!
-Dialogue: 0,0:06:22.43,0:06:25.76,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}My world is filled with color
-Dialogue: 0,0:06:22.43,0:06:25.76,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}My world is filled with color
-Dialogue: 0,0:06:25.76,0:06:26.53,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}See, see!
-Dialogue: 0,0:06:25.76,0:06:26.53,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}See, see!
-Dialogue: 0,0:06:26.53,0:06:29.80,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}My dreams are in bloom, and my hands get sweaty
-Dialogue: 0,0:06:26.53,0:06:29.80,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}My dreams are in bloom, and my hands get sweaty
-Dialogue: 0,0:06:29.80,0:06:33.27,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}See, your warmth spreads to me
-Dialogue: 0,0:06:29.80,0:06:33.27,Shiorin,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}See, your warmth spreads to me
-Dialogue: 0,0:06:33.27,0:06:38.14,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}and the tempo of my chest speeds up
-Dialogue: 0,0:06:33.27,0:06:38.14,Momoka,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}and the tempo of my chest speeds up
-Dialogue: 0,0:06:38.14,0:06:42.85,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}The more I hurry forward, the more my eyes swim in a flurry
-Dialogue: 0,0:06:38.14,0:06:42.85,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}The more I hurry forward, the more my eyes swim in a flurry
-Dialogue: 0,0:06:42.85,0:06:44.65,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Stop, stop, I can't be doing this!
-Dialogue: 0,0:06:44.65,0:06:47.12,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Now, right now's the time!
-Dialogue: 0,0:06:47.12,0:06:51.79,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4\t(3750,4700,\1c&H000000&)}Let's make the love of our dreams reality!!
-Dialogue: 0,0:06:52.15,0:06:52.95,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, {\alpha&HFF}Tues, Wed, Thurs, Fri, Sat, Sun...
-Dialogue: 0,0:06:52.95,0:06:53.88,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, {\alpha&HFF}Wed, Thurs, Fri, Sat, Sun...
-Dialogue: 0,0:06:53.88,0:06:54.65,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, Wed, {\alpha&HFF}Thurs, Fri, Sat, Sun...
-Dialogue: 0,0:06:54.65,0:06:55.36,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, Wed, Thurs, {\alpha&HFF}Fri, Sat, Sun...
-Dialogue: 0,0:06:55.36,0:06:56.05,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, Wed, Thurs, Fri, {\alpha&HFF}Sat, Sun...
-Dialogue: 0,0:06:56.05,0:06:56.89,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, Wed, Thurs, Fri, Sat, {\alpha&HFF}Sun...
-Dialogue: 0,0:06:56.89,0:06:58.05,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Mon, Tues, Wed, Thurs, Fri, Sat, Sun...
-Dialogue: 0,0:06:59.17,0:07:00.71,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sunday?!
-Dialogue: 0,0:07:01.39,0:07:03.30,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Oh no!
-Dialogue: 0,0:07:05.34,0:07:09.01,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love is glittery; our hearts sparkling
-Dialogue: 0,0:07:09.01,0:07:11.64,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I just can't stop feeling this way
-Dialogue: 0,0:07:11.64,0:07:15.55,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love springs forth, my heart growing bigger
-Dialogue: 0,0:07:15.55,0:07:18.02,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}as I gaze at you
-Dialogue: 0,0:07:18.02,0:07:20.35,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go all 'round, glittery,
-Dialogue: 0,0:07:20.35,0:07:22.12,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Shine, sparkling
-Dialogue: 0,0:07:22.12,0:07:24.42,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}With the rhythm of legends,
-Dialogue: 0,0:07:24.42,0:07:26.73,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}let's change the course of history
-Dialogue: 0,0:07:26.73,0:07:28.39,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go 'round and 'round
-Dialogue: 0,0:07:28.39,0:07:31.70,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}in this Future Bowl of love
-Dialogue: 0,0:07:45.08,0:07:46.54,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Yes, I'll plunder your heart
-Dialogue: 0,0:07:45.08,0:07:46.54,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Yes, I'll plunder your heart
-Dialogue: 0,0:07:46.54,0:07:48.11,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Put my soul into it, bang bang bang
-Dialogue: 0,0:07:46.54,0:07:48.11,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Put my soul into it, bang bang bang
-Dialogue: 0,0:07:48.11,0:07:50.08,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love mode on full throttle
-Dialogue: 0,0:07:48.11,0:07:50.08,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love mode on full throttle
-Dialogue: 0,0:07:51.45,0:07:52.98,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'll make you my captive completely
-Dialogue: 0,0:07:51.45,0:07:52.98,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'll make you my captive completely
-Dialogue: 0,0:07:52.98,0:07:54.42,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Showing off my moves with a boom boom
-Dialogue: 0,0:07:52.98,0:07:54.42,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Showing off my moves with a boom boom
-Dialogue: 0,0:07:54.42,0:07:55.99,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Come on! Come on!
-Dialogue: 0,0:07:54.42,0:07:55.99,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Come on! Come on!
-Dialogue: 0,0:07:55.99,0:07:57.79,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I love you!
-Dialogue: 0,0:07:55.99,0:07:57.79,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I love you!
-Dialogue: 0,0:07:57.79,0:08:03.70,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Hey, this one-in-a-billion encounter must have been fate
-Dialogue: 0,0:07:57.79,0:08:03.70,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Hey, this one-in-a-billion encounter must have been fate
-Dialogue: 0,0:08:03.70,0:08:07.90,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Hey, I want to live life with you
-Dialogue: 0,0:08:03.70,0:08:07.90,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Hey, I want to live life with you
-Dialogue: 0,0:08:07.90,0:08:10.47,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}There's no time like the present
-Dialogue: 0,0:08:07.90,0:08:10.47,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}There's no time like the present
-Dialogue: 0,0:08:14.07,0:08:16.37,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I want to tell you thank you
-Dialogue: 0,0:08:16.37,0:08:20.41,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}I'm truly thankful for you being by my side
-Dialogue: 0,0:08:20.41,0:08:22.65,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Dreaming together with you
-Dialogue: 0,0:08:22.65,0:08:24.56,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Together tomorrow, too
-Dialogue: 0,0:08:24.56,0:08:26.88,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}We're always connected
-Dialogue: 0,0:08:26.88,0:08:29.05,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go all 'round, glittery
-Dialogue: 0,0:08:29.05,0:08:30.74,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Shine, sparkling
-Dialogue: 0,0:08:30.74,0:08:33.42,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}With the rhythm of fate,
-Dialogue: 0,0:08:33.42,0:08:35.39,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}let's make our mark in history
-Dialogue: 0,0:08:35.39,0:08:37.17,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Go 'round and 'round
-Dialogue: 0,0:08:37.17,0:08:39.54,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}in this Future Bowl of love
-Dialogue: 0,0:08:39.54,0:08:45.13,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Love is a legend...
-Dialogue: 0,0:08:47.15,0:08:51.97,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Shrouded in mystery...
-Dialogue: 0,0:08:53.62,0:09:00.02,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Profound...
-Dialogue: 0,0:09:00.02,0:09:03.09,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Shining...
-Dialogue: 0,0:09:03.09,0:09:04.74,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Glittering, sparkling
-Dialogue: 0,0:09:04.74,0:09:06.27,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}Sparkling, glittering
-Dialogue: 0,0:09:06.27,0:09:10.20,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.4}in this Future Bowl of love!
+Dialogue: 0,0:00:00.41,0:00:05.49,Title,,0,0,0,,{\t(4000,5000,\alpha&HFF)\fax0.1\1a&HFF\t(\fs98.999)\frx90\blur6.75\bord0.449\t(0,360,\bord4.499\frx0)\move(960,920.251,960,947.251)\c&HD960B1&}Future Bowl
+Dialogue: 0,0:00:00.41,0:00:05.49,Title,,0,0,0,,{\t(4000,5000,\alpha&HFF)\fax0.1\t(\fs98.999)\frx90\blur6.75\bord0.449\t(0,360,\bord4.499\frx0)\move(962.667,924.75,962.667,951.75)\c&H993C7E&}Future Bowl
+Dialogue: 0,0:00:00.41,0:00:05.49,Title,,0,0,0,,{\t(4000,5000,\alpha&HFF)\fax0.1\3a&HFF\t(\fs98.999)\frx90\blur6.75\bord0.449\t(0,360,\bord4.499\frx0)\move(960,920.251,960,947.251)\c&HC33597&}Future Bowl
+Dialogue: 0,0:00:19.59,0:00:20.33,Default,,0,0,130,,{\fax0.07\org(0,0)\blur0.901}Hi, hi!
+Dialogue: 0,0:00:18.12,0:00:20.33,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}'scuse me!
+Dialogue: 0,0:00:20.33,0:00:22.53,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Before I knew it, it was love at first sight
+Dialogue: 0,0:00:20.33,0:00:22.53,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Before I knew it, it was love at first sight
+Dialogue: 0,0:00:22.53,0:00:24.07,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Head over heels!
+Dialogue: 0,0:00:22.53,0:00:24.07,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Head over heels!
+Dialogue: 0,0:00:24.06,0:00:24.83,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Dummy.
+Dialogue: 0,0:00:24.06,0:00:24.83,Akari,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Dummy.
+Dialogue: 0,0:00:24.83,0:00:25.69,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Look straight at me!
+Dialogue: 0,0:00:24.83,0:00:25.69,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Look straight at me!
+Dialogue: 0,0:00:25.69,0:00:27.91,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Until you pierce holes through
+Dialogue: 0,0:00:25.69,0:00:27.91,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Until you pierce holes through
+Dialogue: 0,0:00:27.91,0:00:32.00,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Let's believe in inspiration, 'kay?
+Dialogue: 0,0:00:27.91,0:00:32.00,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Let's believe in inspiration, 'kay?
+Dialogue: 0,0:00:32.00,0:00:34.34,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}It's not all romantic
+Dialogue: 0,0:00:32.00,0:00:34.34,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}It's not all romantic
+Dialogue: 0,0:00:34.34,0:00:35.75,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}I'm well aware!
+Dialogue: 0,0:00:34.34,0:00:35.75,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}I'm well aware!
+Dialogue: 0,0:00:35.75,0:00:36.98,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Throughout my body!
+Dialogue: 0,0:00:36.98,0:00:37.98,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Shiver shiver!!
+Dialogue: 0,0:00:37.98,0:00:41.28,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}As I'm flooded with dazzling music
+Dialogue: 0,0:00:37.98,0:00:41.28,Reni,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}As I'm flooded with dazzling music
+Dialogue: 0,0:00:41.28,0:00:42.31,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}That's right!
+Dialogue: 0,0:00:41.28,0:00:42.31,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}That's right!
+Dialogue: 0,0:00:42.31,0:00:45.48,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}and if I act a little spoiled, you get irritated
+Dialogue: 0,0:00:42.31,0:00:45.48,Shiorin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}and if I act a little spoiled, you get irritated
+Dialogue: 0,0:00:45.48,0:00:48.96,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}But I won't ever let you out of my sight ever again
+Dialogue: 0,0:00:45.48,0:00:48.96,Momoka,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}But I won't ever let you out of my sight ever again
+Dialogue: 0,0:00:48.96,0:00:53.79,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Yes, I'm crazy about you
+Dialogue: 0,0:00:48.96,0:00:53.79,Aarin,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Yes, I'm crazy about you
+Dialogue: 0,0:00:53.79,0:00:58.33,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}The more I dream, the faster my heart beats
+Dialogue: 0,0:00:53.79,0:00:58.33,Kanako,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}The more I dream, the faster my heart beats
+Dialogue: 0,0:00:58.33,0:01:00.56,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Stop, stop, I can't be doing this!
+Dialogue: 0,0:01:00.56,0:01:02.80,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Now, right now's the time!
+Dialogue: 0,0:01:02.80,0:01:06.37,Default,,0,0,0,,{\fax0.07\org(0,0)\blur0.901}Let's get this love started!!
+Dialogue: 0,0:01:06.37,0:01:10.19,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love is glittery; our hearts sparkling
+Dialogue: 0,0:01:10.19,0:01:12.64,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Nothing can stop us now
+Dialogue: 0,0:01:12.64,0:01:17.02,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love is bursting forth; my heart wide open
+Dialogue: 0,0:01:17.02,0:01:19.08,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I want to connect with you
+Dialogue: 0,0:01:19.08,0:01:21.52,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go all 'round, glittery
+Dialogue: 0,0:01:21.52,0:01:23.02,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Shine, sparkling
+Dialogue: 0,0:01:23.02,0:01:25.49,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}With the rhythm of fate,
+Dialogue: 0,0:01:25.49,0:01:27.97,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}let's make our mark in history
+Dialogue: 0,0:01:27.97,0:01:29.36,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go 'round and 'round
+Dialogue: 0,0:01:29.36,0:01:34.14,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}in this Future Bowl of love
+Dialogue: 0,0:01:35.23,0:01:36.33,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}A pink heart!
+Dialogue: 0,0:01:35.23,0:01:36.33,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}A pink heart!
+Dialogue: 0,0:01:36.33,0:01:37.37,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Seriously?
+Dialogue: 0,0:01:36.33,0:01:37.37,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Seriously?
+Dialogue: 0,0:01:37.37,0:01:40.93,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Doesn't matter if you trip and skin your knee red
+Dialogue: 0,0:01:37.37,0:01:40.93,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Doesn't matter if you trip and skin your knee red
+Dialogue: 0,0:01:40.93,0:01:41.80,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Oh no!!
+Dialogue: 0,0:01:41.80,0:01:44.84,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Though the bruises of youth are left, purple,
+Dialogue: 0,0:01:41.80,0:01:44.84,Reni,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Though the bruises of youth are left, purple,
+Dialogue: 0,0:01:44.84,0:01:48.41,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}with a high yellow voice, confess!
+Dialogue: 0,0:01:44.84,0:01:48.41,Shiorin,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}with a high yellow voice, confess!
+Dialogue: 0,0:01:48.41,0:01:48.91,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}'kay?
+Dialogue: 0,0:01:48.91,0:01:52.61,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}All shades of girls dreamingreen are in big trouble
+Dialogue: 0,0:01:48.91,0:01:52.61,Momoka,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}All shades of girls dreamingreen are in big trouble
+Dialogue: 0,0:01:52.61,0:01:53.85,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}When we're together
+Dialogue: 0,0:01:52.61,0:01:53.85,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}When we're together
+Dialogue: 0,0:01:53.85,0:01:54.93,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Yes, yes!!
+Dialogue: 0,0:01:53.85,0:01:54.93,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Yes, yes!!
+Dialogue: 0,0:01:54.93,0:01:58.18,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}My world is filled with color
+Dialogue: 0,0:01:54.92,0:01:58.18,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}My world is filled with color
+Dialogue: 0,0:01:58.18,0:01:59.33,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}See, see!
+Dialogue: 0,0:01:58.18,0:01:59.33,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}See, see!
+Dialogue: 0,0:01:59.33,0:02:02.22,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}My dreams are in bloom, and my hands get sweaty
+Dialogue: 0,0:01:59.33,0:02:02.22,Aarin,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}My dreams are in bloom, and my hands get sweaty
+Dialogue: 0,0:02:02.22,0:02:05.70,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}See, your warmth spreads to me
+Dialogue: 0,0:02:02.22,0:02:05.70,Shiorin,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}See, your warmth spreads to me
+Dialogue: 0,0:02:05.70,0:02:10.58,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}and the tempo of my chest speeds up
+Dialogue: 0,0:02:05.70,0:02:10.58,Momoka,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}and the tempo of my chest speeds up
+Dialogue: 0,0:02:10.58,0:02:15.27,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}The more I hurry forward, the more my eyes swim in a flurry
+Dialogue: 0,0:02:10.58,0:02:15.27,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}The more I hurry forward, the more my eyes swim in a flurry
+Dialogue: 0,0:02:15.27,0:02:17.08,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Stop, stop, I can't be doing this!
+Dialogue: 0,0:02:17.08,0:02:19.55,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Now, right now's the time!
+Dialogue: 0,0:02:19.55,0:02:23.29,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Let's make the love of our dreams reality!!
+Dialogue: 0,0:02:23.29,0:02:26.96,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love is glittery; our hearts sparkling
+Dialogue: 0,0:02:26.96,0:02:29.59,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I just can't stop feeling this way
+Dialogue: 0,0:02:29.59,0:02:33.53,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love springs forth, my heart growing bigger
+Dialogue: 0,0:02:33.53,0:02:35.97,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}as I gaze at you
+Dialogue: 0,0:02:35.97,0:02:38.29,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go all 'round, glittery,
+Dialogue: 0,0:02:38.29,0:02:40.06,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Shine, sparkling
+Dialogue: 0,0:02:40.06,0:02:42.41,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}With the rhythm of legends,
+Dialogue: 0,0:02:42.41,0:02:44.67,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}let's change the course of history
+Dialogue: 0,0:02:44.67,0:02:46.38,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go 'round and 'round
+Dialogue: 0,0:02:46.38,0:02:49.64,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}in this Future Bowl of love
+Dialogue: 0,0:03:03.05,0:03:04.51,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Yes, I'll plunder your heart
+Dialogue: 0,0:03:03.05,0:03:04.51,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Yes, I'll plunder your heart
+Dialogue: 0,0:03:04.51,0:03:06.08,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Put my soul into it, bang bang bang
+Dialogue: 0,0:03:04.51,0:03:06.08,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Put my soul into it, bang bang bang
+Dialogue: 0,0:03:06.08,0:03:08.05,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love mode on full throttle
+Dialogue: 0,0:03:06.08,0:03:08.05,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love mode on full throttle
+Dialogue: 0,0:03:09.42,0:03:10.95,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I'll make you my captive completely
+Dialogue: 0,0:03:09.42,0:03:10.95,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I'll make you my captive completely
+Dialogue: 0,0:03:10.95,0:03:12.39,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Showing off my moves with a boom boom
+Dialogue: 0,0:03:10.95,0:03:12.39,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Showing off my moves with a boom boom
+Dialogue: 0,0:03:12.39,0:03:13.97,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Come on! Come on!
+Dialogue: 0,0:03:12.39,0:03:13.97,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Come on! Come on!
+Dialogue: 0,0:03:13.97,0:03:15.77,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I love you
+Dialogue: 0,0:03:13.97,0:03:15.77,Akari,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I love you
+Dialogue: 0,0:03:15.77,0:03:21.65,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Hey, this one-in-a-billion encounter must have been fate
+Dialogue: 0,0:03:15.77,0:03:21.65,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Hey, this one-in-a-billion encounter must have been fate
+Dialogue: 0,0:03:21.65,0:03:25.85,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Hey, I want to live life with you
+Dialogue: 0,0:03:21.65,0:03:25.85,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Hey, I want to live life with you
+Dialogue: 0,0:03:25.85,0:03:28.45,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}There's no time like the present
+Dialogue: 0,0:03:25.85,0:03:28.45,Kanako,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}There's no time like the present
+Dialogue: 0,0:03:32.04,0:03:34.33,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I want to tell you thank you
+Dialogue: 0,0:03:34.33,0:03:38.36,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}I'm truly thankful for you being by my side
+Dialogue: 0,0:03:38.36,0:03:40.60,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Dreaming together with you
+Dialogue: 0,0:03:40.60,0:03:42.50,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Together tomorrow, too
+Dialogue: 0,0:03:42.50,0:03:44.84,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}We're always connected
+Dialogue: 0,0:03:44.84,0:03:47.01,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go all 'round, glittery
+Dialogue: 0,0:03:47.01,0:03:48.91,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Shine, sparkling
+Dialogue: 0,0:03:48.91,0:03:51.39,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}With the rhythm of fate,
+Dialogue: 0,0:03:51.39,0:03:53.35,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}let's make our mark in history
+Dialogue: 0,0:03:53.35,0:03:55.15,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Go 'round and 'round
+Dialogue: 0,0:03:55.15,0:03:57.51,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}in this Future Bowl of love
+Dialogue: 0,0:03:57.51,0:04:03.10,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Love is a legend...
+Dialogue: 0,0:04:05.12,0:04:09.94,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Shrouded in mystery...
+Dialogue: 0,0:04:11.59,0:04:17.99,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Profound...
+Dialogue: 0,0:04:17.99,0:04:21.03,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Shining...
+Dialogue: 0,0:04:21.03,0:04:22.71,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Glittering, sparkling
+Dialogue: 0,0:04:22.71,0:04:24.24,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}Sparkling, glittering
+Dialogue: 0,0:04:24.24,0:04:28.17,Default,,0,0,0,,{\org(0,0)\fax0.07\blur0.901}in this Future Bowl of love!

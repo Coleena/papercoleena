@@ -183,9 +183,9 @@ function printTracks($albumUrl){
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/yoake_limited.jpg')">
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hakkin_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-	<?php printTracks('yoake')?>
+	<?php printTracks('hakkin')?>
 	</ol></div>
 	<span class="listtitle">Hakkin no Yoake</span>
 	</div>
@@ -204,7 +204,7 @@ function printTracks($albumUrl){
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Tonight, Under this Live</li>
 	</ol></div>
-	<span class="listtitle">Koyoi, Live no Shita de</span>
+	<span class="listtitle">Koyoi, Live no Moto de</span>
 	</div>
 	
 	
@@ -238,9 +238,7 @@ function printTracks($albumUrl){
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hitotsubu_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li>With a Drop of a Smile</li>
-		<li>Chai Maxx Zero</li>
-		<li>STOp THESe FINGERs</li>
+	<?php printTracks('hitotsubu')?>
 	</ol></div>
 	<span class="listtitle">Hitotsubu no Egao de... / Chai Maxx Zero</span>
 	</div>
@@ -279,9 +277,7 @@ function printTracks($albumUrl){
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/gounn_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
-		<li>The Five Skandhas</li>
-		<li>Someday, You Will</li>
-		<li>Momoiro Taiko Do-don-ga Song</li>
+	<?php printTracks('gounn')?>
 	</ol></div>
 	<span class="listtitle">GOUNN</span>
 	</div>

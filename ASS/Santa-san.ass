@@ -6,114 +6,122 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 720
-PlayResY: 480
+PlayResX: 1920
+PlayResY: 1080
 
 [Aegisub Project Garbage]
-Last Style Storage: Momoclo
-Audio File: Santa-san.mp4
-Video File: Santa-san.mp4
+Last Style Storage: Default
+Audio File: Momoiro Clover Z - Momoiro Clover Z MUSIC VIDEO CLIPS-012.mkv
+Video File: Momoiro Clover Z - Momoiro Clover Z MUSIC VIDEO CLIPS-012.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Position: 481
+Video Zoom Percent: 0.500000
+Scroll Position: 21
+Active Line: 24
+Video Position: 2893
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Santa-san,Mf Be Yourself,40,&H00FFFFFF,&H000000FF,&H0032323C,&H00000000,0,0,0,0,92.74,100,0,0,1,2.4,0,2,10,10,30,1
+Style: Santa-san,Mf Be Yourself,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,100,0,0,1,5,0,2,27,27,68,1
+Style: Whiteout,Arial,75,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:16.03,0:00:17.31,Santa-san,,0,0,0,,One, two!
-Dialogue: 0,0:00:17.31,0:00:18.66,Santa-san,,0,0,0,,Merry Christmas!
-Dialogue: 0,0:00:28.77,0:00:31.28,Santa-san,,0,0,0,,Everybody, Merry Merry Christmas!
-Dialogue: 0,0:00:31.28,0:00:33.87,Santa-san,,0,0,0,,So excited, Merry Christmas!
-Dialogue: 0,0:00:33.87,0:00:36.35,Santa-san,,0,0,0,,The whole town's shining, bright lights everywhere{\fs22\fscx84.309\fnみかちゃん-PB}☆
-Dialogue: 0,0:00:36.35,0:00:38.88,Santa-san,,0,0,0,,Blue and white LEDs!!
-Dialogue: 0,0:00:38.88,0:00:41.56,Santa-san,,0,0,0,,In the blink of an eye{\fscx67.447}-{\fscx} just a blink, spring, summer, and fall go by
-Dialogue: 0,0:00:41.56,0:00:44.01,Santa-san,,0,0,0,,And suddenly it's the 24th, Merry Christmas!
-Dialogue: 0,0:00:44.01,0:00:46.49,Santa-san,,0,0,0,,Is Santa here? Why wouldn't he be?
-Dialogue: 0,0:00:46.49,0:00:49.06,Santa-san,,0,0,0,,'course he is, he's right here, Ol' Saint Nick!
-Dialogue: 0,0:00:53.06,0:00:58.97,Santa-san,,0,0,0,,But don't start wondering where that red suit came from!
-Dialogue: 0,0:01:03.24,0:01:08.51,Santa-san,,0,0,0,,However old I get, I'll still believe in Old Saint Nick!
-Dialogue: 0,0:01:09.25,0:01:11.72,Santa-san,,0,0,0,,This year will be my 15th Christmas!
-Dialogue: 0,0:01:11.72,0:01:14.28,Santa-san,,0,0,0,,The jingle bells go rin{\fscx67.447}-{\fscx}rin{\fscx67.447}-{\fscx}ring{\fnはなぞめフォント\fs22\fscx75}☆
-Dialogue: 0,0:01:14.28,0:01:16.82,Santa-san,,0,0,0,,Cake, yeah? Chicken, yeah!
-Dialogue: 0,0:01:16.82,0:01:19.16,Santa-san,,0,0,0,,Let's dig in! Merry Christmas!
-Dialogue: 0,0:01:19.19,0:01:26.63,Santa-san,,0,0,0,,{\bord2\blur0.4\fade(150,150)\fscx80.094\an8\fs20\fnメイリオ\b1\pos(360,5)\c&H5B5582&\3c&HB4B1DB&}〒150-00\NTokyo Metropolitan Area, Shibuya, Ebisu\NStardust Promotion Co., Ltd\N{\fs25\bord2.4}Takagi Reni {\fs20\bord2}Present Inbox
-Dialogue: 0,0:01:19.16,0:01:28.10,Santa-san,,0,0,0,,I'll be eagerly awaiting many jingly presents
-Dialogue: 0,0:01:28.10,0:01:29.37,Santa-san,,0,0,0,,Ichi, ni, Santa!!
-Dialogue: 0,0:01:29.37,0:01:31.67,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\bord3}(Santa!) {\bord0}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:29.37,0:01:31.67,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\3c&H0000C7&}(Santa!) {\3c&H32323C&}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:31.67,0:01:34.27,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\bord3}(Santa!) {\bord0}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:31.67,0:01:34.27,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\3c&H19ABC6&}(Santa!) {\3c&H32323C&}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:34.27,0:01:36.84,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san
-Dialogue: 0,0:01:36.84,0:01:39.24,Santa-san,,0,0,0,,Santa, Santa Claus! (San{\fscx67.447}-{\fscx}san, San{\fscx67.447}-{\fscx}san)
-Dialogue: 0,0:01:39.24,0:01:41.71,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san, Santa Claus
-Dialogue: 0,0:01:41.71,0:01:44.21,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san, Santa Claus!
-Dialogue: 0,0:01:44.21,0:01:47.05,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san san san{\fscx67.447}-{\fscx}san san
-Dialogue: 0,0:01:47.05,0:01:49.69,Santa-san,,0,0,0,,{\pos(360,460)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
-Dialogue: 0,0:01:49.69,0:01:52.19,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\bord3}(Santa!) {\bord0}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:49.69,0:01:52.19,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\3c&HBC90EF&}(Santa!) {\3c&H32323C&}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:52.19,0:01:54.79,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\bord3}(Santa!) {\bord0}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:52.19,0:01:54.79,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san! {\3c&H00800D&}(Santa!) {\3c&H32323C&}San{\fscx67.447}-{\fscx}san!
-Dialogue: 0,0:01:54.79,0:01:57.09,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san{\fscx67.447}-{\fscx}san
-Dialogue: 0,0:01:57.09,0:01:59.43,Santa-san,,0,0,0,,Santa, Santa Claus! (San{\fscx67.447}-{\fscx}san, San{\fscx67.447}-{\fscx}san)
-Dialogue: 0,0:01:59.43,0:02:02.86,Santa-san,,0,0,0,,{\bord3\blur2\org(0,0)\3c&H32323C&\3a&HAA&}Santa! Santa! Santa! Santa! Santa! Santa!
-Dialogue: 0,0:01:59.43,0:02:02.86,Santa-san,,0,0,0,,{\3c&H820044&}Santa! {\3c&H00800D&}Santa! {\3c&HBC90EF&}Santa! {\3c&H19ABC6&}Santa! {\3c&H0000C7&}Santa! {\3c&H820044&}Santa!
-Dialogue: 0,0:02:02.86,0:02:04.70,Santa-san,,0,0,0,,Oh, Santa Claus!
-Dialogue: 0,0:02:04.70,0:02:07.30,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san san san{\fscx67.447}-{\fscx}san san
-Dialogue: 0,0:02:07.30,0:02:09.90,Santa-san,,0,0,0,,{\pos(360,460)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
-Dialogue: 0,0:02:09.90,0:02:12.37,Santa-san,,0,0,0,,Jingle bells! Jingle bells!
-Dialogue: 0,0:02:12.37,0:02:14.24,Santa-san,,0,0,0,,Christmas!!
-Dialogue: 0,0:02:14.74,0:02:16.08,Santa-san,,0,0,0,,Reni{\fscx67.447}-{\fscx}chan, go!
-Dialogue: 0,0:02:16.08,0:02:18.41,Santa-san,,0,0,0,,Show us a little of one of your good points! Yeah!
-Dialogue: 0,0:02:18.41,0:02:21.08,Santa-san,,0,0,0,,Santa, Santa, Santa; Santa, Santa, Santa
-Dialogue: 0,0:02:21.08,0:02:23.62,Santa-san,,0,0,0,,Santa, Santa, Santa...Santa!!
-Dialogue: 0,0:02:23.62,0:02:25.09,Santa-san,,0,0,0,,Reni{\fscx67.447}-{\fscx}chan, go!
-Dialogue: 0,0:02:25.09,0:02:27.29,Santa-san,,0,0,0,,Show us one of your even better points! Yeah!
-Dialogue: 0,0:02:27.29,0:02:29.98,Santa-san,,0,0,0,,Santa, Santa, Santa; Santa, Santa, Santa
-Dialogue: 0,0:02:29.98,0:02:32.46,Santa-san,,0,0,0,,Santa, Santa, Santa...Santa!!
-Dialogue: 0,0:02:32.46,0:02:36.96,Santa-san,,0,0,0,,Christmas and New Year's Day
-Dialogue: 0,0:02:36.96,0:02:41.00,Santa-san,,0,0,0,,Nice combo!!
-Dialogue: 0,0:02:41.00,0:02:42.74,Santa-san,,0,0,0,,One, two, Shanta!
-Dialogue: 0,0:02:42.74,0:02:45.14,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Shanta{\fscx67.447}-{\fscx}shan, jingle {\bord3}(Shanta!) {\bord0}Jingle
-Dialogue: 0,0:02:42.74,0:02:45.14,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle {\3c&H0000C7&}(Shanta!) {\3c&H32323C&} Jingle
-Dialogue: 0,0:02:45.14,0:02:47.70,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Shanta{\fscx67.447}-{\fscx}shan, jingle {\bord3}(Shanta!) {\bord0}Jingle
-Dialogue: 0,0:02:45.14,0:02:47.70,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle {\3c&H19ABC6&}(Shanta!) {\3c&H32323C&} Jingle
-Dialogue: 0,0:02:47.70,0:02:50.24,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle, jin{\fscx67.447}-{\fscx}jingle
-Dialogue: 0,0:02:50.24,0:02:52.31,Santa-san,,0,0,0,,Shanta, Shanta Claus! (Jingle, jingle)
-Dialogue: 0,0:02:52.31,0:02:55.28,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle, Shanta Claus
-Dialogue: 0,0:02:55.28,0:02:57.80,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle, Shanta Claus!
-Dialogue: 0,0:02:57.80,0:03:00.35,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan jingle, jingle, jingle
-Dialogue: 0,0:03:00.35,0:03:02.96,Santa-san,,0,0,0,,{\pos(360,460)}Shanta! Shanta! Shanta! Shanta!\N(Shanta! Shanta! Shanta! Shanta!)
-Dialogue: 0,0:03:02.96,0:03:05.49,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Shanta{\fscx67.447}-{\fscx}shan, jingle {\bord3}(Shanta!) {\bord0}Jingle
-Dialogue: 0,0:03:02.96,0:03:05.49,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle {\3c&HBC90EF&}(Shanta!) {\3c&H32323C&} Jingle
-Dialogue: 0,0:03:05.49,0:03:07.93,Santa-san,,0,0,0,,{\blur2\org(0,0)\bord0\3c&H32323C&\3a&HC2&}Shanta{\fscx67.447}-{\fscx}shan, jingle {\bord3}(Shanta!) {\bord0}Jingle
-Dialogue: 0,0:03:05.49,0:03:07.93,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle {\3c&H00800D&}(Shanta!) {\3c&H32323C&} Jingle
-Dialogue: 0,0:03:07.93,0:03:10.46,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle, jin{\fscx67.447}-{\fscx}jingle
-Dialogue: 0,0:03:10.46,0:03:12.43,Santa-san,,0,0,0,,Shanta, Shanta Claus! (Jingle, jingle)
-Dialogue: 0,0:03:12.43,0:03:16.17,Santa-san,,0,0,0,,{\bord3\blur2\org(0,0)\3c&H32323C&\3a&HAA&}Shanta! Shanta! Shanta! Shanta! Shanta! Shanta!
-Dialogue: 0,0:03:12.43,0:03:16.17,Santa-san,,0,0,0,,{\3c&H820044&}Shanta! {\3c&H00800D&}Shanta! {\3c&HBC90EF&}Shanta! {\3c&H19ABC6&}Shanta! {\3c&H0000C7&}Shanta! {\3c&H820044&}Shanta!
-Dialogue: 0,0:03:16.17,0:03:17.94,Santa-san,,0,0,0,,Oh, Shanta Claus!
-Dialogue: 0,0:03:17.94,0:03:20.54,Santa-san,,0,0,0,,Shanta{\fscx67.447}-{\fscx}shan, jingle, jingle, jingle
-Dialogue: 0,0:03:20.54,0:03:23.18,Santa-san,,0,0,0,,{\pos(360,460)}Shanta! Shanta! Shanta! Shanta!\N(Shanta! Shanta! Shanta! Shanta!)
-Dialogue: 0,0:03:44.60,0:03:49.57,Santa-san,,0,0,0,,Japan has a snowy, midwinter Christmas
-Dialogue: 0,0:03:49.57,0:03:54.64,Santa-san,,0,0,0,,and Australia has Christmas in the middle of summer!
-Dialogue: 0,0:03:54.64,0:03:55.84,Santa-san,,0,0,0,,Which means...?!?!
-Dialogue: 0,0:03:55.84,0:03:58.18,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}cococo (Co{\fscx67.447}-{\fscx}co{\fscx67.447}-{\fscx}co?) Coco
-Dialogue: 0,0:03:58.40,0:04:00.98,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}cococo (Co{\fscx67.447}-{\fscx}co{\fscx67.447}-{\fscx}co?) Coco
-Dialogue: 0,0:04:00.98,0:04:06.05,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}coco{\fscx67.447}-{\fscx}co coco{\fscx67.447}-{\fscx}co coco{\fscx67.447}-{\fscx}coco{\fnはなぞめフォント\fs22\fscx84.309}☆{\fscx\fs\fn}nuts (Cocococo{\fscx67.447}-{\fscx}cocococo!)
-Dialogue: 0,0:04:06.05,0:04:08.25,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}coco coco{\fnはなぞめフォント\fs22\fscx84.309}☆{\fscx\fs\fn}nuts
-Dialogue: 0,0:04:08.25,0:04:11.02,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}coco coco{\fnはなぞめフォント\fs22\fscx84.309}☆{\fscx\fs\fn}nuts!
-Dialogue: 0,0:04:11.02,0:04:13.62,Santa-san,,0,0,0,,Coco{\fscx67.447}-{\fscx}coco{\fscx67.447}-{\fscx}co co{\fscx67.447}-{\fscx}coco{\fscx67.447}-{\fscx}co
-Dialogue: 0,0:04:13.62,0:04:16.33,Santa-san,,0,0,0,,Summer is here! Coco{\fnはなぞめフォント\fs22\fscx84.309}☆{\fscx\fs\fn}nuts! Summer is here! Coco{\fnはなぞめフォント\fs22\fscx84.309}☆{\fscx\fs\fn}nuts!
-Dialogue: 0,0:04:16.33,0:04:18.76,Santa-san,,0,0,0,,Samba, sun, sun, sun! (Samba!) Sun, sun!
-Dialogue: 0,0:04:18.76,0:04:21.16,Santa-san,,0,0,0,,Samba, sun, sun, sun! (Oooh, mambo!!!)
-Dialogue: 0,0:04:21.16,0:04:23.72,Santa-san,,0,0,0,,Santa-san san-san san-san-san
-Dialogue: 0,0:04:23.72,0:04:25.77,Santa-san,,0,0,0,,Santa, Santa Claus! (San-san san-san)
-Dialogue: 0,0:04:25.77,0:04:29.67,Santa-san,,0,0,0,,{\bord3\blur2\org(0,0)\3c&H32323C&\3a&HAA&}Santa! Santa! Santa! Santa! Santa! Santa!
-Dialogue: 0,0:04:25.77,0:04:29.67,Santa-san,,0,0,0,,{\3c&H820044&}Santa! {\3c&H00800D&}Santa! {\3c&HBC90EF&}Santa! {\3c&H19ABC6&}Santa! {\3c&H0000C7&}Santa! {\3c&H820044&}Santa!
-Dialogue: 0,0:04:29.67,0:04:31.01,Santa-san,,0,0,0,,Oh, Santa Claus!
-Dialogue: 0,0:04:31.01,0:04:33.81,Santa-san,,0,0,0,,Santa{\fscx67.447}-{\fscx}san san{\fscx67.447}-{\fscx}san san san{\fscx67.447}-{\fscx}san san
-Dialogue: 0,0:04:33.81,0:04:36.25,Santa-san,,0,0,0,,{\pos(360,460)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
-Dialogue: 0,0:04:40.12,0:04:42.09,Santa-san,,0,0,0,,Merry Christmas!
+Dialogue: 0,0:00:02.31,0:00:05.82,Whiteout,,0,0,0,,{\fsp-15\fscx200\fscy400\pos(445,280)}■■■■■■■■■
+Dialogue: 0,0:00:02.31,0:00:05.82,Santa-san,,0,0,0,,{\an5\fs120\b1\bord0\c&H5344F1&\pos(675,465)}Santa-san
+Dialogue: 0,0:00:05.82,0:00:07.35,Whiteout,,0,0,0,,{\t(\c&H00)\fsp-15\fscx200\fscy400\pos(445,280)}■■■■■■■■■
+Dialogue: 0,0:00:05.82,0:00:07.32,Santa-san,,0,0,0,,{\an5\fs120\b1\bord0\c&H5344F1&\pos(675,465)\t(\c&H00)}Santa-san
+Dialogue: 0,0:00:23.17,0:00:24.45,Santa-san,,0,0,0,,One, two!
+Dialogue: 0,0:00:24.45,0:00:25.80,Santa-san,,0,0,0,,Merry Christmas!
+Dialogue: 0,0:00:35.91,0:00:38.42,Santa-san,,0,0,0,,Everybody, Merry Merry Christmas!
+Dialogue: 0,0:00:38.42,0:00:41.01,Santa-san,,0,0,0,,So excited, Merry Christmas!
+Dialogue: 0,0:00:41.01,0:00:43.49,Santa-san,,0,0,0,,The whole town's shining, bright lights everywhere{\fs49.5\fscx99.922\fnみかちゃん-PB}☆
+Dialogue: 0,0:00:43.49,0:00:46.02,Santa-san,,0,0,0,,Blue and white LEDs!!
+Dialogue: 0,0:00:46.02,0:00:48.70,Santa-san,,0,0,0,,In the blink of an eye{\fscx79.937}-{\fscx} just a blink, spring, summer, and fall go by
+Dialogue: 0,0:00:48.70,0:00:51.15,Santa-san,,0,0,0,,And suddenly it's the 24th, Merry Christmas!
+Dialogue: 0,0:00:51.15,0:00:53.63,Santa-san,,0,0,0,,Is Santa here? Why wouldn't he be?
+Dialogue: 0,0:00:53.63,0:00:56.20,Santa-san,,0,0,0,,'course he is, he's right here, Ol' Saint Nick!
+Dialogue: 0,0:01:00.20,0:01:06.11,Santa-san,,0,0,0,,But don't start wondering where that red suit came from!
+Dialogue: 0,0:01:10.38,0:01:15.65,Santa-san,,0,0,0,,However old I get, I'll still believe in Old Saint Nick!
+Dialogue: 0,0:01:16.39,0:01:18.86,Santa-san,,0,0,0,,This year will be my 15th Christmas!
+Dialogue: 0,0:01:18.86,0:01:21.42,Santa-san,,0,0,0,,The jingle bells go rin{\fscx79.937}-{\fscx}rin{\fscx79.937}-{\fscx}ring{\fnはなぞめフォント\fs49.5\fscx88.889}☆
+Dialogue: 0,0:01:21.42,0:01:23.96,Santa-san,,0,0,0,,Cake, yeah? Chicken, yeah!
+Dialogue: 0,0:01:23.96,0:01:26.30,Santa-san,,0,0,0,,Let's dig in! Merry Christmas!
+Dialogue: 0,0:01:26.33,0:01:33.77,Santa-san,,0,0,0,,{\bord4.5\blur0.9\fade(150,150)\fscx94.926\an8\fs45\fnメイリオ\b1\pos(960,11.25)\c&H5B5582&\3c&HB4B1DB&}〒150-00\NTokyo Metropolitan Area, Shibuya, Ebisu\NStardust Promotion Co., Ltd\N{\fs56.25\bord5.4}Takagi Reni {\fs45\bord4.5}Present Inbox
+Dialogue: 0,0:01:26.30,0:01:35.24,Santa-san,,0,0,0,,I'll be eagerly awaiting many jingly presents
+Dialogue: 0,0:01:35.24,0:01:36.51,Santa-san,,0,0,0,,Ichi, ni, Santa!!
+Dialogue: 0,0:01:36.51,0:01:38.81,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\bord6.75}(Santa!) {\bord0}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:36.51,0:01:38.81,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\3c&H0000C7&}(Santa!) {\3c&H000000&}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:38.81,0:01:41.41,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\bord6.75}(Santa!) {\bord0}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:38.81,0:01:41.41,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\3c&H19ABC6&}(Santa!) {\3c&H000000&}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:41.41,0:01:43.98,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san
+Dialogue: 0,0:01:43.98,0:01:46.38,Santa-san,,0,0,0,,Santa, Santa Claus! (San{\fscx79.937}-{\fscx}san, San{\fscx79.937}-{\fscx}san)
+Dialogue: 0,0:01:46.38,0:01:48.85,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san, Santa Claus
+Dialogue: 0,0:01:48.85,0:01:51.35,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san, Santa Claus!
+Dialogue: 0,0:01:51.35,0:01:54.19,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san san san{\fscx79.937}-{\fscx}san san
+Dialogue: 0,0:01:54.19,0:01:56.83,Santa-san,,0,0,0,,{\pos(960,1035)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
+Dialogue: 0,0:01:56.83,0:01:59.33,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\bord6.75}(Santa!) {\bord0}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:56.83,0:01:59.33,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\3c&HBC90EF&}(Santa!) {\3c&H000000&}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:59.33,0:02:01.93,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\bord6.75}(Santa!) {\bord0}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:01:59.33,0:02:01.93,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san! {\3c&H00800D&}(Santa!) {\3c&H000000&}San{\fscx79.937}-{\fscx}san!
+Dialogue: 0,0:02:01.93,0:02:04.23,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san{\fscx79.937}-{\fscx}san
+Dialogue: 0,0:02:04.23,0:02:06.57,Santa-san,,0,0,0,,Santa, Santa Claus! (San{\fscx79.937}-{\fscx}san, San{\fscx79.937}-{\fscx}san)
+Dialogue: 0,0:02:06.57,0:02:10.00,Santa-san,,0,0,0,,{\bord6.75\blur4.5\org(0,0)\3c&H000000&\3a&HAA&}Santa! Santa! Santa! Santa! Santa! Santa!
+Dialogue: 0,0:02:06.57,0:02:10.00,Santa-san,,0,0,0,,{\3c&H820044&}Santa! {\3c&H00800D&}Santa! {\3c&HBC90EF&}Santa! {\3c&H19ABC6&}Santa! {\3c&H0000C7&}Santa! {\3c&H820044&}Santa!
+Dialogue: 0,0:02:10.00,0:02:11.84,Santa-san,,0,0,0,,Oh, Santa Claus!
+Dialogue: 0,0:02:11.84,0:02:14.44,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san san san{\fscx79.937}-{\fscx}san san
+Dialogue: 0,0:02:14.44,0:02:17.04,Santa-san,,0,0,0,,{\pos(960,1035)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
+Dialogue: 0,0:02:17.04,0:02:19.51,Santa-san,,0,0,0,,Jingle bells! Jingle bells!
+Dialogue: 0,0:02:19.51,0:02:21.38,Santa-san,,0,0,0,,Christmas!!
+Dialogue: 0,0:02:21.88,0:02:23.22,Santa-san,,0,0,0,,Reni{\fscx79.937}-{\fscx}chan, go!
+Dialogue: 0,0:02:23.22,0:02:25.55,Santa-san,,0,0,0,,Show us a little of one of your good points! Yeah!
+Dialogue: 0,0:02:25.55,0:02:28.22,Santa-san,,0,0,0,,Santa, Santa, Santa; Santa, Santa, Santa
+Dialogue: 0,0:02:28.22,0:02:30.76,Santa-san,,0,0,0,,Santa, Santa, Santa...Santa!!
+Dialogue: 0,0:02:30.76,0:02:32.23,Santa-san,,0,0,0,,Reni{\fscx79.937}-{\fscx}chan, go!
+Dialogue: 0,0:02:32.23,0:02:34.43,Santa-san,,0,0,0,,Show us one of your even better points! Yeah!
+Dialogue: 0,0:02:34.43,0:02:37.12,Santa-san,,0,0,0,,Santa, Santa, Santa; Santa, Santa, Santa
+Dialogue: 0,0:02:37.12,0:02:39.60,Santa-san,,0,0,0,,Santa, Santa, Santa...Santa!!
+Dialogue: 0,0:02:39.60,0:02:44.10,Santa-san,,0,0,0,,Christmas and New Year's Day
+Dialogue: 0,0:02:44.10,0:02:48.14,Santa-san,,0,0,0,,Nice combo!!
+Dialogue: 0,0:02:48.14,0:02:49.88,Santa-san,,0,0,0,,One, two, Shanta!
+Dialogue: 0,0:02:49.88,0:02:52.28,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Shanta{\fscx79.937}-{\fscx}shan, jingle {\bord6.75}(Shanta!) {\bord0}Jingle
+Dialogue: 0,0:02:49.88,0:02:52.28,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle {\3c&H0000C7&}(Shanta!) {\3c&H000000&} Jingle
+Dialogue: 0,0:02:52.28,0:02:54.84,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Shanta{\fscx79.937}-{\fscx}shan, jingle {\bord6.75}(Shanta!) {\bord0}Jingle
+Dialogue: 0,0:02:52.28,0:02:54.84,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle {\3c&H19ABC6&}(Shanta!) {\3c&H000000&} Jingle
+Dialogue: 0,0:02:54.84,0:02:57.38,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle, jin{\fscx79.937}-{\fscx}jingle
+Dialogue: 0,0:02:57.38,0:02:59.45,Santa-san,,0,0,0,,Shanta, Shanta Claus! (Jingle, jingle)
+Dialogue: 0,0:02:59.45,0:03:02.42,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle, Shanta Claus
+Dialogue: 0,0:03:02.42,0:03:04.94,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle, Shanta Claus!
+Dialogue: 0,0:03:04.94,0:03:07.49,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan jingle, jingle, jingle
+Dialogue: 0,0:03:07.49,0:03:10.10,Santa-san,,0,0,0,,{\pos(960,1035)}Shanta! Shanta! Shanta! Shanta!\N(Shanta! Shanta! Shanta! Shanta!)
+Dialogue: 0,0:03:10.10,0:03:12.63,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Shanta{\fscx79.937}-{\fscx}shan, jingle {\bord6.75}(Shanta!) {\bord0}Jingle
+Dialogue: 0,0:03:10.10,0:03:12.63,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle {\3c&HBC90EF&}(Shanta!) {\3c&H000000&} Jingle
+Dialogue: 0,0:03:12.63,0:03:15.07,Santa-san,,0,0,0,,{\blur4.5\org(0,0)\bord0\3c&H000000&\3a&HC2&}Shanta{\fscx79.937}-{\fscx}shan, jingle {\bord6.75}(Shanta!) {\bord0}Jingle
+Dialogue: 0,0:03:12.63,0:03:15.07,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle {\3c&H00800D&}(Shanta!) {\3c&H000000&} Jingle
+Dialogue: 0,0:03:15.07,0:03:17.60,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle, jin{\fscx79.937}-{\fscx}jingle
+Dialogue: 0,0:03:17.60,0:03:19.57,Santa-san,,0,0,0,,Shanta, Shanta Claus! (Jingle, jingle)
+Dialogue: 0,0:03:19.57,0:03:23.31,Santa-san,,0,0,0,,{\bord6.75\blur4.5\org(0,0)\3c&H000000&\3a&HAA&}Shanta! Shanta! Shanta! Shanta! Shanta! Shanta!
+Dialogue: 0,0:03:19.57,0:03:23.31,Santa-san,,0,0,0,,{\3c&H820044&}Shanta! {\3c&H00800D&}Shanta! {\3c&HBC90EF&}Shanta! {\3c&H19ABC6&}Shanta! {\3c&H0000C7&}Shanta! {\3c&H820044&}Shanta!
+Dialogue: 0,0:03:23.31,0:03:25.08,Santa-san,,0,0,0,,Oh, Shanta Claus!
+Dialogue: 0,0:03:25.08,0:03:27.68,Santa-san,,0,0,0,,Shanta{\fscx79.937}-{\fscx}shan, jingle, jingle, jingle
+Dialogue: 0,0:03:27.68,0:03:30.32,Santa-san,,0,0,0,,{\pos(960,1035)}Shanta! Shanta! Shanta! Shanta!\N(Shanta! Shanta! Shanta! Shanta!)
+Dialogue: 0,0:03:51.74,0:03:56.71,Santa-san,,0,0,0,,Japan has a snowy, midwinter Christmas
+Dialogue: 0,0:03:56.71,0:04:01.78,Santa-san,,0,0,0,,and Australia has Christmas in the middle of summer!
+Dialogue: 0,0:04:01.78,0:04:02.98,Santa-san,,0,0,0,,Which means...?!?!
+Dialogue: 0,0:04:02.98,0:04:05.32,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}cococo (Co{\fscx79.937}-{\fscx}co{\fscx79.937}-{\fscx}co?) Coco
+Dialogue: 0,0:04:05.54,0:04:08.12,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}cococo (Co{\fscx79.937}-{\fscx}co{\fscx79.937}-{\fscx}co?) Coco
+Dialogue: 0,0:04:08.12,0:04:13.19,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}coco{\fscx79.937}-{\fscx}co coco{\fscx79.937}-{\fscx}co coco{\fscx79.937}-{\fscx}coco{\fnはなぞめフォント\fs49.5\fscx99.922}☆{\fscx\fs\fn}nuts (Cocococo{\fscx79.937}-{\fscx}cocococo!)
+Dialogue: 0,0:04:13.19,0:04:15.39,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}coco coco{\fnはなぞめフォント\fs49.5\fscx99.922}☆{\fscx\fs\fn}nuts
+Dialogue: 0,0:04:15.39,0:04:18.16,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}coco coco{\fnはなぞめフォント\fs49.5\fscx99.922}☆{\fscx\fs\fn}nuts!
+Dialogue: 0,0:04:18.16,0:04:20.76,Santa-san,,0,0,0,,Coco{\fscx79.937}-{\fscx}coco{\fscx79.937}-{\fscx}co co{\fscx79.937}-{\fscx}coco{\fscx79.937}-{\fscx}co
+Dialogue: 0,0:04:20.76,0:04:23.47,Santa-san,,0,0,0,,Summer is here! Coco{\fnはなぞめフォント\fs49.5\fscx99.922}☆{\fscx\fs\fn}nuts! Summer is here! Coco{\fnはなぞめフォント\fs49.5\fscx99.922}☆{\fscx\fs\fn}nuts!
+Dialogue: 0,0:04:23.47,0:04:25.90,Santa-san,,0,0,0,,Samba, sun, sun, sun! (Samba!) Sun, sun!
+Dialogue: 0,0:04:25.90,0:04:28.30,Santa-san,,0,0,0,,Samba, sun, sun, sun! (Oooh, mambo!!!)
+Dialogue: 0,0:04:28.30,0:04:30.86,Santa-san,,0,0,0,,Santa-san san-san san-san-san
+Dialogue: 0,0:04:30.86,0:04:32.91,Santa-san,,0,0,0,,Santa, Santa Claus! (San-san san-san)
+Dialogue: 0,0:04:32.91,0:04:36.81,Santa-san,,0,0,0,,{\bord6.75\blur4.5\org(0,0)\3c&H000000&\3a&HAA&}Santa! Santa! Santa! Santa! Santa! Santa!
+Dialogue: 0,0:04:32.91,0:04:36.81,Santa-san,,0,0,0,,{\3c&H820044&}Santa! {\3c&H00800D&}Santa! {\3c&HBC90EF&}Santa! {\3c&H19ABC6&}Santa! {\3c&H0000C7&}Santa! {\3c&H820044&}Santa!
+Dialogue: 0,0:04:36.81,0:04:38.15,Santa-san,,0,0,0,,Oh, Santa Claus!
+Dialogue: 0,0:04:38.15,0:04:40.95,Santa-san,,0,0,0,,Santa{\fscx79.937}-{\fscx}san san{\fscx79.937}-{\fscx}san san san{\fscx79.937}-{\fscx}san san
+Dialogue: 0,0:04:40.95,0:04:43.39,Santa-san,,0,0,0,,{\pos(960,1035)}Santa! Santa! Santa! Santa!\N(Santa! Santa! Santa! Santa!)
+Dialogue: 0,0:04:47.26,0:04:49.23,Santa-san,,0,0,0,,Merry Christmas!

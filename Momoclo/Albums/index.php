@@ -139,7 +139,7 @@ $(document).ready(function() {
 	<span class="yearheader" id="year2014">2014</span>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hitotsubu_event.jpg')">
-	<div class="listoverlay"></div>
+	<a href="./hitotsubu"><div class="listoverlay"></div></a>
 	<span class="listtitle">Hitotsubu no Egao de... / Chai Maxx Zero</span>
 	</div>
 	
@@ -165,7 +165,7 @@ $(document).ready(function() {
 	
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/gounn_limited.jpg')">
-	<div class="listoverlay"></div>
+	<a href="./gounn"><div class="listoverlay"></div></a>
 	<span class="listtitle">GOUNN</span>
 	</div>
 	

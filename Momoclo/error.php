@@ -8,13 +8,7 @@
 <?php 
 include("header.php"); 
 header("HTTP/1.0 404 Not Found");
-?>
-
-<div class="headtablist">
-<a href="/momoclo/"><div class="tab">Lyrics</div></a><!--
-!--><a href="/momoclo/albums/"><div class="tab">Albums</div></a><!--
-!--><a href="/momoclo/info/"><div class="tab">Info</div></a>
-</div>
+include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <div class="content">
 <p style="padding: 7px 15px; font-size: 20px; text-align: center;">Sorry! This page doesn't exist. Try again?</p>

@@ -28,13 +28,17 @@ echo "{$lineOne} - Coleena's Translations" ?></title>
 
 <body>
 
-<?php include("header.php"); 
-include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
+<?php include("header.php"); ?>
+
+<div class="headtablist">
+<a href="/momoclo/"><div class="tab">Lyrics</div></a><!--
+!--><a href="/momoclo/albums/"><div class="tab">Albums</div></a><!--
+!--><a href="/momoclo/blog/"><div class="tab active"><div id="rectangle"></div>Blog Posts</div></a><!--
+!--><a href="/momoclo/info/"><div class="tab">Info</div></a>
+</div>
 
 <div class="content">
 <h1><?php echo $lineOne ?></h1>
-
-
 
 <?php
 // Print rest of file line by line

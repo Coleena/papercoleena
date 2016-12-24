@@ -102,13 +102,8 @@ $(document).ready(function() {
 
 <body>
 
-<?php include("header.php"); ?>
-
-<div class="headtablist">
-<a href="/momoclo/"><div class="tab active"><div id="rectangle"></div>Lyrics</div></a><!--
-!--><a href="/momoclo/albums/"><div class="tab">Albums</div></a><!--
-!--><a href="/momoclo/info/"><div class="tab">Info</div></a>
-</div>
+<?php include("header.php"); 
+include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <div class="content">
 

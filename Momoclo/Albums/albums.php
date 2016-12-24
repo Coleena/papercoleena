@@ -44,7 +44,8 @@ echo "Album Info - Coleena's Translations" ?> </title>
 
 <body>
 
-<?php include("../header.php"); ?>
+<?php include("../header.php"); 
+include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <div class="content">
 <div class="releasedate"><?php echo $releaseDate; ?></div>

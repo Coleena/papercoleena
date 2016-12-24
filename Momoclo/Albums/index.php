@@ -67,13 +67,8 @@ $(document).ready(function() {
 
 <body>
 
-<?php include("header.php"); ?>
-
-<div class="headtablist">
-<a href="/momoclo/"><div class="tab">Lyrics</div></a><!--
-!--><a href="/momoclo/albums/"><div class="tab active"><div id="rectangle"></div>Albums</div></a><!--
-!--><a href="/momoclo/info/"><div class="tab">Info</div></a>
-</div>
+<?php include("header.php"); 
+include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <div class="content">
 
@@ -99,8 +94,8 @@ $(document).ready(function() {
 	</div>
 	
 	
-	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/yoake_limited.jpg')">
-	<a href="./yoake"><div class="listoverlay"></div></a>
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hakkin_limited.jpg')">
+	<a href="./hakkin"><div class="listoverlay"></div></a>
 	<span class="listtitle">Hakkin no Yoake</span>
 	</div>
 	

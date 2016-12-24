@@ -6,155 +6,119 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 720
-PlayResY: 480
+PlayResX: 1920
+PlayResY: 1080
 
 [Aegisub Project Garbage]
-Last Style Storage: Momoclo
-Audio File: Z Densetsu Full.mp4
-Video File: Z Densetsu Full.mp4
+Last Style Storage: Default
+Audio File: Z Densetsu Short.mkv
+Video File: Z Densetsu Short.mkv
 Video AR Mode: 4
-Video AR Value: 1.772840
-Video Zoom Percent: 1.125000
-Scroll Position: 30
-Active Line: 38
-Video Position: 6495
+Video AR Value: 1.777778
+Video Zoom Percent: 0.500000
+Scroll Position: 39
+Active Line: 14
+Video Position: 2327
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Z,Blambot Casual,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,84.3091,100,0.843091,0,1,2,0,2,8,8,40,1
-Style: Z Densetsu,Yellowjacket Rotate,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,84.3091,100,0,0,1,0,0,5,8,8,40,1
+Style: Z Densetsu,Blambot Casual,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4.5,0,2,22,22,80,1
+Style: Title,Yellowjacket Rotate,113,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,22,22,90,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.18,0:00:07.09,Z,,0,0,0,,Oh, man!
-Dialogue: 0,0:00:05.79,0:00:07.09,Z,,0,0,0,,This is the life.
-Dialogue: 0,0:00:07.09,0:00:09.24,Z,,0,0,0,,No but really, nothing's better than otsumami!
-Dialogue: 0,0:00:12.14,0:00:13.56,Z,,0,0,0,,These straws are seriously long.
-Dialogue: 0,0:00:36.66,0:00:39.21,Z,,0,0,0,,But, like, in the end,
-Dialogue: 0,0:00:39.21,0:00:41.72,Z,,0,0,0,,no one's really sure about the meaning of Z.
-Dialogue: 0,0:00:43.12,0:00:44.36,Z,,0,0,0,,Shredded squid, please.
-Dialogue: 0,0:00:45.96,0:00:51.86,Z,,0,0,0,,They didn't even tell us anything in advance, \Nhow were we supposed to know how to react?
-Dialogue: 0,0:00:51.86,0:00:52.91,Z,,0,0,0,,You know what I mean?
-Dialogue: 0,0:00:52.91,0:00:55.06,Z,,0,0,0,,Hey, pass me the dried salmon.
-Dialogue: 0,0:00:55.06,0:00:56.30,Z,,0,0,0,,Thanks!
-Dialogue: 0,0:00:56.30,0:00:58.34,Z,,0,0,0,,Even we were opposed to it,
-Dialogue: 0,0:00:58.34,0:01:01.91,Z,,0,0,0,,but it was more like "Majority rule, we're going with Z!" you know?
-Dialogue: 0,0:01:02.81,0:01:03.89,Z,,0,0,0,,Yeah, seriously.
-Dialogue: 0,0:01:04.47,0:01:05.26,Z,,0,0,0,,Pass me a ray fin.
-Dialogue: 0,0:01:05.26,0:01:06.24,Z,,0,0,0,,Got it!
-Dialogue: 0,0:01:06.96,0:01:07.89,Z,,0,0,0,,Thanks!
-Dialogue: 0,0:01:07.89,0:01:08.88,Z,,0,0,0,,Oh and also,
-Dialogue: 0,0:01:08.88,0:01:11.50,Z,,0,0,0,,it's supposed to be "one cream puff a day",
-Dialogue: 0,0:01:11.50,0:01:13.96,Z,,0,0,0,,but no one'd be able to pull that off! It's impossible, right?
-Dialogue: 0,0:01:13.96,0:01:17.44,Z,,0,0,0,,I mean, if there were that many, then no way!
-Dialogue: 0,0:01:17.44,0:01:20.16,Z,,0,0,0,,Kanako, you've been eating ray fins for a while.
-Dialogue: 0,0:01:20.16,0:01:22.90,Z,,0,0,0,,That was the first time I asked her to pass me one!
-Dialogue: 0,0:01:22.90,0:01:23.49,Z,,0,0,0,,See?
-Dialogue: 0,0:01:23.49,0:01:25.40,Z,,0,0,0,,No no, you've definitely been eating them.
-Dialogue: 0,0:01:25.40,0:01:25.73,Z,,0,0,0,,I haven't–
-Dialogue: 0,0:01:27.50,0:01:29.78,Z,,0,0,0,,I think it's fine. This Z thing.
-Dialogue: 0,0:01:30.80,0:01:34.61,Z,,0,0,0,,I mean, doesn't it sound like these people are capable of keeping the peace on Earth?.
-Dialogue: 0,0:01:40.86,0:01:42.32,Z,,0,0,0,,If we wear those belts...
-Dialogue: 0,0:01:49.69,0:01:51.59,Z,,0,0,0,,To do what we can.
-Dialogue: 0,0:01:55.99,0:01:57.77,Z,,0,0,0,,To sing with all of our energy.
-Dialogue: 0,0:02:00.40,0:02:02.37,Z,,0,0,0,,To dance with all of our energy.
-Dialogue: 0,0:02:06.20,0:02:08.68,Z,,0,0,0,,To protect everyone's smiles.
-Dialogue: 0,0:02:10.49,0:02:11.91,Z,,0,0,0,,And that is...
-Dialogue: 0,0:02:13.98,0:02:21.89,Z,,0,0,0,,{\t(5250,7900,\1c&H000000)}The meaning of Z!
-Dialogue: 0,0:03:28.02,0:03:32.19,Z,,0,0,0,,{\i1}After overcoming countless hardships, \NMomoiro Clover is now down to 5 members.
-Dialogue: 0,0:03:20.38,0:03:20.41,Z,,0,0,0,,
-Dialogue: 0,0:03:32.45,0:03:36.00,Z,,0,0,0,,{\i1}What do the girls think of the \Ntransformation belts suddenly given to them?
-Dialogue: 0,0:03:36.71,0:03:40.66,Z,,0,0,10,,{\i1}Episode 4: Z Legend ~Unending Revolution~
-Dialogue: 0,0:03:38.86,0:03:42.00,Z Densetsu,,0,0,0,,{\pos(360,42)}Episode 4: Z Legend ~Unending Revolution~
-Dialogue: 0,0:03:42.00,0:03:42.30,Z,,0,0,0,,{\i1}RED!!!
-Dialogue: 0,0:03:42.30,0:03:44.40,Z,,0,0,0,,With my wide, wide-open forehead,
-Dialogue: 0,0:03:44.40,0:03:47.60,Z,,0,0,0,,my dimples are pitfalls of love!
-Dialogue: 0,0:03:51.91,0:03:52.74,Z,,0,0,0,,{\i1}YELLOW!!!
-Dialogue: 0,0:03:52.74,0:03:55.75,Z,,0,0,0,,I'm the group crybaby, spoiled, love eating –
-Dialogue: 0,0:03:55.75,0:03:58.88,Z,,0,0,0,,I'm everyone's little sister!!
-Dialogue: 0,0:04:02.12,0:04:02.92,Z,,0,0,0,,{\i1}PINK!!!
-Dialogue: 0,0:04:02.92,0:04:04.62,Z,,0,0,0,,Ahrin{\fnきろ字}☆{\fn} Yes!! Ahrin{\fnきろ字}☆
-Dialogue: 0,0:04:04.62,0:04:07.50,Z,,0,0,0,,Momoclo-chan's idol!
-Dialogue: 0,0:04:12.06,0:04:13.03,Z,,0,0,0,,{\i1}GREEN!!!
-Dialogue: 0,0:04:13.03,0:04:14.70,Z,,0,0,0,,Don't look down on me just 'cause I'm small!
-Dialogue: 0,0:04:14.70,0:04:19.47,Z,,0,0,0,,My singing and dancing are second to none!
-Dialogue: 0,0:04:22.27,0:04:22.97,Z,,0,0,0,,{\i1}PURPLE!!!
-Dialogue: 0,0:04:22.97,0:04:24.94,Z,,0,0,0,,Piiple, puuple, peple, purple,
-Dialogue: 0,0:04:24.94,0:04:27.44,Z,,0,0,0,,piiple, purple, piiple, zapping electric shock!!
-Dialogue: 0,0:04:32.32,0:04:38.96,Z,,0,0,0,,What can we do for all the people out there who are crying?
-Dialogue: 0,0:04:38.96,0:04:44.93,Z,,0,0,0,,Well, we can sing and dance with all we've got!
-Dialogue: 0,0:04:44.93,0:04:46.13,Z,,0,0,0,,Let's do this!!
-Dialogue: 0,0:04:46.13,0:04:48.81,Z,,0,0,0,,We are idols!
-Dialogue: 0,0:04:48.81,0:04:51.27,Z,,0,0,0,,The weekend heroines, Momoclo!!
-Dialogue: 0,0:04:51.27,0:04:55.67,Z,,0,0,0,,Clench your fists! Beat up those tears so they won't come back
-Dialogue: 0,0:04:55.67,0:04:58.08,Z,,0,0,0,,No rain lasts forever
-Dialogue: 0,0:04:58.08,0:05:01.01,Z,,0,0,0,,Believe in the light
-Dialogue: 0,0:05:01.01,0:05:03.71,Z,,0,0,0,,We'll strongly, nobly, happily, beautifully
-Dialogue: 0,0:05:03.71,0:05:06.75,Z,,0,0,0,,continue to sing on!!
-Dialogue: 0,0:05:07.02,0:05:08.05,Z,,0,0,0,,We won't lose!
-Dialogue: 0,0:05:08.05,0:05:09.45,Z,,0,0,0,,Get back up!
-Dialogue: 0,0:05:09.45,0:05:10.79,Z,,0,0,0,,It's OK!
-Dialogue: 0,0:05:10.79,0:05:11.86,Z,,0,0,0,,We're not weak!
-Dialogue: 0,0:05:11.86,0:05:14.19,Z,,0,0,0,,We won't give up no matter what! We are
-Dialogue: 0,0:05:14.19,0:05:19.36,Z,,0,0,0,,Momoiro Clover!
-Dialogue: 0,0:05:19.36,0:05:21.19,Z,,0,0,0,,{\i1}Z!!!!!!!!!!
-Dialogue: 0,0:05:22.37,0:05:24.80,Z,,0,0,0,,{\i1}Allow me to explain. Momoiro Clover Z is made up of
-Dialogue: 0,0:05:24.80,0:05:26.94,Z,,0,0,0,,{\i1}Momota Kanako, Tamai Shiori, Sasaki Ayaka,
-Dialogue: 0,0:05:26.94,0:05:28.51,Z,,0,0,0,,{\i1}Ariyasu Momoka, and Takagi Reni.
-Dialogue: 0,0:05:28.51,0:05:30.71,Z,,0,0,0,,{\i1}A group of five weekend heroines.
-Dialogue: 0,0:05:31.31,0:05:34.28,Z,,0,0,0,,{\i1}Today, they again fight for their friends, big and small,
-Dialogue: 0,0:05:34.28,0:05:35.88,Z,,0,0,0,,{\i1}performing their hardest!
-Dialogue: 0,0:05:35.88,0:05:37.76,Z,,0,0,0,,{\i1}Hurry, Momoiro Clover Z!
-Dialogue: 0,0:05:37.76,0:05:39.58,Z,,0,0,0,,{\i1}The second verse is starting!
-Dialogue: 0,0:05:44.49,0:05:44.93,Z,,0,0,0,,{\i1}PURPLE!!!
-Dialogue: 0,0:05:44.93,0:05:46.96,Z,,0,0,0,,When you can't take it anymore...
-Dialogue: 0,0:05:49.39,0:05:49.99,Z,,0,0,0,,{\i1}GREEN!!!
-Dialogue: 0,0:05:49.99,0:05:52.96,Z,,0,0,0,,Just leave it to us!
-Dialogue: 0,0:05:54.46,0:05:54.93,Z,,0,0,0,,{\i1}BLUE!!
-Dialogue: 0,0:05:54.93,0:05:55.77,Z,,0,0,0,,Oh...
-Dialogue: 0,0:05:55.77,0:05:56.37,Z,,0,0,0,,{\i1}PINK!!
-Dialogue: 0,0:05:56.37,0:05:58.97,Z,,0,0,0,,Although we're full of shenanigans...
-Dialogue: 0,0:06:00.67,0:06:01.38,Z,,0,0,0,,{\i1}YELLOW!!!
-Dialogue: 0,0:06:01.38,0:06:03.81,Z,,0,0,0,,We'll put a smile on your face!
-Dialogue: 0,0:06:05.88,0:06:06.59,Z,,0,0,0,,{\i1}RED!!!
-Dialogue: 0,0:06:06.59,0:06:08.68,Z,,0,0,0,,Come see us, okay? We'll go see you.
-Dialogue: 0,0:06:08.68,0:06:11.11,Z,,0,0,0,,'cause we're always your allies!
-Dialogue: 0,0:06:16.02,0:06:19.92,Z,,0,0,0,,Don't feel lonely whenever you're by yourself
-Dialogue: 0,0:06:19.92,0:06:23.43,Z,,0,0,0,,Never forget this, okay? We're always
-Dialogue: 0,0:06:23.43,0:06:28.57,Z,,0,0,0,,keeping you in our hearts as we sing!
-Dialogue: 0,0:06:28.57,0:06:29.87,Z,,0,0,0,,Wachaaaa!
-Dialogue: 0,0:06:29.87,0:06:34.84,Z,,0,0,0,,However tough or long the battle gets,
-Dialogue: 0,0:06:34.84,0:06:39.34,Z,,0,0,0,,keep on believing and your dreams will someday come true
-Dialogue: 0,0:06:39.34,0:06:41.78,Z,,0,0,0,,No night lasts forever
-Dialogue: 0,0:06:41.78,0:06:44.58,Z,,0,0,0,,The morning sun will rise!!
-Dialogue: 0,0:06:44.58,0:06:47.32,Z,,0,0,0,,Believe in the future and focus on your goal, never giving up
-Dialogue: 0,0:06:47.32,0:06:49.95,Z,,0,0,0,,Blaze through the present!
-Dialogue: 0,0:06:50.79,0:06:51.86,Z,,0,0,0,,Love you!
-Dialogue: 0,0:06:51.86,0:06:53.16,Z,,0,0,0,,I really do!
-Dialogue: 0,0:06:53.16,0:06:54.19,Z,,0,0,0,,Trust me, okay?
-Dialogue: 0,0:06:54.19,0:06:55.53,Z,,0,0,0,,I'm starved!
-Dialogue: 0,0:06:55.53,0:06:57.69,Z,,0,0,0,,We can get stronger! We are
-Dialogue: 0,0:06:57.69,0:07:01.43,Z,,0,0,0,,Momoiro Clover!
-Dialogue: 0,0:07:01.43,0:07:02.93,Z,,0,0,0,,{\i1}Z!!!!!!!!!!
-Dialogue: 0,0:07:22.89,0:07:28.83,Z,,0,0,0,,{\fade(0,1450)}Because sadness never lasts for a whole lifetime!!
-Dialogue: 0,0:07:30.69,0:07:32.90,Z,,0,0,0,,We are idols!
-Dialogue: 0,0:07:32.90,0:07:35.37,Z,,0,0,0,,The weekend heroines, Momoclo!!
-Dialogue: 0,0:07:35.37,0:07:39.90,Z,,0,0,0,,Clench your fists! Beat up those tears so they won't come back
-Dialogue: 0,0:07:39.90,0:07:42.11,Z,,0,0,0,,No rain lasts forever
-Dialogue: 0,0:07:42.11,0:07:45.31,Z,,0,0,0,,Believe in the light
-Dialogue: 0,0:07:45.31,0:07:47.68,Z,,0,0,0,,We'll strongly, nobly, happily, beautifully
-Dialogue: 0,0:07:47.68,0:07:50.28,Z,,0,0,0,,continue to sing on!!
-Dialogue: 0,0:07:51.25,0:07:52.42,Z,,0,0,0,,Not gonna lose!
-Dialogue: 0,0:07:52.42,0:07:53.78,Z,,0,0,0,,Stand up!
-Dialogue: 0,0:07:53.78,0:07:54.89,Z,,0,0,0,,It's OK!
-Dialogue: 0,0:07:54.89,0:07:56.15,Z,,0,0,0,,We're not weak!
-Dialogue: 0,0:07:56.15,0:07:58.56,Z,,0,0,0,,We won't give up no matter what! We are
-Dialogue: 0,0:07:58.56,0:08:02.13,Z,,0,0,0,,Momoiro Clover!
-Dialogue: 0,0:08:02.13,0:08:03.53,Z,,0,0,0,,{\i1}Z!!!!!!!!!!
-Dialogue: 0,0:08:04.10,0:08:06.30,Z,,0,0,0,,{\i1}And so, everyone's smiles have been protected again.
-Dialogue: 0,0:08:06.30,0:08:08.40,Z,,0,0,0,,{\i1}In order to spread more and more smiles,
-Dialogue: 0,0:08:08.40,0:08:10.70,Z,,0,0,0,,{\i1}sing again tomorrow! Dance again!
-Dialogue: 0,0:08:11.20,0:08:13.45,Z,,0,0,0,,{\i1}Go forth! Momoiro Clover Z
-Dialogue: 0,0:08:13.45,0:08:15.94,Z,,0,0,0,,{\i1}Work! Momoiro Clover Z
-Dialogue: 0,0:08:15.94,0:08:21.31,Z,,0,0,0,,{\fade(0,2000)\i1}Do your best! Momoiro Clover Z!!
+Dialogue: 0,0:00:31.71,0:00:35.88,Z Densetsu,,0,0,0,,{\i1}After overcoming countless hardships, \NMomoiro Clover is now down to 5 members.
+Dialogue: 0,0:00:36.14,0:00:39.69,Z Densetsu,,0,0,0,,{\i1}What do the girls think of the \Ntransformation belts suddenly given to them?
+Dialogue: 0,0:00:40.40,0:00:44.35,Z Densetsu,,0,0,23,,{\i1}Episode 4: Z Legend ~Unending Revolution~
+Dialogue: 0,0:00:42.55,0:00:45.69,Title,,0,0,0,,{\blur0.8\pos(960,100)}Episode 4: Z Legend ~Unending Revolution~
+Dialogue: 0,0:00:45.69,0:00:45.99,Z Densetsu,,0,0,0,,{\i1}RED!!!
+Dialogue: 0,0:00:45.99,0:00:48.09,Z Densetsu,,0,0,0,,With my wide, wide-open forehead,
+Dialogue: 0,0:00:48.09,0:00:51.29,Z Densetsu,,0,0,0,,my dimples are pitfalls of love!
+Dialogue: 0,0:00:55.60,0:00:56.43,Z Densetsu,,0,0,0,,{\i1}YELLOW!!!
+Dialogue: 0,0:00:56.43,0:00:59.44,Z Densetsu,,0,0,0,,I'm the group crybaby, spoiled, love eating –
+Dialogue: 0,0:00:59.44,0:01:02.57,Z Densetsu,,0,0,0,,I'm everyone's little sister!!
+Dialogue: 0,0:01:05.81,0:01:06.61,Z Densetsu,,0,0,0,,{\i1}PINK!!!
+Dialogue: 0,0:01:06.61,0:01:08.31,Z Densetsu,,0,0,0,,Ahrin{\fnきろ字}☆{\fn} Yes!! Ahrin{\fnきろ字}☆
+Dialogue: 0,0:01:08.31,0:01:11.19,Z Densetsu,,0,0,0,,Momoclo-chan's idol!
+Dialogue: 0,0:01:15.75,0:01:16.72,Z Densetsu,,0,0,0,,{\i1}GREEN!!!
+Dialogue: 0,0:01:16.72,0:01:18.39,Z Densetsu,,0,0,0,,Don't look down on me just 'cause I'm small!
+Dialogue: 0,0:01:18.39,0:01:23.16,Z Densetsu,,0,0,0,,My singing and dancing are second to none!
+Dialogue: 0,0:01:25.96,0:01:26.66,Z Densetsu,,0,0,0,,{\i1}PURPLE!!!
+Dialogue: 0,0:01:26.66,0:01:28.63,Z Densetsu,,0,0,0,,Piiple, puuple, peple, purple,
+Dialogue: 0,0:01:28.63,0:01:31.13,Z Densetsu,,0,0,0,,piiple, purple, piiple, zapping electric shock!!
+Dialogue: 0,0:01:36.01,0:01:42.65,Z Densetsu,,0,0,0,,What can we do for all the people out there who are crying?
+Dialogue: 0,0:01:42.65,0:01:48.62,Z Densetsu,,0,0,0,,Well, we can sing and dance with all we've got!
+Dialogue: 0,0:01:48.62,0:01:49.82,Z Densetsu,,0,0,0,,Let's do this!!
+Dialogue: 0,0:01:49.82,0:01:52.50,Z Densetsu,,0,0,0,,We are idols!
+Dialogue: 0,0:01:52.50,0:01:54.96,Z Densetsu,,0,0,0,,The weekend heroines, Momoclo!!
+Dialogue: 0,0:01:54.96,0:01:59.36,Z Densetsu,,0,0,0,,Clench your fists! Beat up those tears so they won't come back
+Dialogue: 0,0:01:59.36,0:02:01.77,Z Densetsu,,0,0,0,,No rain lasts forever
+Dialogue: 0,0:02:01.77,0:02:04.70,Z Densetsu,,0,0,0,,Believe in the light
+Dialogue: 0,0:02:04.70,0:02:07.40,Z Densetsu,,0,0,0,,We'll strongly, nobly, happily, beautifully
+Dialogue: 0,0:02:07.40,0:02:10.44,Z Densetsu,,0,0,0,,continue to sing on!!
+Dialogue: 0,0:02:10.71,0:02:11.74,Z Densetsu,,0,0,0,,We won't lose!
+Dialogue: 0,0:02:11.74,0:02:13.14,Z Densetsu,,0,0,0,,Get back up!
+Dialogue: 0,0:02:13.14,0:02:14.48,Z Densetsu,,0,0,0,,It's OK!
+Dialogue: 0,0:02:14.48,0:02:15.55,Z Densetsu,,0,0,0,,We're not weak!
+Dialogue: 0,0:02:15.55,0:02:17.91,Z Densetsu,,0,0,0,,We won't give up no matter what! We are
+Dialogue: 0,0:02:17.91,0:02:23.05,Z Densetsu,,0,0,0,,Momoiro Clover!
+Dialogue: 0,0:02:23.05,0:02:24.88,Z Densetsu,,0,0,0,,{\i1}Z!!!!!!!!!!
+Dialogue: 0,0:02:26.06,0:02:28.49,Z Densetsu,,0,0,0,,{\i1}Allow me to explain. Momoiro Clover Z is made up of
+Dialogue: 0,0:02:28.49,0:02:30.63,Z Densetsu,,0,0,0,,{\i1}Momota Kanako, Tamai Shiori, Sasaki Ayaka,
+Dialogue: 0,0:02:30.63,0:02:32.20,Z Densetsu,,0,0,0,,{\i1}Ariyasu Momoka, and Takagi Reni.
+Dialogue: 0,0:02:32.20,0:02:34.40,Z Densetsu,,0,0,0,,{\i1}A group of five weekend heroines.
+Dialogue: 0,0:02:35.00,0:02:37.97,Z Densetsu,,0,0,0,,{\i1}Today, they again fight for their friends, big and small,
+Dialogue: 0,0:02:37.97,0:02:39.57,Z Densetsu,,0,0,0,,{\i1}performing their hardest!
+Dialogue: 0,0:02:39.57,0:02:41.45,Z Densetsu,,0,0,0,,{\i1}Hurry, Momoiro Clover Z!
+Dialogue: 0,0:02:41.45,0:02:43.27,Z Densetsu,,0,0,0,,{\i1}The second verse is starting!
+Dialogue: 0,0:02:48.27,0:02:48.62,Z Densetsu,,0,0,0,,{\i1}PURPLE!!!
+Dialogue: 0,0:02:48.62,0:02:50.65,Z Densetsu,,0,0,0,,When you can't take it anymore...
+Dialogue: 0,0:02:53.08,0:02:53.68,Z Densetsu,,0,0,0,,{\i1}GREEN!!!
+Dialogue: 0,0:02:53.68,0:02:56.65,Z Densetsu,,0,0,0,,Just leave it to us!
+Dialogue: 0,0:02:58.15,0:02:58.62,Z Densetsu,,0,0,0,,{\i1}BLUE!!
+Dialogue: 0,0:02:58.62,0:02:59.46,Z Densetsu,,0,0,0,,Oh...
+Dialogue: 0,0:02:59.46,0:03:00.06,Z Densetsu,,0,0,0,,{\i1}PINK!!
+Dialogue: 0,0:03:00.06,0:03:02.66,Z Densetsu,,0,0,0,,Although we're full of shenanigans...
+Dialogue: 0,0:03:04.36,0:03:05.07,Z Densetsu,,0,0,0,,{\i1}YELLOW!!!
+Dialogue: 0,0:03:05.07,0:03:07.50,Z Densetsu,,0,0,0,,We'll put a smile on your face!
+Dialogue: 0,0:03:09.57,0:03:10.28,Z Densetsu,,0,0,0,,{\i1}RED!!!
+Dialogue: 0,0:03:10.28,0:03:12.10,Z Densetsu,,0,0,0,,Come see us, okay? We'll go see you.
+Dialogue: 0,0:03:12.40,0:03:14.80,Z Densetsu,,0,0,0,,'cause we're always your allies!
+Dialogue: 0,0:03:19.71,0:03:23.61,Z Densetsu,,0,0,0,,Don't feel lonely whenever you're by yourself
+Dialogue: 0,0:03:23.61,0:03:27.12,Z Densetsu,,0,0,0,,Never forget this, okay? We're always
+Dialogue: 0,0:03:27.12,0:03:32.26,Z Densetsu,,0,0,0,,keeping you in our hearts as we sing!
+Dialogue: 0,0:03:32.26,0:03:33.56,Z Densetsu,,0,0,0,,Wachaaaa!
+Dialogue: 0,0:03:33.56,0:03:38.53,Z Densetsu,,0,0,0,,However tough or long the battle gets,
+Dialogue: 0,0:03:38.53,0:03:43.03,Z Densetsu,,0,0,0,,keep on believing and your dreams will someday come true
+Dialogue: 0,0:03:43.03,0:03:45.47,Z Densetsu,,0,0,0,,No night lasts forever
+Dialogue: 0,0:03:45.47,0:03:48.27,Z Densetsu,,0,0,0,,The morning sun will rise!!
+Dialogue: 0,0:03:48.27,0:03:51.01,Z Densetsu,,0,0,0,,Believe in the future and focus on your goal, never giving up
+Dialogue: 0,0:03:51.01,0:03:53.64,Z Densetsu,,0,0,0,,Blaze through the present!
+Dialogue: 0,0:03:54.48,0:03:55.55,Z Densetsu,,0,0,0,,Love you!
+Dialogue: 0,0:03:55.55,0:03:56.85,Z Densetsu,,0,0,0,,I really do!
+Dialogue: 0,0:03:56.85,0:03:57.88,Z Densetsu,,0,0,0,,Trust me, okay?
+Dialogue: 0,0:03:57.88,0:03:59.22,Z Densetsu,,0,0,0,,I'm starved!
+Dialogue: 0,0:03:59.22,0:04:01.38,Z Densetsu,,0,0,0,,We can get stronger! We are
+Dialogue: 0,0:04:01.38,0:04:05.12,Z Densetsu,,0,0,0,,Momoiro Clover!
+Dialogue: 0,0:04:05.12,0:04:06.62,Z Densetsu,,0,0,0,,{\i1}Z!!!!!!!!!!
+Dialogue: 0,0:04:26.58,0:04:32.52,Z Densetsu,,0,0,0,,{\fade(0,1450)}Because sadness never lasts for a whole lifetime!!
+Dialogue: 0,0:04:34.38,0:04:36.59,Z Densetsu,,0,0,0,,We are idols!
+Dialogue: 0,0:04:36.59,0:04:39.06,Z Densetsu,,0,0,0,,The weekend heroines, Momoclo!!
+Dialogue: 0,0:04:39.06,0:04:43.59,Z Densetsu,,0,0,0,,Clench your fists! Beat up those tears so they won't come back
+Dialogue: 0,0:04:43.59,0:04:45.98,Z Densetsu,,0,0,0,,No rain lasts forever
+Dialogue: 0,0:04:45.98,0:04:49.00,Z Densetsu,,0,0,0,,Believe in the light
+Dialogue: 0,0:04:49.00,0:04:51.37,Z Densetsu,,0,0,0,,We'll strongly, nobly, happily, beautifully
+Dialogue: 0,0:04:51.37,0:04:53.97,Z Densetsu,,0,0,0,,continue to sing on!!
+Dialogue: 0,0:04:54.94,0:04:56.11,Z Densetsu,,0,0,0,,Not gonna lose!
+Dialogue: 0,0:04:56.11,0:04:57.47,Z Densetsu,,0,0,0,,Stand up!
+Dialogue: 0,0:04:57.47,0:04:58.58,Z Densetsu,,0,0,0,,It's OK!
+Dialogue: 0,0:04:58.58,0:04:59.84,Z Densetsu,,0,0,0,,We're not weak!
+Dialogue: 0,0:04:59.84,0:05:02.25,Z Densetsu,,0,0,0,,We won't give up no matter what! We are
+Dialogue: 0,0:05:02.25,0:05:05.82,Z Densetsu,,0,0,0,,Momoiro Clover!
+Dialogue: 0,0:05:05.82,0:05:07.22,Z Densetsu,,0,0,0,,{\i1}Z!!!!!!!!!!
+Dialogue: 0,0:05:07.79,0:05:09.99,Z Densetsu,,0,0,0,,{\i1}And so, everyone's smiles have been protected again.
+Dialogue: 0,0:05:09.99,0:05:12.09,Z Densetsu,,0,0,0,,{\i1}In order to spread more and more smiles,
+Dialogue: 0,0:05:12.09,0:05:14.39,Z Densetsu,,0,0,0,,{\i1}sing again tomorrow! Dance again!
+Dialogue: 0,0:05:14.89,0:05:17.14,Z Densetsu,,0,0,0,,{\i1}Go forth! Momoiro Clover Z
+Dialogue: 0,0:05:17.14,0:05:19.63,Z Densetsu,,0,0,0,,{\i1}Work! Momoiro Clover Z
+Dialogue: 0,0:05:19.63,0:05:25.00,Z Densetsu,,0,0,0,,{\fade(0,2000)\i1}Do your best! Momoiro Clover Z!!

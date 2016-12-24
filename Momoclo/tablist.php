@@ -7,6 +7,7 @@ $currDir = basename(getcwd()) ?>
 
 <script>
 var currDir = "<?php echo $currDir ?>";
+var fullDir = "<?php echo getcwd() ?>";
 var rectangle = '<div id="rectangle"></div>';
 $(document).ready(function() {
 	if(currDir === "momoclo"){
@@ -15,7 +16,7 @@ $(document).ready(function() {
 	else if(currDir === "albums"){
 		$('.headtablist a[href="/momoclo/albums/"] .tab').addClass("active").prepend(rectangle);
 	}
-	else if(currDir === "blog"){
+else if(currDir === "blog" || fullDir.includes("blog")){
 		$('.headtablist a[href="/momoclo/blog/"] .tab').addClass("active").prepend(rectangle);
 	}
 	else if(currDir === "info"){

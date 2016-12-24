@@ -48,7 +48,7 @@ echo "Album Info - Coleena's Translations" ?> </title>
 include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <div class="content">
-<div class="releasedate"><?php echo $releaseDate; ?></div>
+<time class="releasedate"><?php echo $releaseDate; ?></time>
 <h3><?php echo $descriptor; ?></h3>
 <h1><?php echo $englishTitle; ?></h1> 
 <?php if($englishTitle != $romajiTitle){

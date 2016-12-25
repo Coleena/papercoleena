@@ -693,7 +693,8 @@ ruby .reni{
 }
 .ameba img.bloghead{
 	position: relative;
-	max-width: 800px;
+	width: 128.575%;
+	max-width: initial;
 	top: -20px;
 	left: -40px;
 }
@@ -1177,6 +1178,16 @@ header.series{
 		border: none;
 		padding: 8px 22px 18px 22px;
 		margin: auto;
+	}
+	
+	/* Blog post content */
+	.content.ameba{
+		padding: 10px 20px;
+	}
+	
+	.ameba img.bloghead{
+		top: -10px;
+		left: -20px;
 	}
 }
 

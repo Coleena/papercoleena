@@ -32,8 +32,8 @@ echo "{$lineOne} - Coleena's Translations" ?></title>
 <?php include("header.php"); 
 include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
-<div class="content ameba">
 <img class="bloghead" src="./img/bloghead.png" alt=""> <!-- Grab blog image from img folder in respective member subfolder -->
+<div class="content ameba">
 <h1><a href="."><?php echo $lineOne ?></a></h1>
 <div class="timecontainer"><time><?php echo $lineTwo ?></time></div>
 

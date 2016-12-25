@@ -19,12 +19,12 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 
 <h2>Momota Kanako Blog - Forehead-chan's Diary</h2>
 <ul>
-	<li><a href="./momota-sd/entry-12229564455">Kiriasu</a></li>
+	<li><a href="./momota-sd/entry-12229564455">Kiarisu</a></li>
 </ul>
 
 <h2>Tamai Shiori Blog - A Happy Shiorin Life</h2>
 <ul>
-	<li>December☺︎</li>
+	<li><a href="./tamai-sd/entry-12229997382">December☺︎</a></li>
 </ul>
 
 <h2>Sasaki Ayaka Blog - A-rin's Cheeks♡</h2>

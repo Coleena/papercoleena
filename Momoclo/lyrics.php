@@ -27,7 +27,7 @@
 	}
 ?>
 <?php // Get song id for song info lookup
-$id = fetch("select id from lyriclist where lyriclist.url = '" . $url . "'",$link);	
+$id = fetch("select id from lyriclist where lyriclist.url = '$url'",$link);	
 
 $currentSong = $link->query("select * from lyrics, lyriclist where lyrics.id = lyriclist.id and lyrics.id = " . $id)->fetch_array();
 

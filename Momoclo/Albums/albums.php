@@ -62,7 +62,7 @@ echo "<h2 class='japanesepreference'>($japaneseTitle)</h2>";
 $albumType = array('limited' => 'Limited Edition', 'regular' => 'Regular Edition', 'event' => 'Event Single', 'special' => 'Special Edition', 'emperor' => 'Emperor Style', 'pokemon' => 'Pokemon Edition', 'momoclo' => 'Momoclo Edition', 'kiss' => 'Kiss Edition', 'sailormoon' => 'Sailor Moon Edition', 'f' => 'F Edition', 'z' => 'Z Edition', 'limitedA' => 'Limited Edition A', 'limitedB' => 'Limited Edition B',  'limitedC' => 'Limited Edition C',  'limitedD' => 'Limited Edition D',  'limitedE' => 'Limited Edition E',  'limitedF' => 'Limited Edition F');
 
 // Store all columns as arrays from tracklist table
-$info = $link->query("select * from tracklist,albuminfo where albuminfo.url = tracklist.albumUrl and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC, trackNumber ASC")->fetch_all(MYSQLI_ASSOC);
+$info = $link->query("select * from tracklist,albuminfo where albuminfo.url = tracklist.albumUrl and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'f', 'z', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC, trackNumber ASC")->fetch_all(MYSQLI_ASSOC);
 $edition = $trackNumber = $altEnglishTitle = $altRomajiTitle = $altJapaneseTitle = $trackUrl = array();
 for($rowNum = 0; $rowNum < count($info); $rowNum++){
 	$edition[] = $info[$rowNum]['edition'];
@@ -74,7 +74,7 @@ for($rowNum = 0; $rowNum < count($info); $rowNum++){
 }
 
 // Store all columns as arrays from purchaseinfo table
-$purchaseInfo = $link->query("select * from albumpurchaseinfo,albuminfo where albuminfo.url = albumpurchaseinfo.url and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC")->fetch_all(MYSQLI_ASSOC);
+$purchaseInfo = $link->query("select * from albumpurchaseinfo,albuminfo where albuminfo.url = albumpurchaseinfo.url and albuminfo.url = '$url' order by field(edition, 'limited', 'regular', 'event', 'special', 'emperor', 'pokemon', 'momoclo', 'kiss', 'f', 'z', 'limitedA', 'limitedB',  'limitedC',  'limitedD',  'limitedE',  'limitedF') ASC")->fetch_all(MYSQLI_ASSOC);
 $amazonLink = $cdjapanLink = $itunesLink = array();
 for($rowNum = 0; $rowNum < count($purchaseInfo); $rowNum++){
 	$amazonLink[] = $purchaseInfo[$rowNum]['amazonLink'];

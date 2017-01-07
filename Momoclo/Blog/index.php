@@ -16,7 +16,7 @@
 include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php");
 
 // Get list of links to blog posts
-$getPostsStmt = $link->prepare("SELECT url, timePosted FROM momoblog WHERE member=? ORDER BY timePosted DESC");
+$getPostsStmt = $link->prepare("SELECT url, timePosted, title, external FROM momoblog WHERE member=? ORDER BY timePosted DESC");
 
 /**
  * Prints links to blogs as list items, with timestamp.
@@ -26,15 +26,24 @@ function printBlogs($stmt, $member){
 	$stmt->execute();
 	$postInfo = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
 	
-	$postUrl = $timePosted = array();
 	for($rowNum = 0; $rowNum < count($postInfo); $rowNum++){
-		$file = fopen( "./{$member}-sd/{$postInfo[$rowNum]['url']}.html", "r" );
-		if(!$file){
-			exit;
-		}
-		$pageTitle = fgets($file); // First line of file is page title
 		
-		echo "\t\t<li><a href='./{$member}-sd/{$postInfo[$rowNum]['url']}'>{$pageTitle}</a></li>\n\t\t\t<time>{$postInfo[$rowNum]['timePosted']}</time>\n";
+		// Get url and pagetitle from DB if external link
+		if($postInfo[$rowNum]['external']){
+			$url = $postInfo[$rowNum]['url'];
+			$pageTitle = $postInfo[$rowNum]['title'];
+		}
+		else{
+			$url = "./{$member}-sd/{$postInfo[$rowNum]['url']}";
+			
+			$file = @fopen( "./{$member}-sd/{$postInfo[$rowNum]['url']}.html", "r" );
+			if(!$file){
+				continue;
+			}
+			$pageTitle = fgets($file); // First line of file is page title
+		}
+		
+		echo "\t\t<li><a href='{$url}'>{$pageTitle}</a></li>\n\t\t\t<time>{$postInfo[$rowNum]['timePosted']}</time>\n";
 	}
 }	
  ?>
@@ -43,8 +52,6 @@ function printBlogs($stmt, $member){
 <h2><span class="kanako">Momota Kanako</span> Blog - Forehead-chan's Diary</h2>
 <ul>
 <?php printBlogs($getPostsStmt, 'momota'); ?>
-	<li><a href="http://ameblo.jp/momota-sd/entry-12221536327.html">America tour!</a></li>
-		<time>2016-11-21 14:28:10</time>
 </ul>
 
 <h2><span class="shiori">Tamai Shiori</span> Blog - A Happy Shiorin Life</h2>

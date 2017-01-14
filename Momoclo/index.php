@@ -457,8 +457,8 @@ function printTracks($albumUrl){
 <thead> 
 <tr> 
     <th>English Title</th> 
-    <th>Romaji Title</th> 
-    <th>Japanese Title</th> 
+    <th class='romajipreference'>Romaji Title</th> 
+    <th class='japanesepreference'>Japanese Title</th> 
     <th>Release Date</th>
 </tr> 
 </thead> 
@@ -503,13 +503,13 @@ if($info->num_rows != 0){
 		echo "<tr>";
 		if(!file_exists("./Text/$urlList[$i]_e.html")){
 			echo "\t<td> $englishList[$i] </td>";
-			echo "\t<td> $romajiList[$i] </td>";
-			echo "\t<td> $japaneseList[$i] </td>";
+			echo "\t<td class='romajipreference'> $romajiList[$i] </td>";
+			echo "\t<td class='japanesepreference'> $japaneseList[$i] </td>";
 		}
 		else{
 			echo "\t<td><a href='./$urlList[$i]'> $englishList[$i] </a></td>";
-			echo "\t<td><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
-			echo "\t<td><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
+			echo "\t<td class='romajipreference'><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
+			echo "\t<td class='japanesepreference'><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
 		}
 		echo "\t<td> $dateList[$i] </td>";
 		echo "</tr>\n";

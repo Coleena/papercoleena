@@ -296,8 +296,8 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 <thead> 
 <tr> 
     <th>English Title</th> 
-    <th>Romaji Title</th> 
-    <th>Japanese Title</th> 
+    <th class='romajipreference'>Romaji Title</th> 
+    <th class='japanesepreference'>Japanese Title</th> 
     <th>Release Date</th>
 </tr> 
 </thead> 
@@ -321,8 +321,8 @@ for($i = 0; $i < sizeof($englishList); $i++){
 	echo "<tr>";
 	
 	echo "\t<td><a href='./$urlList[$i]'> $englishList[$i] </a></td>";
-	echo "\t<td><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
-	echo "\t<td><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
+	echo "\t<td class='romajipreference'><a href='./$urlList[$i]'> $romajiList[$i] </a></td>";
+	echo "\t<td class='japanesepreference'><a href='./$urlList[$i]'> $japaneseList[$i] </a></td>";
 	
 	echo "\t<td> $dateList[$i] </td>";
 	echo "</tr>";

@@ -270,6 +270,7 @@ header.top #settingsmenu #settings{
 	background-color: #FFF;
 	padding: 10px 15px;
 	margin: 8px auto 10px auto;
+    border-radius: 3px;
 	/* border: 1px solid #EDEDED; */
 	max-width: 770px;
 	overflow: hidden;
@@ -833,10 +834,14 @@ iframe{
 	vertical-align: top;
 	border-radius: 2px;
 	box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.1s ease-in-out;
+}
+.albumcontainer:hover{
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
 }
 .releasedate{
 	float: right;
-	margin: 3px 8px;
+	margin: 6px 8px;
 	color: #000;
 	font-weight: 600;
 	font-size: 16px;

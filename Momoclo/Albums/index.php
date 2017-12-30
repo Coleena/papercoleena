@@ -80,19 +80,37 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 </div>
 
 <div class="wrapping albumview">
+	<span class="yearheader" id="year2017">2017</span>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/tengoku_event.jpg')">
+	<div class="listoverlay"></div>
+	<span class="listtitle" style="margin-top: -40px;">Tengoku no Namae / Hen na Kitai shicha Dame da yo...? ♡</span>
+	</div>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/blast_limitedA.jpg')">
+	<div class="listoverlay"></div>
+	<span class="listtitle">BLAST!</span>
+	</div>
+    
+    
 	<span class="yearheader" id="year2016">2016</span>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/wintercollection_regular.jpg')">
+	<a href="./wintercollection"><div class="listoverlay"></div></a>
+	<span class="listtitle">MCZ Winter Song Collection</span>
+	</div>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/goldhist_limitedA.jpg')">
 	<a href="./goldhist"><div class="listoverlay"></div></a>
 	<span class="listtitle">The Golden History</span>
 	</div>
 	
-	
+<!--
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/newmoon_momoclo.jpg')">
 	<div class="listoverlay"></div>
 	<span class="listtitle">New Moon ni Koishite</span>
 	</div>
-	
+-->
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hakkin_limited.jpg')">
 	<a href="./hakkin"><div class="listoverlay"></div></a>
@@ -109,7 +127,7 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/koyoi_event.jpg')">
 	<div class="listoverlay"></div>
-	<span class="listtitle">Koyoi, Live no Shita de</span>
+	<span class="listtitle">Koyoi, Live no Moto de</span>
 	</div>
 	
 	
@@ -154,7 +172,7 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 	<span class="yearheader" id="year2013">2013</span>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/naifuyu_event.jpg')">
-	<div class="listoverlay"></div>
+	<a href="./naifuyu"><div class="listoverlay"></div></a>
 	<span class="listtitle">Naichaisou Fuyu / Hagane no Ishi</span>
 	</div>
 	
@@ -180,7 +198,7 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 	<span class="yearheader" id="year2012">2012</span>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bokusen_event.jpg')">
-	<div class="listoverlay"></div>
+	<a href="./bokusen"><div class="listoverlay"></div></a>
 	<span class="listtitle">Bokura no Century</span>
 	</div>
 	

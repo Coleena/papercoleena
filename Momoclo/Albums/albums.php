@@ -119,14 +119,23 @@ while($i < count($edition)){
 			$japaneseTitle = $songInfo{'japaneseTitle'};
 			
 			echo "<tr><td>" . $trackNumber[$i] . ".</td>";
-			echo "<td><a href='../{$trackUrl[$i]}'>{$englishTitle} ";
+            
+            
+            $trackListing = "{$englishTitle}";
+            
 			if($englishTitle != $romajiTitle){
-				echo "<span class=\"romajipreference\"> ($romajiTitle)</span>";
+				$trackListing .= "<span class=\"romajipreference\"> ($romajiTitle)</span>";
 			}
 			if($englishTitle != $japaneseTitle){
-				echo "<span class=\"japanesepreference\"> ($japaneseTitle)</span>";
+				$trackListing .= "<span class=\"japanesepreference\"> ($japaneseTitle)</span>";
 			}
-			echo "</a></td>\n";
+            
+            if(file_exists("../Text/{$trackUrl[$i]}_e.html")){
+                $trackListing = "<a href='../{$trackUrl[$i]}'>" . $trackListing . "</a>";
+            }
+            $trackListing = "<td>" . $trackListing . "</td>\n";
+            
+            echo $trackListing;
 		}
 		else{ //tracks with no lyrics page
 			echo "<tr><td>{$trackNumber[$i]}.</td><td>$altEnglishTitle[$i] ";

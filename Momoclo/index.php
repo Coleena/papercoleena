@@ -111,7 +111,7 @@ include ("{$_SERVER['DOCUMENT_ROOT']}/momoclo/tablist.php") ?>
 <button class="active" id="albumon">Album View</button>
 <button id="liston">List View</button>
 <div class="albumview">Jump to Year: 
-<button id="to2009">2009</button><button id="to2010">2010</button><button id="to2011">2011</button><button id="to2012">2012</button><button id="to2013">2013</button><button id="to2014">2014</button><button id="to2015">2015</button><button id="to2016">2016</button></div>
+<button id="to2009">2009</button><button id="to2010">2010</button><button id="to2011">2011</button><button id="to2012">2012</button><button id="to2013">2013</button><button id="to2014">2014</button><button id="to2015">2015</button><button id="to2016">2016</button><button id="to2017">2017</button></div>
 </div>
 
 <?php
@@ -159,7 +159,31 @@ function printTracks($albumUrl){
 	}
 } ?>
 <div class="wrapping albumview">
+	<span class="yearheader" id="year2017">2017</span>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/tengoku_event.jpg')">
+	<div class="listoverlay"><ol class="tracklist">
+	<?php printTracks('tengoku')?>
+	</ol></div>
+	<span class="listtitle" style="margin-top: -40px;">Tengoku no Namae / Hen na Kitai shicha Dame da yo...? ♡</span>
+	</div>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/blast_limitedA.jpg')">
+	<div class="listoverlay"><ol class="tracklist">
+	<?php printTracks('blast')?>
+	</ol></div>
+	<span class="listtitle">BLAST!</span>
+	</div>
+    
+    
 	<span class="yearheader" id="year2016">2016</span>
+	
+	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/wintercollection_regular.jpg')">
+	<div class="listoverlay"><ol class="tracklist">
+	<?php printTracks('wintercollection')?>
+	</ol></div>
+	<span class="listtitle">MCZ Winter Song Collection</span>
+	</div>
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/goldhist_limitedA.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
@@ -168,7 +192,7 @@ function printTracks($albumUrl){
 	<span class="listtitle">The Golden History</span>
 	</div>
 	
-	
+<!--
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/newmoon_momoclo.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>In Love with the New Moon</li>
@@ -176,7 +200,7 @@ function printTracks($albumUrl){
 	</ol></div>
 	<span class="listtitle">New Moon ni Koishite</span>
 	</div>
-	
+-->
 	
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/hakkin_limited.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
@@ -299,7 +323,7 @@ function printTracks($albumUrl){
 	<div class="listitem" style="background-image: url('/momoclo/albums/Album%20Art/bokusen_event.jpg')">
 	<div class="listoverlay"><ol class="tracklist">
 		<li>Our Century</li>
-		<li>The Sky's Curtain</li>
+		<li><a href="./soraka">The Sky's Curtain</a></li>
 	</ol></div>
 	<span class="listtitle">Bokura no Century</span>
 	</div>
